@@ -2,6 +2,7 @@ export const labMembers = [
   {
     name: "Izhar Bar-Gad, Ph.D.",
     email: "izhar.bar-gad at biu.ac.il",
+    href: "/cv/",
     image: "/media/bb640f_a4f0e44c173247b7afcc1f6e8f56726e.jpg",
     alt: "Izhar Bar-Gad",
   },

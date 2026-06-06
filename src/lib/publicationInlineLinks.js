@@ -1,4 +1,5 @@
 export const publicationInlineLinks = {
+  3: { label: "IEEE Journal of Biomedical and Health Informatics", href: "https://doi.org/10.1109/JBHI.2024.3488285" },
   11: { label: "JoVE", href: "https://www.jove.com/t/61743/generating-acute-chronic-experimental-models-motor-tic-expression" },
   12: { label: "iScience 24", href: "/_files/ugd/bb640f_9425b2a659d24af3be93a45533497d7d.pdf" },
   15: { label: "Scientific Reports", href: "/_files/ugd/bb640f_30b15e126c764801beab704a1e1e4b39.pdf" },
@@ -63,4 +64,3 @@ export const publicationInlineLinks = {
   89: { label: "The Basal Ganglia VII", href: "/_files/ugd/bb640f_8fa6a9d9c7484011beedc611de1703c3.pdf" },
   90: { label: "Peripheral and Spinal Mechanisms in the Neural Control of Movement", href: "/_files/ugd/bb640f_ecaacc62312f4197a51ab18c2389811a.pdf" },
 };
-
