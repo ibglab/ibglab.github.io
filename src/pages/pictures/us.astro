@@ -6,7 +6,7 @@ import pages from "../../content/pages.json";
 const sourcePage = pages.find((page) => page.targetPath === "/us/");
 const page = {
   ...sourcePage,
-  title: "Us",
+  title: "Random years",
   description: "IBG Lab group pictures.",
   targetPath: "/pictures/us/",
   section: "Gallery",
@@ -15,6 +15,6 @@ const page = {
 };
 ---
 
-<BaseLayout title="Us | IBG Lab" description={page.description}>
+<BaseLayout title="Random years | IBG Lab" description={page.description}>
   <PageRenderer page={page} />
 </BaseLayout>

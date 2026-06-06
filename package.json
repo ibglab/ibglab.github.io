@@ -8,6 +8,7 @@
     "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
     "extract": "node scripts/extract-wix-content.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
     "test": "node --test scripts/*.test.mjs",
     "validate:extraction": "node scripts/validate-extraction.mjs",
     "validate:links": "node scripts/validate-links.mjs"

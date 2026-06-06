@@ -17,13 +17,12 @@ test("Pictures reproduces the Wix gallery index in its original order", () => {
       { title: "Lab trip, Dec. 2021", href: "/copy-of-lab-trip-jun-2021/" },
       { title: "Lab trip, June 2021", href: "/copy-of-lab-trip-2021/" },
       { title: "Lab trip, Feb 2021", href: "/copy-of-lab-trip-2020/" },
-      { title: "Us", href: "/pictures/us/" },
+      { title: "Random years", href: "/pictures/us/" },
       { title: "Lab trip, Jan 2020", href: "/lab-trip-2019/" },
       { title: "Lab trip, Apr 2016", href: "/lab-trip-2016/" },
       { title: "Ein-Gedi conference, 2015", href: "/ein-gedi-15/" },
       { title: "Lab trip, Aug 2015", href: "/lab-trip-2015/" },
       { title: "Lab trip, Dec 2014", href: "/lab-trip-2014/" },
-      { title: "Lab trip, Feb 2012", href: "/lab-trip-2012/" },
     ],
   );
 });
@@ -38,4 +37,17 @@ test("Pictures links to migrated galleries and appears in the main menu", () => 
 
   assert.match(layout, /\{ href: "\/pictures\/", label: "Pictures" \}/);
   assert.match(renderer, /isPictureGallery/);
+});
+
+test("all public gallery images stay at or below 400 KiB", () => {
+  const mediaFiles = fs.readdirSync("public/media");
+  const oversized = mediaFiles
+    .filter((name) => /\.(?:jpe?g|png|webp|gif)$/i.test(name))
+    .map((name) => ({
+      name,
+      size: fs.statSync(`public/media/${name}`).size,
+    }))
+    .filter(({ size }) => size > 400 * 1024);
+
+  assert.deepEqual(oversized, []);
 });

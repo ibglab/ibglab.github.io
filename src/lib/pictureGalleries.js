@@ -25,7 +25,7 @@ export const pictureGalleries = [
     cover: "/media/bb640f_b3b75aff5b824eac8b42120d6eb5803a-mv2.jpeg",
   },
   {
-    title: "Us",
+    title: "Random years",
     href: "/pictures/us/",
     cover: "/media/bb640f_07589b9f5a594b7690ea1fb2deebe598-mv2.jpg",
   },
@@ -53,11 +53,6 @@ export const pictureGalleries = [
     title: "Lab trip, Dec 2014",
     href: "/lab-trip-2014/",
     cover: "/media/bb640f_a4830c9b33ac4df2bd5d6b3de700e6a8.jpg",
-  },
-  {
-    title: "Lab trip, Feb 2012",
-    href: "/lab-trip-2012/",
-    cover: null,
   },
 ];
 
