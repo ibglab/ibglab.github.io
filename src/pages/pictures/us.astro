@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageRenderer from "../../components/PageRenderer.astro";
+import pages from "../../content/pages.json";
+
+const sourcePage = pages.find((page) => page.targetPath === "/us/");
+const page = {
+  ...sourcePage,
+  title: "Us",
+  description: "IBG Lab group pictures.",
+  targetPath: "/pictures/us/",
+  section: "Gallery",
+  blocks: [],
+  links: [],
+};
+---
+
+<BaseLayout title="Us | IBG Lab" description={page.description}>
+  <PageRenderer page={page} />
+</BaseLayout>

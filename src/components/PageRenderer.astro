@@ -1,14 +1,16 @@
 ---
 import { publicationInlineLinks } from "../lib/publicationInlineLinks.js";
+import { pictureGalleryForPath } from "../lib/pictureGalleries.js";
 
 const { page } = Astro.props;
-const displayTitle = page.targetPath === "/news/"
+const pictureGallery = pictureGalleryForPath(page.targetPath);
+const displayTitle = pictureGallery?.title ?? (page.targetPath === "/news/"
   ? "News"
   : page.targetPath === "/roadtrip2021-blog/"
     ? "Road trip blog"
     : page.targetPath === "/roadtrip2021-map/"
       ? "Road trip map"
-      : page.title;
+      : page.title);
 
 const chromeImagePaths = new Set([
   "/media/214ec6_74218a69302f9f7d168d39fff667af74.png",
@@ -27,6 +29,8 @@ const isNewsContentPage = page.section === "News"
   || page.targetPath?.startsWith("/news/")
   || page.targetPath === "/items/";
 const isBlogContentPage = page.isBlog || page.targetPath?.startsWith("/post/");
+const isPictureGallery = Boolean(pictureGallery);
+const hasLightboxGallery = isBlogContentPage || isPictureGallery;
 const googleScholarLink = isPublicationsPage
   ? page.links?.find((link) => link.text === "Google Scholar")?.href
   : undefined;
@@ -131,6 +135,7 @@ const usefulLinks = isPublicationsPage
   || isCourseContentPage
   || isNewsContentPage
   || isBlogContentPage
+  || isPictureGallery
   ? []
   : inlineLinkCandidates
       .filter((link) => !usedInlineLinkIds.has(link.id))
@@ -141,6 +146,7 @@ const usefulLinks = isPublicationsPage
   "content-page",
   {
     "content-page--blog": page.isBlog,
+    "content-page--picture-gallery": isPictureGallery,
     "content-page--blog-index": page.targetPath === "/roadtrip2021-blog/",
     "content-page--blog-map": page.targetPath === "/roadtrip2021-map/",
   },
@@ -210,33 +216,47 @@ const usefulLinks = isPublicationsPage
   {isBlogContentPage && (
     <p class="blog-return"><a href="/roadtrip2021-blog/">All blog posts</a></p>
   )}
+  {isPictureGallery && (
+    <p class="blog-return"><a href="/pictures/">All picture galleries</a></p>
+  )}
 
   {galleryImages.length > 0 && (
     <section class="media-grid" aria-label="Page images">
-      {galleryImages.map((image) => (
-        <figure>
-          {isBlogContentPage ? (
-            <button
-              class="blog-thumbnail"
-              type="button"
-              data-blog-lightbox-trigger
-              data-src={image.localPath}
-              data-alt={image.alt || image.caption || page.title}
-              data-caption={image.caption || image.alt || ""}
-              aria-label={`Enlarge image: ${image.alt || image.caption || page.title}`}
-            >
-              <img src={image.localPath} alt={image.alt || image.caption || page.title} loading="lazy" decoding="async" />
-            </button>
-          ) : (
-            <img src={image.localPath} alt={image.alt || image.caption || page.title} loading="lazy" decoding="async" />
-          )}
-          {(image.caption || image.alt) && <figcaption>{image.caption || image.alt}</figcaption>}
-        </figure>
-      ))}
+      {galleryImages.map((image, index) => {
+        const imageAlt = isPictureGallery
+          ? `${displayTitle}, photo ${index + 1}`
+          : image.alt || image.caption || page.title;
+        return (
+          <figure>
+            {hasLightboxGallery ? (
+              <button
+                class="blog-thumbnail"
+                type="button"
+                data-blog-lightbox-trigger
+                data-src={image.localPath}
+                data-alt={imageAlt}
+                data-caption={isPictureGallery ? "" : image.caption || image.alt || ""}
+                aria-label={`Enlarge image: ${imageAlt}`}
+              >
+                <img src={image.localPath} alt={imageAlt} loading="lazy" decoding="async" />
+              </button>
+            ) : (
+              <img src={image.localPath} alt={imageAlt} loading="lazy" decoding="async" />
+            )}
+            {!isPictureGallery && (image.caption || image.alt) && (
+              <figcaption>{image.caption || image.alt}</figcaption>
+            )}
+          </figure>
+        );
+      })}
     </section>
   )}
 
-  {isBlogContentPage && galleryImages.length > 0 && (
+  {isPictureGallery && galleryImages.length === 0 && (
+    <p class="empty-gallery">No gallery images are available for this older Wix page.</p>
+  )}
+
+  {hasLightboxGallery && galleryImages.length > 0 && (
     <dialog class="blog-lightbox" data-blog-lightbox aria-label="Enlarged gallery image">
       <button class="blog-lightbox-close" type="button" data-blog-lightbox-close aria-label="Close enlarged image">
         Close
@@ -346,13 +366,15 @@ const usefulLinks = isPublicationsPage
     object-fit: contain;
   }
 
-  .content-page--blog .media-grid {
+  .content-page--blog .media-grid,
+  .content-page--picture-gallery .media-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     align-items: start;
     gap: 0.75rem;
   }
 
-  .content-page--blog .media-grid :global(figure) {
+  .content-page--blog .media-grid :global(figure),
+  .content-page--picture-gallery .media-grid :global(figure) {
     height: 100%;
   }
 
@@ -451,8 +473,14 @@ const usefulLinks = isPublicationsPage
     border-top: 1px solid var(--line);
   }
 
+  .empty-gallery {
+    max-width: 760px;
+    color: var(--muted);
+  }
+
   @media (max-width: 640px) {
-    .content-page--blog .media-grid {
+    .content-page--blog .media-grid,
+    .content-page--picture-gallery .media-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 0.5rem;
     }

@@ -1,0 +1,92 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pictureGalleries } from "../../lib/pictureGalleries.js";
+---
+
+<BaseLayout title="Pictures | IBG Lab" description="IBG Lab group pictures and lab trip galleries.">
+  <article class="content-page pictures-page">
+    <header class="page-head">
+      <h1>Pictures</h1>
+    </header>
+
+    <section class="picture-index" aria-label="Picture galleries">
+      {pictureGalleries.map((gallery) => (
+        <a class="picture-card" href={gallery.href}>
+          {gallery.cover ? (
+            <img src={gallery.cover} alt="" loading="lazy" decoding="async" />
+          ) : (
+            <span class="picture-placeholder" aria-hidden="true">IBG</span>
+          )}
+          <strong>{gallery.title}</strong>
+        </a>
+      ))}
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .pictures-page {
+    width: min(var(--max), calc(100% - 2rem));
+  }
+
+  .pictures-page h1 {
+    max-width: 100%;
+  }
+
+  .picture-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+
+  .picture-card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--surface);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .picture-card:hover,
+  .picture-card:focus-visible {
+    border-color: var(--green);
+    color: var(--green);
+  }
+
+  .picture-card:focus-visible {
+    outline: 3px solid var(--green);
+    outline-offset: 3px;
+  }
+
+  .picture-card img,
+  .picture-placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+
+  .picture-card img {
+    object-fit: cover;
+  }
+
+  .picture-placeholder {
+    display: grid;
+    place-items: center;
+    background: var(--ink);
+    color: var(--surface);
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  .picture-card strong {
+    padding: 0.85rem 1rem 1rem;
+  }
+
+  @media (max-width: 520px) {
+    .pictures-page {
+      width: min(100% - 1.25rem, var(--max));
+    }
+  }
+</style>

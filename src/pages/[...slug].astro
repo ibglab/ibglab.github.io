@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageRenderer from "../components/PageRenderer.astro";
 import pages from "../content/pages.json";
+import { pictureGalleryForPath } from "../lib/pictureGalleries.js";
 
 export function getStaticPaths() {
   return pages
@@ -13,8 +14,9 @@ export function getStaticPaths() {
 }
 
 const { page } = Astro.props;
+const pageTitle = pictureGalleryForPath(page.targetPath)?.title ?? page.title;
 ---
 
-<BaseLayout title={page.title} description={page.description}>
+<BaseLayout title={pageTitle} description={page.description}>
   <PageRenderer page={page} />
 </BaseLayout>
