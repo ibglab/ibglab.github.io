@@ -215,11 +215,37 @@ const usefulLinks = isPublicationsPage
     <section class="media-grid" aria-label="Page images">
       {galleryImages.map((image) => (
         <figure>
-          <img src={image.localPath} alt={image.alt || image.caption || page.title} loading="lazy" decoding="async" />
+          {isBlogContentPage ? (
+            <button
+              class="blog-thumbnail"
+              type="button"
+              data-blog-lightbox-trigger
+              data-src={image.localPath}
+              data-alt={image.alt || image.caption || page.title}
+              data-caption={image.caption || image.alt || ""}
+              aria-label={`Enlarge image: ${image.alt || image.caption || page.title}`}
+            >
+              <img src={image.localPath} alt={image.alt || image.caption || page.title} loading="lazy" decoding="async" />
+            </button>
+          ) : (
+            <img src={image.localPath} alt={image.alt || image.caption || page.title} loading="lazy" decoding="async" />
+          )}
           {(image.caption || image.alt) && <figcaption>{image.caption || image.alt}</figcaption>}
         </figure>
       ))}
     </section>
+  )}
+
+  {isBlogContentPage && galleryImages.length > 0 && (
+    <dialog class="blog-lightbox" data-blog-lightbox aria-label="Enlarged gallery image">
+      <button class="blog-lightbox-close" type="button" data-blog-lightbox-close aria-label="Close enlarged image">
+        Close
+      </button>
+      <figure>
+        <img data-blog-lightbox-image src="" alt="" />
+        <figcaption data-blog-lightbox-caption hidden></figcaption>
+      </figure>
+    </dialog>
   )}
 
   {usefulLinks.length > 0 && (
@@ -233,6 +259,47 @@ const usefulLinks = isPublicationsPage
     </section>
   )}
 </article>
+
+<script>
+  for (const dialog of document.querySelectorAll("[data-blog-lightbox]")) {
+    if (!(dialog instanceof HTMLDialogElement)) continue;
+
+    const article = dialog.closest("article");
+    const enlargedImage = dialog.querySelector("[data-blog-lightbox-image]");
+    const caption = dialog.querySelector("[data-blog-lightbox-caption]");
+    const closeButton = dialog.querySelector("[data-blog-lightbox-close]");
+    let opener;
+
+    if (!(enlargedImage instanceof HTMLImageElement) || !(caption instanceof HTMLElement)) continue;
+
+    for (const trigger of article?.querySelectorAll("[data-blog-lightbox-trigger]") ?? []) {
+      trigger.addEventListener("click", () => {
+        if (!(trigger instanceof HTMLElement)) return;
+
+        enlargedImage.src = trigger.dataset.src ?? "";
+        enlargedImage.alt = trigger.dataset.alt ?? "";
+        caption.textContent = trigger.dataset.caption ?? "";
+        caption.hidden = !caption.textContent;
+        opener = trigger;
+        dialog.showModal();
+      });
+    }
+
+    closeButton?.addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    dialog.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        dialog.close();
+      }
+    });
+    dialog.addEventListener("close", () => {
+      if (opener instanceof HTMLElement) opener.focus();
+    });
+  }
+</script>
 
 <style>
   .inline-manuscript-link {
@@ -280,13 +347,81 @@ const usefulLinks = isPublicationsPage
   }
 
   .content-page--blog .media-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     align-items: start;
+    gap: 0.75rem;
   }
 
-  .content-page--blog .media-grid :global(img) {
-    aspect-ratio: auto;
+  .content-page--blog .media-grid :global(figure) {
+    height: 100%;
+  }
+
+  .blog-thumbnail {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: zoom-in;
+  }
+
+  .blog-thumbnail :global(img) {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+
+  .blog-thumbnail:hover :global(img),
+  .blog-thumbnail:focus-visible :global(img) {
+    filter: brightness(0.88);
+  }
+
+  .blog-thumbnail:focus-visible {
+    outline: 3px solid var(--green);
+    outline-offset: 3px;
+  }
+
+  .blog-lightbox {
+    width: min(92vw, 1100px);
+    max-width: none;
+    max-height: 92vh;
+    padding: 3rem 1rem 1rem;
+    border: 0;
+    border-radius: 8px;
+    background: var(--surface);
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35);
+  }
+
+  .blog-lightbox::backdrop {
+    background: rgba(10, 17, 19, 0.86);
+  }
+
+  .blog-lightbox :global(figure) {
+    margin: 0;
+  }
+
+  .blog-lightbox :global(img) {
+    width: 100%;
+    max-height: calc(92vh - 6rem);
     object-fit: contain;
+  }
+
+  .blog-lightbox :global(figcaption) {
+    padding: 0.75rem 0 0;
+    text-align: center;
+  }
+
+  .blog-lightbox-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    padding: 0.35rem 0.65rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
   }
 
   .content-page--blog-map .media-grid {
@@ -318,7 +453,13 @@ const usefulLinks = isPublicationsPage
 
   @media (max-width: 640px) {
     .content-page--blog .media-grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.5rem;
+    }
+
+    .blog-lightbox {
+      width: calc(100vw - 1rem);
+      padding-inline: 0.5rem;
     }
   }
 </style>
