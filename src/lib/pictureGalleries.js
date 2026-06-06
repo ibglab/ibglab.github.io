@@ -1,27 +1,27 @@
 export const pictureGalleries = [
   {
     title: "Lab trip, April 2022",
-    href: "/copy-of-lab-trip-dec-2021/",
+    href: "/lab-trip-april-2022/",
     cover: "/media/bb640f_036ee6c918014150b752963dc3a513bb-mv2.jpeg",
   },
   {
     title: "Kfar Blum 2022",
-    href: "/copy-of-ein-gedi-2015/",
+    href: "/kfar-blum-2022/",
     cover: "/media/bb640f_93f0dee29418448cb0c356e5be789f34-mv2.jpeg",
   },
   {
     title: "Lab trip, Dec. 2021",
-    href: "/copy-of-lab-trip-jun-2021/",
+    href: "/lab-trip-dec-2021/",
     cover: "/media/bb640f_fb792f6d228e4c358fdb3251c3cafd84-mv2.jpeg",
   },
   {
     title: "Lab trip, June 2021",
-    href: "/copy-of-lab-trip-2021/",
+    href: "/lab-trip-june-2021/",
     cover: "/media/bb640f_37cb903562d54358b4d9ff7bc07227b0-mv2.jpeg",
   },
   {
     title: "Lab trip, Feb 2021",
-    href: "/copy-of-lab-trip-2020/",
+    href: "/lab-trip-feb-2021/",
     cover: "/media/bb640f_b3b75aff5b824eac8b42120d6eb5803a-mv2.jpeg",
   },
   {

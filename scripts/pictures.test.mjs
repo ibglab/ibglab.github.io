@@ -12,11 +12,11 @@ test("Pictures reproduces the Wix gallery index in its original order", () => {
   assert.deepEqual(
     pictureGalleries.map(({ title, href }) => ({ title, href })),
     [
-      { title: "Lab trip, April 2022", href: "/copy-of-lab-trip-dec-2021/" },
-      { title: "Kfar Blum 2022", href: "/copy-of-ein-gedi-2015/" },
-      { title: "Lab trip, Dec. 2021", href: "/copy-of-lab-trip-jun-2021/" },
-      { title: "Lab trip, June 2021", href: "/copy-of-lab-trip-2021/" },
-      { title: "Lab trip, Feb 2021", href: "/copy-of-lab-trip-2020/" },
+      { title: "Lab trip, April 2022", href: "/lab-trip-april-2022/" },
+      { title: "Kfar Blum 2022", href: "/kfar-blum-2022/" },
+      { title: "Lab trip, Dec. 2021", href: "/lab-trip-dec-2021/" },
+      { title: "Lab trip, June 2021", href: "/lab-trip-june-2021/" },
+      { title: "Lab trip, Feb 2021", href: "/lab-trip-feb-2021/" },
       { title: "Random years", href: "/pictures/us/" },
       { title: "Lab trip, Jan 2020", href: "/lab-trip-2019/" },
       { title: "Lab trip, Apr 2016", href: "/lab-trip-2016/" },

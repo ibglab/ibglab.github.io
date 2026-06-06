@@ -21,11 +21,19 @@ test("retired SDA course years are excluded from generated routes", () => {
   assert.deepEqual(retiredPages, []);
 });
 
-test("SDA 2024 copied routes remain available", () => {
+test("SDA 2024 routes use canonical names", () => {
   const targetPaths = new Set(pages.map((page) => page.targetPath));
 
-  assert.equal(targetPaths.has("/copy-of-sda-2023-assignments/"), true);
-  assert.equal(targetPaths.has("/copy-of-sda-2023-recitation/"), true);
+  assert.equal(targetPaths.has("/sda-2024-projects/"), true);
+  assert.equal(targetPaths.has("/sda-2024-recitation/"), true);
+});
+
+test("generated routes do not use copy-prefixed names", () => {
+  const copiedRoutes = pages
+    .map((page) => page.targetPath)
+    .filter((targetPath) => targetPath.startsWith("/copy-"));
+
+  assert.deepEqual(copiedRoutes, []);
 });
 
 test("every distributed download is referenced by current source", () => {
