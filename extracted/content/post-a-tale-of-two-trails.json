@@ -1,0 +1,77 @@
+{
+  "sourceUrl": "https://www.ibglab.org/post/a-tale-of-two-trails",
+  "targetPath": "/post/a-tale-of-two-trails/",
+  "title": "A tale of two trails",
+  "description": "",
+  "language": "en",
+  "priority": 0.4,
+  "migrationStatus": "extracted",
+  "section": "Road trip blog",
+  "isBlog": true,
+  "lastmod": "2021-07-26",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "list",
+      "level": null,
+      "text": "All Posts"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "A tale of two trails"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Jul 27, 2021"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2 min read"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Heading out of foggy San Francisco we travelled the narrow twisting roads initially to Muir Woods and the next day to Mount Tamalpais. Theoretically, aiming to hike two trails with similar difficulty levels. Sadly, nothing could have been further from the truth. The first hike was a model of excellent (and lucky) planning, which is very atypical to us, we even ordered a parking space in the Muir Woods National Monument a week in advance We hiked a wonderful trail within the majestic redwood forest starting with the four bridges within the park and after exiting it continued with the Ben Johnson trail which was pretty tough with an elevation gain of 200 meters (it sounds more in American: 600 feet) and returning to our base with the Dipsea trail which was winding down the hills. Most of the hike was in the shadows of the tall canopies of the gigantic trees, which can reach over 100 meters in height and 2000 years in age. While the weather outside was pretty hot, within the forest everything was cool, so we survived the 8 km hike pretty easily despite the steep ascents and descents."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "We were so happy with that hike, that during that evening in our hotel in San Rafael, we searched for a similar trail in the area and came across a recommendation for the trail from the Mount Tamalpais Watershed trailhead to Carson Falls. The next day we braved the winding roads again and made our way to the trailhead. It was quite early but already hot and sunny without a trace of a cloud in the sky. We started along an uphill trail with a wonderful view of the area, but as hot as a trail taken in the Israeli summer. The trail continued its ascent in sun-burned yellowish-brownish meadows until we made it, quite exhausted to Carson Falls, just out find out that they are Israeli summer-style falls, i.e. completely dry. At this stage we were quite disappointed but still had to make it back to the trailhead. We took a different return trail that proved to be a horribly steep downhill trail with the sun blazing above us, a trail more fit for the young Rothschilds. Despite the hardships, we (again, atypically) managed to keep up the good spirits until we made it back to the winding road. At this stage Shibolet and Yoav found themselves a nice shady tree and I jogged up the hill another 2 km back to the trailhead to get our (wonderful, lovely, amazing) car. The compensation for this Israeli type trail in which we finished 10 km in roughly 4 hours was a great Mexican lunch in Los Moles where we ate an excellent chicken cooked in the chocolate-based mole sauce. This was a good closure on our hikes which were both interesting excursions on which we learned about both nature and ourselves. Mostly, we learned that trying to replicate a great experience is bound to be disappointing, switching to new experiences is always the way to go."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Recent Posts"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "All Posts"
+    },
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "See All"
+    },
+    {
+      "href": "https://www.ibglab.org/post/nostalgia",
+      "text": "Nostalgia"
+    },
+    {
+      "href": "https://www.ibglab.org/post/a-different-las-vegas",
+      "text": "A different Las Vegas"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-decay-of-west-coast-big-city-downtowns",
+      "text": "The decay of west-coast big-city downtowns"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [
+    "https://static.wixstatic.com/media/bb640f_f961b0882e3940f09abe3e7cf641599b~mv2.jpg"
+  ],
+  "extractionErrors": []
+}

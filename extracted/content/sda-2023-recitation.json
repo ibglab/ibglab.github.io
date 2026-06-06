@@ -1,0 +1,479 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2023-recitation",
+  "targetPath": "/sda-2023-recitation/",
+  "title": "SDA 2023 recitation",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505) - Recitation"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2023"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Zoom room- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Passcode: 143516"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Notice Board:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Towards recitations and assignments- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Projects and Questionnaires grades - link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation classes:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 0:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "self learning statistics review- notes, questionnaire"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 1, 16.03.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal sampling, firing rate, convolution, SNR and stochastic processes- notes, questionnaire, recording"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 2, 23.03.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Tuning curves, Stochastic processes, Point process- notes, questionnaire, recording"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 3, 30.03.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Single and Multiple point processes- notes, questionnaire, recording"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 4, 20.04.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "PSTH, STA, linear kernels and GLM- notes, questionnaire, recording"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 5, 27.04.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "ROC and quiz preparation- notes, recording"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 6, 04.05.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "decoding, population vector and estimators - notes, questionnaire, recording"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 7, 11.05.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "optimization - notes, questionnaire, recording"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 8, 18.05.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "information theory- notes, questionnaire, recording"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 9, 24.05.23 (completion):"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "dimensionality redution (PCA and ICA)- notes, questionnaire, recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 10, 01.06.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "clustering- notes, questionnaire, recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 11, 08.06.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "frequency domain I: Nyquist, fourier transform- notes, questionnaire, recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 12, 15.06.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "frequency domain II: Systems, filters- notes, questionnaire, recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 13, 22.06.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "frequency domain III: Spectral analysis- notes, questionnaire, recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 14, 29.06.23:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "frequency domain IV: Wavelets- notes, questionnaire, recording (2023), recording (2020)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://biu-ac-il.zoom.us/j/82727472308?pwd=UGFvN1pXL1dDU0JUaFJ3bzNDRzJVZz09",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1POp_0umoGvYuoeHcXEer-hlSsPYgQv2F/view?usp=share_link",
+      "text": "link"
+    },
+    {
+      "href": "https://docs.google.com/spreadsheets/d/1Zb8VAF9_pO1H0yTXuBumNR7TtSs3NHmJYlQi8JutO7o/edit?usp=share_link",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1IPjt8bcvsjrkH88vHY3sf7iE1bLtgjWV/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/gizWVzcGy6VZcpJk6",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://drive.google.com/file/d/18q2BbAn0AxiPhSJBIdS_a9pm-4N1RJoA/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/VarHdmX3DLkbhj55A",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/labUAdyDm2Y",
+      "text": "recording"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1X46uEEXb99IbLq5llbDBXCe61ycsosVP/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/piLRr4958JVXCVLq8",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/ggkEVw_X82o",
+      "text": "recording"
+    },
+    {
+      "href": "https://drive.google.com/file/d/15jc8CJM1cGCFyxJQ990yJ8UH4WpkWccc/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/VX4Mi9tXAEQUzqCv5",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/3AGA_4PFANU",
+      "text": "recording"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1MOUp42jQSY9dSrPkM_Jre88lRd4FOOMb/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/hyi3CrkCwz9TQvjA9",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/hLzbXZ5OZOQ",
+      "text": "recording"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1vt6Y9jeaRvki2oJsN1hiwmtbu03p5LHx/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/NdKyhyMIACo",
+      "text": "recording"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1WaDHNANpM7ANecEJJ9z0ofq6ge5haI7J/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/9KGAAwTLfbpXMtF26",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/OP9rpibQyTE",
+      "text": "recording"
+    },
+    {
+      "href": "https://drive.google.com/file/d/14baHvhDZfH5QqF3s7bV2OqRssqM-n4WB/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/rEj9iRpKpbszCy9u9",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/B30CtNw4RTg",
+      "text": "recording"
+    },
+    {
+      "href": "https://drive.google.com/file/d/11rkU4NxMlVeU7McEmquBuzuiynDZgRVn/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/6XeR5Ez93wsPQx96A",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/Yb0iShwXorg",
+      "text": "recording"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1GL_2cJhE-0YSPd83rFDEGgct-m1XthGe/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/6eEjobrtRqQEmhx97",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/tHvIYBjEyWc",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/0QJF31UcYgs",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1Ni9Ctd7gfMbdtw2bVankokSuOCvio6I3/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/9X43a56NSUe2T1aN7",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/gVydGF9M8YU",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1NhWFjcQGse4vguR3O3iAu-roLNNFdZh8/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/PLAsW62ZxxSz5cBC9",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/xLMccSC6kIc",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1kdyN3-VQaUV9r27NxXu2uHxsyks15TGF/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/UjsjakQLQNNRqBgf8",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/0U6e7G7Zi4g",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1VzHtvG86Q-Jizn8f4yIoGM_CWDb13Zwx/view?usp=share_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/Qd77Kv521XwkoBoL9",
+      "text": "questionnaire"
+    },
+    {
+      "href": "https://youtu.be/9Z-rivlMI8s",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/7s09B6G1J7w?t=3449",
+      "text": "recording (2020)"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

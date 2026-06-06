@@ -1,0 +1,578 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2023-links",
+  "targetPath": "/sda-2023-links/",
+  "title": "SDA 2023 links",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2023"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Additional links"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Yarden Nativ - Lesson summaries (2020)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "1 - SDA in Neuroscience"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2 - Stochastic processes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "3 - Poisson processes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "4 - Point processes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "5 - Encoding, discrimination, decoding"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "6 - Optimization"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "7 - Information theory"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "8 - PCA & ICA"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "9 - Clustering"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "10 - The frequency domain"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "11 - Wavelets"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Videos"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Information theory - MacKay course"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Information theory (Wordle example)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Books"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Numerical recipes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Theoretical Neuroscience - Dayan & Abbott (pdf)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Signal processing for neuroscientists"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Practical optimization"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "The Matrix Cookbook (pdf)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Programming"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Introduction to Jupyter Notebooks"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Introduction to Python, NumPy and mostly SciPy (pdf)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Introduction to python from cs231n with code examples on Colab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "How to upload data into google Colab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Python exercises (1) (2)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lectures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bayesian decisions"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Test examples"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2007 Aleph"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2007 Bet"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2007 Gimel"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2010 Aleph"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2010 Bet"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2013 Intermediate quiz 1"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2013 Intermediate quiz 2"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2013 Intermediate quiz 3"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2013 Final quiz - Aleph"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2013 Final quiz - Bet"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2015 Aleph - Written"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2015 Aleph - In-computo"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2017 Aleph - Written"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2017 Aleph - In-computo"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2017 Bet - Written"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2018 - Written"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2018 - In-computo"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Other resources"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Ergodicity"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Kernel PCA lecture"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Fourier transform (YouTube movie)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Fourier series of periodic signals (Applet)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Fourier transform of spatial (image) signals"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Information Theory for Intelligent People"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_5d33c7ebc5c840d6b5959e78e157752a.docx?dn=YardenNativ-1-SDA-in-Neuroscience.docx",
+      "text": "1 - SDA in Neuroscience"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_232e5c78247349d4aee950ee02abf3e5.docx?dn=YardenNativ-2-Stochastic-Processes.docx",
+      "text": "2 - Stochastic processes"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_eb98e0fd7cd3447794296d6a0dbb7dcb.docx?dn=YardenNativ-3-Poisson-Processes.docx",
+      "text": "3 - Poisson processes"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_3e52d55cd40a42ada326a4f6b5dc5e17.docx?dn=YardenNativ-4-Point-Processes.docx",
+      "text": "4 - Point processes"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_7c24893fc7b94ed080865335e038e5ff.docx?dn=YardenNativ-5-Encoding-Decoding.docx",
+      "text": "5 - Encoding, discrimination, decoding"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_9ad0a61651ee4babb253f09ff75fafe5.docx?dn=YardenNativ-6-Optimization.docx",
+      "text": "6 - Optimization"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_44820548df864890b6cca65aacd823ce.docx?dn=YardenNativ-7-Information-Theory.docx",
+      "text": "7 - Information theory"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_5a0237ec9942437d852ac12d9493b06a.docx?dn=YardenNativ-9-Clustering.docx",
+      "text": "9 - Clustering"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_7bef1e7e6f6b457c8b62b9b24d2297dd.docx?dn=YardenNativ-10-Frequency.docx",
+      "text": "10 - The frequency domain"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_d1fd4693b0e64695a1fb153fe3d213ed.docx?dn=YardenNativ-11-Wavelets.docx",
+      "text": "11 - Wavelets"
+    },
+    {
+      "href": "https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6",
+      "text": "Information theory - MacKay course"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=v68zYyaEmEA",
+      "text": "Information theory (Wordle example)"
+    },
+    {
+      "href": "http://numerical.recipes/",
+      "text": "Numerical recipes"
+    },
+    {
+      "href": "http://www.gatsby.ucl.ac.uk/~dayan/book/",
+      "text": "Theoretical Neuroscience - Dayan & Abbott"
+    },
+    {
+      "href": "http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf",
+      "text": "(pdf)"
+    },
+    {
+      "href": "https://www.elsevier.com/books/signal-processing-for-neuroscientists/van-drongelen/978-0-12-810482-8",
+      "text": "Signal processing for neuroscientists"
+    },
+    {
+      "href": "https://link.springer.com/book/10.1007/978-0-387-71107-2",
+      "text": "Practical optimization"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/ESssv4kvPN1Fh7k10uaPdskBQ39P24M394OZRVW5q1nGHg?e=o7Lfm2",
+      "text": "The Matrix Cookbook (pdf)"
+    },
+    {
+      "href": "https://www.dataquest.io/blog/jupyter-notebook-tutorial/",
+      "text": "Introduction to Jupyter Notebooks"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/ESiQbrGFguZNhisxNwFtOcoBLBVVdQNAfWzatfKz-L7Q9A?e=ke7d3L",
+      "text": "Introduction to Python, NumPy and mostly SciPy (pdf)"
+    },
+    {
+      "href": "https://cs231n.github.io/python-numpy-tutorial/",
+      "text": "Introduction to python from cs231n with code examples on Colab"
+    },
+    {
+      "href": "https://towardsdatascience.com/3-ways-to-load-csv-files-into-colab-7c14fcbdcb92",
+      "text": "How to upload data into google Colab"
+    },
+    {
+      "href": "https://www.practicepython.org/",
+      "text": "(1)"
+    },
+    {
+      "href": "https://www.w3schools.com/python/",
+      "text": "(2)"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_01a00fcae3c845a6876f15194fccf468.pdf",
+      "text": "Bayesian decisions"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:w:/g/personal/bargadi_biu_ac_il/EaUjCgjjXfhJmvEgtCi6pQUBnqzv9lP1S0NFG08of9LQ8w?e=JWqzcW",
+      "text": "2007 Aleph"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:w:/g/personal/bargadi_biu_ac_il/ETquNRt9UrlKrovFOUgxzNUBeV91elkyqWpY5JslxHPNww?e=sRYlJX",
+      "text": "2007 Bet"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_1d79d55dd0c94d9094f03ec53d5c3a02.doc?dn=Test-28-7-2010-Aleph.doc",
+      "text": "2010 Aleph"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_135a9e54f5874a21a9d4130fa5f30367.doc?dn=Test-18-8-2010-Bet.doc",
+      "text": "2010 Bet"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:u:/g/personal/bargadi_biu_ac_il/EexI2ETjcrlJk0eCLPVdKQoBxH2m5zJvbtcyJvKMHE7eqA?e=LFxkBV",
+      "text": "2013 Intermediate quiz 1"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:u:/g/personal/bargadi_biu_ac_il/EUiRULqL5pVLogRjuKjVpnwBKH9mJcgIoLn-cnyky9bp0A?e=HZlf88",
+      "text": "2013 Intermediate quiz 2"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:u:/g/personal/bargadi_biu_ac_il/Edu0fSkJOgtNjvv8RgAgIgsBSq-MSvK3UBvXiklu84C5tQ?e=v95aQ4",
+      "text": "2013 Intermediate quiz 3"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:w:/g/personal/bargadi_biu_ac_il/EVhyxWcm3FxGsq464TxTMd8BdrrOulCoiERHZFC_RsnaEw?e=cP3obS",
+      "text": "2013 Final quiz - Aleph"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:w:/g/personal/bargadi_biu_ac_il/EVHE_2Hf1BhAmrXnIFgoPP4BpDFy1gmk59tcYL0pBrq7Hw?e=RamXyC",
+      "text": "2013 Final quiz - Bet"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_f44049b799fd459c845bc4fd31296878.docx?dn=SDA-MoedA-2015-Part1.docx",
+      "text": "2015 Aleph - Written"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/archives/bb640f_51c690472a9a4727a5810f09714caa81.rar?dn=SDA-MoedA-2015-Part2.rar",
+      "text": "2015 Aleph - In-computo"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:w:/g/personal/bargadi_biu_ac_il/EYGwmmB0d_hIqyY_FP4jLFoBo9Q0FxvKW1YT6PGZDUWoOA?e=pm5AT2",
+      "text": "2017 Aleph - Written"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:u:/g/personal/bargadi_biu_ac_il/EdBSryYxB2ZLojELeYaDniABboJ5ZF-KSK1udv94ij4ALw?e=ussfQg",
+      "text": "2017 Aleph - In-computo"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:w:/g/personal/bargadi_biu_ac_il/EeYOz9RgskNGj1prpFdjj6ABVslLEtsUmP5Fj-zofcB5cA?e=sY0JhU",
+      "text": "2017 Bet - Written"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:w:/g/personal/bargadi_biu_ac_il/Ee-dilibsSZDn2V8LeuDaKIBKe0mqQ6VT9P7GGqH-Y1gag?e=6UoNSY",
+      "text": "2018 - Written"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:u:/g/personal/bargadi_biu_ac_il/Efz1d--6SSpNpJ9-mbtZrekBPjNkjr9b5WIhoWiKZHVqmA?e=U0KdId",
+      "text": "2018 - In-computo"
+    },
+    {
+      "href": "https://taylorpearson.me/ergodicity/",
+      "text": "Ergodicity"
+    },
+    {
+      "href": "http://www.cs.haifa.ac.il/~rita/uml_course/lectures/KPCA.pdf",
+      "text": "Kernel PCA lecture"
+    },
+    {
+      "href": "http://www.falstad.com/fourier/",
+      "text": "Fourier series of periodic signals (Applet)"
+    },
+    {
+      "href": "http://fourier.eng.hmc.edu/e101/lectures/Image_Processing/Image_Processing.html",
+      "text": "Fourier transform of spatial (image) signals"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_dcd415b4b1774e549a4a419e42763f7d.pdf",
+      "text": "Information Theory for Intelligent People"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

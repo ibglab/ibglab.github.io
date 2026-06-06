@@ -1,0 +1,221 @@
+{
+  "sourceUrl": "https://www.ibglab.org/news",
+  "targetPath": "/news/",
+  "title": "Original News",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "News",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "In the Media"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "ערב חדש, חינוכית"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "הארץ"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "גליליאו"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Ynet"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Latest News"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "May 2021 Prof. Izhar Bar-Gad participated in \"Scientist-Celebrity\" project. Together with Dr. Noa Ben-Aroya from the Schneider Centre for Pediatrics and Daniel Moers from the TV channel \"Kan\" they had an interesting conversation about Tourette syndrome. Link"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "May 2019"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Ayala Matzner‏ and Esther Vinner presented their work at the poster session of the IBAGS annual meeting in Biarritz, France."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "The poster of Ayala focused on \"Input dependent encoding of basal ganglia neurons\",and Esther presented their findings regarding \"The neural mechanism underlying motor tic reduction during sleep\"."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Apr 2020"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "We are pleased to have our new lab members, Yehoshua Stern and Nadav Schweitzer, and wish them good luck in their research."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "June 2020"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Congratulations to the research team in our lab, Ayala Matzner, Yuval al-Hanani and Prof. Izhar Bar-Gad, who won an award for Parkinson's disease research and was ranked second in the international competition BEAT-PD."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Aug 2020"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Orel Tahary participated in the interactive track of the Neuromatch academy Computational neuroscience course. As part of the course's group projects, he used various methods to predict the time and direction of mice movements from its neuronal activity in several brain regions"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "May 2021 Orel Tahary‏ and Yocheved Loewenstern presented their work at the poster session of the Gonda center annual conference. Orel's poster went into explaining his research in \"Encoding of behavioral sequences in the striatum\", and Yocheved presented about her research in \"Modulation of tic expression in Tourette syndrome patients\"."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Latest Publications"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Israelashvili M, Yael D, Vinner E, Belelovsky K, Bar-Gad I, Common neuronal mechanisms underlying tics and hyperactivity. Cortex 127:231–247, 2020."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Matzner A, Gorodetski L, Korngreen A, Bar-Gad I, Dynamic input-dependent encoding of individual basal ganglia neurons. Scientific Reports 10:1–13, 2020."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Vinner E, Matzner A, Belelovsky K, Bar-Gad I, Dissociation of tic generation from tic expression during the sleep-wake cycle . iScience 24, 2021."
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.isf.org.il/layperson-reports/%D7%9B%D7%99%D7%A6%D7%93-%D7%A0%D7%92%D7%A8%D7%9E%D7%99%D7%9D-%D7%98%D7%99%D7%A7%D7%99%D7%9D-%D7%9E%D7%95%D7%98%D7%95%D7%A8%D7%99%D7%99%D7%9D-20191104103645.html",
+      "text": "כיצד נגרמים טיקים מוטוריים?"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=KVxKDV1lGkk",
+      "text": "כשפרקינסון פוגש את מדעי הנתונים"
+    },
+    {
+      "href": "https://www.michaeljfox.org/news/mjff-and-sage-bionetworks-announce-winners-beat-pd-dream-challenge",
+      "text": "MJFF and Sage Bionetworks Announce Winners of the BEAT-PD DREAM Challenge"
+    },
+    {
+      "href": "https://www.hayadan.org.il/neuroscientists-from-bar-ilan-have-won-an-international-award-sponsored-by-the-michael-j-foxes-parkinsons-foundation-2406207",
+      "text": "חוקרי מוח מבר אילן זכו בפרס בינלאומי בחסות קרן מייקל ג'יי פוקס לחקר פרקינסון"
+    },
+    {
+      "href": "https://www.jpost.com/health-science/bar-ilan-named-co-winners-of-parkinsons-disease-research-challenge-632645",
+      "text": "Bar-Ilan named co-winners of Parkinson's disease research challenge"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=wpIX2x4Q5xo",
+      "text": "מה גורם לתנועות הלא רצוניות? ערב חדש, חינוכית"
+    },
+    {
+      "href": "/_files/ugd/bb640f_842153a40b9444bf8e2d9387bbddde3a.pdf/",
+      "text": "טיקים זה עניין של טיימינג הארץ"
+    },
+    {
+      "href": "/_files/ugd/bb640f_a2f035e640324d7e96c53211b652b047.pdf/",
+      "text": "עמוק בתוך המוח גליליאו"
+    },
+    {
+      "href": "http://www.ynet.co.il/home/0,7340,L-7804,00.html",
+      "text": "שאלת מחקר Ynet"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=EM40x1Ml4tc&t=2897s",
+      "text": "Link"
+    },
+    {
+      "href": "/_files/ugd/bb640f_166ba41fcffe4de4a23510ca58bba18d.pdf/",
+      "text": "Cortex"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_30b15e126c764801beab704a1e1e4b39.pdf",
+      "text": "Scientific Reports"
+    },
+    {
+      "href": "/_files/ugd/bb640f_9425b2a659d24af3be93a45533497d7d.pdf/",
+      "text": "iScience"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

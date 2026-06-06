@@ -1,0 +1,219 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2023-syllabus",
+  "targetPath": "/sda-2023-syllabus/",
+  "title": "SDA 2023 syllabus",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2023"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Syllabus"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Signals & data in neuroscience"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Stochastic processes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Poisson processes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Single spike train"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Multiple spike trains"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Event related activity"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Neural encoding"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Neural discrimination"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Neural decoding"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Optimization"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Information theory"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Dimensionality reduction"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Independent component analysis (ICA)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Clustering"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Frequency domain"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Systems"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Filters"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Spectral analysis"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Wavelets"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

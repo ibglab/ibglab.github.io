@@ -1,0 +1,632 @@
+[
+  {
+    "sourceUrl": "https://www.ibglab.org/post/the-decay-of-west-coast-big-city-downtowns",
+    "targetPath": "/post/the-decay-of-west-coast-big-city-downtowns/",
+    "title": "The Decay Of West Coast Big City Downtowns",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-09-12"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/san-francisco-here-we-come",
+    "targetPath": "/post/san-francisco-here-we-come/",
+    "title": "San Francisco Here We Come",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-07-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/mixed-impressions-of-portland",
+    "targetPath": "/post/mixed-impressions-of-portland/",
+    "title": "Mixed Impressions Of Portland",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-08-08"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/short-hikes-near-mount-st-helens",
+    "targetPath": "/post/short-hikes-near-mount-st-helens/",
+    "title": "Short Hikes Near Mount St Helens",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-08-10"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/the-great-parks-of-utah-part-1",
+    "targetPath": "/post/the-great-parks-of-utah-part-1/",
+    "title": "The Great Parks Of Utah Part 1",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-08-26"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/the-great-parks-of-utah-part-2",
+    "targetPath": "/post/the-great-parks-of-utah-part-2/",
+    "title": "The Great Parks Of Utah Part 2",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-09-01"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/a-different-las-vegas",
+    "targetPath": "/post/a-different-las-vegas/",
+    "title": "A Different Las Vegas",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-09-12"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/once-we-were-younger",
+    "targetPath": "/post/once-we-were-younger/",
+    "title": "Once We Were Younger",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-07-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/a-tale-of-two-trails",
+    "targetPath": "/post/a-tale-of-two-trails/",
+    "title": "A Tale Of Two Trails",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-07-26"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/an-unexpected-day-idaho",
+    "targetPath": "/post/an-unexpected-day-idaho/",
+    "title": "An Unexpected Day Idaho",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-08-19"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/a-day-in-southern-oregon",
+    "targetPath": "/post/a-day-in-southern-oregon/",
+    "title": "A Day In Southern Oregon",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-08-03"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/nostalgia",
+    "targetPath": "/post/nostalgia/",
+    "title": "Nostalgia",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-09-19"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/orienteering-and-geocaching",
+    "targetPath": "/post/orienteering-and-geocaching/",
+    "title": "Orienteering And Geocaching",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-08-29"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/ready-to-go-maybe",
+    "targetPath": "/post/ready-to-go-maybe/",
+    "title": "Ready To Go Maybe",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-07-16"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/olympic-national-park",
+    "targetPath": "/post/olympic-national-park/",
+    "title": "Olympic National Park",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-08-12"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/american-oddities",
+    "targetPath": "/post/american-oddities/",
+    "title": "American Oddities",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-07-30"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/the-great-parks-of-utah-part-3",
+    "targetPath": "/post/the-great-parks-of-utah-part-3/",
+    "title": "The Great Parks Of Utah Part 3",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-09-06"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/yellowstone-national-park",
+    "targetPath": "/post/yellowstone-national-park/",
+    "title": "Yellowstone National Park",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-08-18"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/post/camping-for-non-campers",
+    "targetPath": "/post/camping-for-non-campers/",
+    "title": "Camping For Non Campers",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2021-07-30"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2020-lectures",
+    "targetPath": "/sda-2020-lectures/",
+    "title": "Sda 2020 Lectures",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/matlab-2018-syllabus",
+    "targetPath": "/matlab-2018-syllabus/",
+    "title": "Matlab 2018 Syllabus",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2022-recitation",
+    "targetPath": "/sda-2022-recitation/",
+    "title": "Sda 2022 Recitation",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/lab-trip-2019",
+    "targetPath": "/lab-trip-2019/",
+    "title": "Lab Trip 2019",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2020-recitation",
+    "targetPath": "/sda-2020-recitation/",
+    "title": "Sda 2020 Recitation",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2022-videos",
+    "targetPath": "/sda-2022-videos/",
+    "title": "Sda 2022 Videos",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/copy-of-lab-trip-jun-2021",
+    "targetPath": "/copy-of-lab-trip-jun-2021/",
+    "title": "Copy Of Lab Trip Jun 2021",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/copy-of-ein-gedi-2015",
+    "targetPath": "/copy-of-ein-gedi-2015/",
+    "title": "Copy Of Ein Gedi 2015",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/lab-trip-2012",
+    "targetPath": "/lab-trip-2012/",
+    "title": "Lab Trip 2012",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org",
+    "targetPath": "/",
+    "title": "Israel Bar-Gad Lab",
+    "language": "en",
+    "priority": 1,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/lab-trip-2015",
+    "targetPath": "/lab-trip-2015/",
+    "title": "Lab Trip 2015",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2022-syllabus",
+    "targetPath": "/sda-2022-syllabus/",
+    "title": "Sda 2022 Syllabus",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/news",
+    "targetPath": "/news/",
+    "title": "News",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/assignments2018",
+    "targetPath": "/assignments2018/",
+    "title": "Assignments2018",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/lab-trip-2019-1",
+    "targetPath": "/lab-trip-2019-1/",
+    "title": "Lab Trip 2019 1",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/us",
+    "targetPath": "/us/",
+    "title": "Us",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/lab-trip-2014",
+    "targetPath": "/lab-trip-2014/",
+    "title": "Lab Trip 2014",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2023-lectures",
+    "targetPath": "/sda-2023-lectures/",
+    "title": "Sda 2023 Lectures",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/copy-of-lab-trip-2021",
+    "targetPath": "/copy-of-lab-trip-2021/",
+    "title": "Copy Of Lab Trip 2021",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/tirgul2018",
+    "targetPath": "/tirgul2018/",
+    "title": "Tirgul2018",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2020-syllabus",
+    "targetPath": "/sda-2020-syllabus/",
+    "title": "Sda 2020 Syllabus",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/roadtrip2021-blog",
+    "targetPath": "/roadtrip2021-blog/",
+    "title": "Roadtrip2021 Blog",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2025-projects",
+    "targetPath": "/sda-2025-projects/",
+    "title": "Sda 2025 Projects",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2025-lectures",
+    "targetPath": "/sda-2025-lectures/",
+    "title": "Sda 2025 Lectures",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2025-syllabus",
+    "targetPath": "/sda-2025-syllabus/",
+    "title": "Sda 2025 Syllabus",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2022-lectures",
+    "targetPath": "/sda-2022-lectures/",
+    "title": "Sda 2022 Lectures",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2025-links",
+    "targetPath": "/sda-2025-links/",
+    "title": "Sda 2025 Links",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/copy-of-sda-2023-assignments",
+    "targetPath": "/copy-of-sda-2023-assignments/",
+    "title": "Copy Of Sda 2023 Assignments",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2024-lectures",
+    "targetPath": "/sda-2024-lectures/",
+    "title": "Sda 2024 Lectures",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2023-syllabus",
+    "targetPath": "/sda-2023-syllabus/",
+    "title": "Sda 2023 Syllabus",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2020-links",
+    "targetPath": "/sda-2020-links/",
+    "title": "Sda 2020 Links",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sarge",
+    "targetPath": "/sarge/",
+    "title": "Sarge",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/items",
+    "targetPath": "/items/",
+    "title": "Items",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/ein-gedi-15",
+    "targetPath": "/ein-gedi-15/",
+    "title": "Ein Gedi 15",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2023-assignments",
+    "targetPath": "/sda-2023-assignments/",
+    "title": "Sda 2023 Assignments",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2024-links",
+    "targetPath": "/sda-2024-links/",
+    "title": "Sda 2024 Links",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/lab-trip-2016",
+    "targetPath": "/lab-trip-2016/",
+    "title": "Lab Trip 2016",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/copy-of-lab-trip-dec-2021",
+    "targetPath": "/copy-of-lab-trip-dec-2021/",
+    "title": "Copy Of Lab Trip Dec 2021",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/publications",
+    "targetPath": "/publications/",
+    "title": "Publications",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2020-assignments",
+    "targetPath": "/sda-2020-assignments/",
+    "title": "Sda 2020 Assignments",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/copy-of-lab-trip-2020",
+    "targetPath": "/copy-of-lab-trip-2020/",
+    "title": "Copy Of Lab Trip 2020",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2023-recitation",
+    "targetPath": "/sda-2023-recitation/",
+    "title": "Sda 2023 Recitation",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/matlab-2018-lectures",
+    "targetPath": "/matlab-2018-lectures/",
+    "title": "Matlab 2018 Lectures",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2023-links",
+    "targetPath": "/sda-2023-links/",
+    "title": "Sda 2023 Links",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2022-assignments",
+    "targetPath": "/sda-2022-assignments/",
+    "title": "Sda 2022 Assignments",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/roadtrip2021-map",
+    "targetPath": "/roadtrip2021-map/",
+    "title": "Roadtrip2021 Map",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/cv",
+    "targetPath": "/cv/",
+    "title": "Cv",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2025-recitation",
+    "targetPath": "/sda-2025-recitation/",
+    "title": "Sda 2025 Recitation",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2022-links",
+    "targetPath": "/sda-2022-links/",
+    "title": "Sda 2022 Links",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/sda-2023-videos",
+    "targetPath": "/sda-2023-videos/",
+    "title": "Sda 2023 Videos",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  },
+  {
+    "sourceUrl": "https://www.ibglab.org/copy-of-sda-2023-recitation",
+    "targetPath": "/copy-of-sda-2023-recitation/",
+    "title": "Copy Of Sda 2023 Recitation",
+    "language": "en",
+    "priority": 0.6,
+    "migrationStatus": "pending",
+    "lastmod": "2025-10-23"
+  }
+]

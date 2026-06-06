@@ -1,0 +1,248 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2024-lectures",
+  "targetPath": "/sda-2024-lectures/",
+  "title": "SDA 2024 lectures",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2024"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lectures"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "6/5/2024 Signals and data in neuroscience"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "8/5/2024 Stochastic processes"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "15/5/2024 Poisson processes"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "20-22/5/2024 Point process assessment"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "27/5/2024 Neural encoding"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "29/5/2024 Discrimination"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "3/6/2024 Optimization"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "5/6/2024 Detection"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "10/6/2024 Quiz 1"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "17-19/6/2024 Information theory"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "24/6/2024 Dimensionality reduction & Clustering"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "26/6/2024 Quiz 2"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "1/7/2024 Frequency domain"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "3/7/2024 Systems"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "8/7/2024 Filters"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "10-15/7/2024 Spectral analysis"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "​​"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "17/7/2024 Wavelets"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "18/7/2024 Quiz 3"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "​​​"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "30/7/2024 Quiz 4​​​"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EYi2eMl1V1BGg-cMHf7OuYwBkOuU11xou2-VJ9f29vGP7g?e=XTlFgq",
+      "text": "Signals and data in neuroscience"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EdhC-iZUPMdIqUUMHUt4HJQBQKVNE4ijEx3DbAKCOpCEow?e=aB5Sdm",
+      "text": "Stochastic processes"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EdJpOH8UZVhMpR48PaCFq5oB02kr1JpHe3JqlsLMLc0Mzw?e=g1fgXL",
+      "text": "Poisson processes"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EVo-dULr7mFHhnjdz4-MsMsBj6UKR1jMfeesqAkEb0fPGQ?e=MwfuTe",
+      "text": "Point process assessment"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EUuzIJ3OlMxLkCqI8VdmdWgBALZ8_o0pNfqYN7HDlxVJOQ?e=86idp5",
+      "text": "Neural encoding"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/ETCjnOZHLIFNhU1hXpV-Hv8BEdfvpYEqBGOAKMmcKflvuw?e=nGBip0",
+      "text": "Discrimination"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EdPsA7wGw5JCnkEosDlGk2sB5QtqcmmBJyGeUxX0Zd3qmg?e=k3UQzm",
+      "text": "Optimization"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/Ebv4Q4IofE5KgkK7u6PZqiABisVQrvFLyoeKoDT1mCABMQ?e=6oq9da",
+      "text": "Detection"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EW9MsbJdQtJDm17-Kx1RTT0BdkZdXE21hFjGTvqjpBW51Q?e=CZI7pf",
+      "text": "Information theory"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EVJQwBR3uYxHhDGWXBywbtYBKEtGaHvq2vgQYEh82PezGg?e=kUXN8I",
+      "text": "Dimensionality reduction"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EV45VpaL8d1AqoGFbISxLtUBibXr-CHaypkyC9l88XbYzQ?e=0cdrbR",
+      "text": "Clustering"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EQ2DT-0pX91AkpvkWjUovV0BLV8qyR8NpPUR5q0QL49HJw?e=FK1qeG",
+      "text": "Frequency domain"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EQV0haiBgPFFmMx9k-N-J5UBX3KllmpkQbeSDvzFzOmItw?e=X39Ndg",
+      "text": "Systems"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EUexGSjjGJBAh0CdIcUNerYBF2PsoVh9fXxxbZ3XSmGSWw?e=tPPqCS",
+      "text": "Filters"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EbcoexMPpP1IvgB1b776RtgBm-O_b44wFy-miZiwJEzRWw?e=SeYXlH",
+      "text": "Spectral analysis"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/ESeMRsFVYn1GvcByYQ_cip8BZFq9VSE8VFqEoVaZNDwdqg?e=mxIqMx",
+      "text": "Wavelets"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

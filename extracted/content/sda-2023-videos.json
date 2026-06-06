@@ -1,0 +1,79 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2023-videos",
+  "targetPath": "/sda-2023-videos/",
+  "title": "SDA 2023 videos",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2023"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Videos"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

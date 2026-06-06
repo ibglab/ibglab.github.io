@@ -1,0 +1,515 @@
+---
+import CoursePasswordGate from "../components/CoursePasswordGate.astro";
+import { protectedCourseForPath } from "../lib/protectedCourses.js";
+
+const {
+  title = "IBG Lab",
+  description = "IBG Lab at Bar-Ilan University.",
+} = Astro.props;
+const protectedCourse = protectedCourseForPath(Astro.url.pathname);
+
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/publications/", label: "Publications" },
+  { href: "/us/", label: "People" },
+  { href: "/news/", label: "News" },
+  { href: "/roadtrip2021-blog/", label: "Blog" },
+  { href: "/courses/", label: "Courses" },
+  { href: "/software/", label: "Software" },
+  { href: "/contact/", label: "Contact" },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    {protectedCourse && <meta name="robots" content="noindex, nofollow" />}
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site).toString()} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).toString()} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <div class="header-top">
+          <a class="brand" href="/">
+            <span class="brand-mark" aria-hidden="true">IBG</span>
+            <span>
+              <strong>IBG Lab</strong>
+              <small>Computational Basal Ganglia Research</small>
+            </span>
+          </a>
+          <div class="diamond-strip" aria-label="IBG Lab research imagery">
+            <figure class="diamond-image">
+              <img src="/media/bb640f_df5caffec93a46b2ab1b93533abbbe01.jpg" alt="Illustration of a neural recording implant on a rat" />
+            </figure>
+            <figure class="diamond-image">
+              <img src="/media/bb640f_41e993076ff6407e91f71d4d6812e041.jpg" alt="Fluorescent microscopy image of neurons" />
+            </figure>
+            <figure class="diamond-image">
+              <img src="/media/bb640f_c617ec425db0428a9630dd1d1742403e.jpg" alt="Extracellular neural signal waveform" />
+            </figure>
+          </div>
+        </div>
+        <div class="nav-links">
+          {navItems.map((item) => (
+            <a href={item.href}>{item.label}</a>
+          ))}
+        </div>
+      </nav>
+    </header>
+    <main id="content">
+      {protectedCourse ? (
+        <CoursePasswordGate course={protectedCourse}>
+          <slot />
+        </CoursePasswordGate>
+      ) : (
+        <slot />
+      )}
+    </main>
+    <footer class="site-footer">
+      <div>
+        <strong>IBG Lab</strong>
+        <p>Bar-Ilan University, Gonda Multidisciplinary Brain Research Center.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    color-scheme: light;
+    --bg: #f6f4ee;
+    --surface: #ffffff;
+    --ink: #172326;
+    --muted: #5f6d70;
+    --line: #d9d2c4;
+    --green: #3e7d55;
+    --blue: #155c73;
+    --gold: #b9852f;
+    --max: 1120px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+  }
+
+  a {
+    color: var(--blue);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 10;
+    background: var(--ink);
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .skip-link:focus {
+    top: 1rem;
+  }
+
+  .site-header {
+    border-bottom: 1px solid var(--line);
+    background: rgba(246, 244, 238, 0.94);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    backdrop-filter: blur(10px);
+  }
+
+  .nav-shell,
+  .site-footer {
+    width: min(var(--max), calc(100% - 2rem));
+    margin: 0 auto;
+  }
+
+  .nav-shell {
+    display: grid;
+    gap: 0.6rem;
+    padding: 0.7rem 0 0.55rem;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--ink);
+    text-decoration: none;
+    min-width: 16rem;
+  }
+
+  .brand-mark {
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background: var(--ink);
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0;
+    flex: 0 0 auto;
+  }
+
+  .brand small,
+  .site-footer p {
+    display: block;
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .nav-links a {
+    color: var(--ink);
+    font-size: 0.95rem;
+    text-decoration: none;
+  }
+
+  .nav-links a:hover {
+    color: var(--green);
+  }
+
+  .diamond-strip {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.25rem 1.2rem;
+    overflow: hidden;
+  }
+
+  .diamond-image {
+    width: 4.35rem;
+    aspect-ratio: 1;
+    margin: 0;
+    border: 3px solid var(--surface);
+    background: var(--surface);
+    box-shadow: 0 0 0 1px var(--line);
+    transform: rotate(45deg);
+    overflow: hidden;
+    flex: 0 0 auto;
+  }
+
+  .diamond-image img {
+    width: 142%;
+    max-width: none;
+    height: 142%;
+    margin: -21%;
+    object-fit: cover;
+    transform: rotate(-45deg);
+  }
+
+  main {
+    min-height: 72vh;
+  }
+
+  .content-page {
+    width: min(920px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 3rem 0 4rem;
+  }
+
+  .page-head {
+    max-width: 760px;
+    margin-bottom: 2rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.45rem;
+    color: var(--green);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  h1,
+  h2,
+  h3 {
+    line-height: 1.12;
+    letter-spacing: 0;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 800;
+    max-width: 12ch;
+  }
+
+  h2 {
+    margin: 2.25rem 0 0.7rem;
+    font-size: 1.65rem;
+  }
+
+  h3 {
+    margin: 1.65rem 0 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  .lede {
+    margin: 1rem 0 0;
+    color: var(--muted);
+    font-size: 1.15rem;
+    max-width: 62ch;
+  }
+
+  .source-link {
+    display: inline-flex;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .hero-media {
+    margin: 2rem 0;
+    border-top: 4px solid var(--gold);
+  }
+
+  .hero-media img {
+    width: 100%;
+    max-height: 520px;
+    object-fit: cover;
+  }
+
+  figcaption {
+    color: var(--muted);
+    font-size: 0.86rem;
+    margin-top: 0.5rem;
+  }
+
+  .page-body {
+    max-width: 760px;
+  }
+
+  .page-body p {
+    margin: 0.8rem 0;
+    font-size: 1.02rem;
+  }
+
+  .list-line {
+    padding-left: 1rem;
+    border-left: 3px solid var(--line);
+  }
+
+  .media-grid {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+
+  .media-grid figure {
+    margin: 0;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .media-grid img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .media-grid figcaption {
+    padding: 0 0.75rem 0.75rem;
+  }
+
+  .related-links {
+    margin-top: 2.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    max-width: 760px;
+  }
+
+  .related-links ul {
+    columns: 2;
+    padding-left: 1.2rem;
+  }
+
+  .course-index h1 {
+    max-width: 100%;
+  }
+
+  .course-years {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .course-year {
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .course-year h2 {
+    margin-top: 0;
+  }
+
+  .course-link-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .course-link {
+    display: grid;
+    gap: 0.35rem;
+    min-height: 5.5rem;
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .course-link:hover {
+    border-color: var(--green);
+    color: var(--green);
+  }
+
+  .course-link span {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .simple-index {
+    max-width: 720px;
+  }
+
+  .simple-index h1 {
+    max-width: 100%;
+  }
+
+  .plain-link-list {
+    display: grid;
+    gap: 0.85rem;
+    margin: 1.75rem 0 2.5rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .plain-link-list a {
+    font-size: 1.2rem;
+  }
+
+  .plain-text-list {
+    display: grid;
+    gap: 0.55rem;
+    margin: 1.25rem 0 2.5rem;
+    padding: 0;
+    color: var(--muted);
+    list-style: none;
+  }
+
+  .site-footer {
+    padding: 2rem 0 3rem;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 780px) {
+    .site-header {
+      position: static;
+    }
+
+    .nav-shell,
+    .site-footer {
+      width: min(100% - 1.25rem, var(--max));
+    }
+
+    .nav-shell,
+    .site-footer {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .header-top {
+      width: 100%;
+      gap: 0.75rem;
+    }
+
+    .nav-links {
+      justify-content: flex-start;
+    }
+
+    .brand {
+      min-width: 0;
+    }
+
+    .brand small {
+      display: none;
+    }
+
+    .diamond-strip {
+      gap: 1.25rem;
+      padding: 0.2rem 0.6rem;
+    }
+
+    .diamond-image {
+      width: 2.7rem;
+      border-width: 2px;
+    }
+
+    h1 {
+      font-size: 2.35rem;
+      max-width: 100%;
+    }
+
+    .content-page {
+      width: min(100% - 1.25rem, 920px);
+      padding-top: 2rem;
+    }
+
+    .related-links ul {
+      columns: 1;
+    }
+  }
+</style>

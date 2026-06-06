@@ -1,0 +1,305 @@
+{
+  "sourceUrl": "https://www.ibglab.org/matlab-2018-lectures",
+  "targetPath": "/matlab-2018-lectures/",
+  "title": "MATLAB 2018 lectures",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "IBG Lab",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Scientific Programming using MATLAB (27-300)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "First semester, 2017-18"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lectures"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "22/10/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Introduction to programming"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "29/10/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Variables"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "05/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Flow - conditional"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Flow - repetition"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "12/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "SfN (Tirgul-Yocheved)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "19/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Quiz 1 (Variables+Flow)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "26/12/2016"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Functions"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "03/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Strings"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Debugging"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "10/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Data Types"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "17/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Basic graphics"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Graphic handles"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "24/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Quiz 2 (Variables to Data Types)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "31/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Advanced functions"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "07/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Files and I/O"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Toolboxes"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "14/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "GUI"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "21/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Final Quiz (Variables to Files and I/O) - In computo - Moed Aleph"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "24/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Final Quiz (Variables to Files and I/O) - In computo - Moed Bet"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_1e6f860ab21b4e879730dc77a7a55d8e.pdf",
+      "text": "Introduction to programming"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_19302cdd06bf42078fa51a1592af6b87.pdf",
+      "text": "Variables"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_c62f3d48ac4e4aba97e1d97fcb1ae643.pdf",
+      "text": "Flow - conditional"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_93458060665f4dbf9f31e382c1daf5c3.pdf",
+      "text": "Flow - repetition"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_fcac2de449ce4bc0913cb90ee23943a7.pdf",
+      "text": "Functions"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_084f772a512641c4a766110b50d68fbb.pdf",
+      "text": "Strings"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_dc9d5258f65d4e6487f8ab52a2be263f.pdf",
+      "text": "Debugging"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_7dc1cade27b7449b8e016c6f1a01e377.pdf",
+      "text": "Data Types"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_9adef08ec0ed45f898d53bcba69efd37.pdf",
+      "text": "Basic graphics"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_89dd32c2479743ccb2c545e8eaad834d.pdf",
+      "text": "Graphic handles"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_9f5d961af2144664888bca1562821380.pdf",
+      "text": "Advanced functions"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_ff9654bcc83d4e8cbb84e643b0c3ca1d.pdf",
+      "text": "Files and I/O"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_5b0d54b09f1c42dcb6009e4c145cba83.pdf",
+      "text": "Toolboxes"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_6a6bf108d8e44a4aaf5e501c2e4b3265.pdf",
+      "text": "GUI"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

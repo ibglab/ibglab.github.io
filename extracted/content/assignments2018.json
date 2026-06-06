@@ -1,0 +1,200 @@
+{
+  "sourceUrl": "https://www.ibglab.org/assignments2018",
+  "targetPath": "/assignments2018/",
+  "title": "MATLAB 2018 assignments",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "IBG Lab",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Scientific Programming using MATLAB (27-300) - Assignments"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Due date"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "29/10/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 1"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "05/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 2"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "12/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 3"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "03/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 4"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "10/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 5"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "24/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 6"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "07/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 7"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "14/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 8"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "28/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 9"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_abb348496bb94cfab61b0f9aaf392bd4.pdf",
+      "text": "Assignment 1"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_1e5598de4e864c20b2e4fca705693b68.pdf",
+      "text": "Assignment 2"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_342598a403724adba0f89ada8328e520.pdf",
+      "text": "Assignment 3"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_cef5233f6d71417c82a10da58b33ff8a.pdf",
+      "text": "Assignment 4"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_1d9fbb3d4ea3458e8a2612a8195d59ba.pdf",
+      "text": "Assignment 5"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_87c5e0a596924e5ba9312137c655c67f.pdf",
+      "text": "Assignment 6"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_3b52656e68184cd981271945306fd636.pdf",
+      "text": "Assignment 7"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_ee7543807dc3461b91453424c4533415.pdf",
+      "text": "Assignment 8"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_466b9e29e72040d5a1234a8392e052d5.pdf",
+      "text": "Assignment 9"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

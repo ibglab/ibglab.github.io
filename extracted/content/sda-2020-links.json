@@ -1,0 +1,352 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2020-links",
+  "targetPath": "/sda-2020-links/",
+  "title": "SDA 2020 links",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Additional links"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Yarden Nativ -Lesson summaries"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "1 - SDA in Neuroscience"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2 - Stochastic processes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "3 - Poisson processes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "4 - Point processes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "5 - Encoding, discrimination, decoding"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "6 - Optimization"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "7 - Information theory"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "8 - PCA & ICA"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "9 - Clustering"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "10 - The frequency domain"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "11 - Wavelets"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Books"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Numerical recipes"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Theoretical Neuroscience - Dayan & Abbott (pdf)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Signal processing for neuroscientists"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Practical optimization"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "The Matrix Cookbook (pdf)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Programming"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Introduction to Jupyter Notebooks"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Introduction to Python, NumPy and mostly SciPy (pdf)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lectures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bayesian decisions"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Test examples"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2010 Aleph"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2010 Bet"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2015 Aleph (written)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2015 Aleph (in-computo)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Other resources"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Kernel PCA lecture"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Fourier transform (YouTube movie)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Fourier series of periodic signals (Applet)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Fourier transform of spatial (image) signals"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "/_files/ugd/bb640f_5d33c7ebc5c840d6b5959e78e157752a.docx/",
+      "text": "1 - SDA in Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_232e5c78247349d4aee950ee02abf3e5.docx/",
+      "text": "2 - Stochastic processes"
+    },
+    {
+      "href": "/_files/ugd/bb640f_eb98e0fd7cd3447794296d6a0dbb7dcb.docx/",
+      "text": "3 - Poisson processes"
+    },
+    {
+      "href": "/_files/ugd/bb640f_3e52d55cd40a42ada326a4f6b5dc5e17.docx/",
+      "text": "4 - Point processes"
+    },
+    {
+      "href": "/_files/ugd/bb640f_7c24893fc7b94ed080865335e038e5ff.docx/",
+      "text": "5 - Encoding, discrimination, decoding"
+    },
+    {
+      "href": "/_files/ugd/bb640f_9ad0a61651ee4babb253f09ff75fafe5.docx/",
+      "text": "6 - Optimization"
+    },
+    {
+      "href": "/_files/ugd/bb640f_44820548df864890b6cca65aacd823ce.docx/",
+      "text": "7 - Information theory"
+    },
+    {
+      "href": "/_files/ugd/bb640f_56fd9ccbe8484ee2befb41bf822e7f52.docx/",
+      "text": "8 - PCA & ICA"
+    },
+    {
+      "href": "/_files/ugd/bb640f_5a0237ec9942437d852ac12d9493b06a.docx/",
+      "text": "9 - Clustering"
+    },
+    {
+      "href": "/_files/ugd/bb640f_7bef1e7e6f6b457c8b62b9b24d2297dd.docx/",
+      "text": "10 - The frequency domain"
+    },
+    {
+      "href": "/_files/ugd/bb640f_d1fd4693b0e64695a1fb153fe3d213ed.docx/",
+      "text": "11 - Wavelets"
+    },
+    {
+      "href": "http://numerical.recipes/",
+      "text": "Numerical recipes"
+    },
+    {
+      "href": "http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf",
+      "text": "Theoretical Neuroscience - Dayan & Abbott (pdf)"
+    },
+    {
+      "href": "https://www.elsevier.com/books/signal-processing-for-neuroscientists/van-drongelen/978-0-12-810482-8",
+      "text": "Signal processing for neuroscientists"
+    },
+    {
+      "href": "https://link.springer.com/book/10.1007/978-0-387-71107-2",
+      "text": "Practical optimization"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/ESssv4kvPN1Fh7k10uaPdskBQ39P24M394OZRVW5q1nGHg?e=o7Lfm2",
+      "text": "The Matrix Cookbook (pdf)"
+    },
+    {
+      "href": "https://www.dataquest.io/blog/jupyter-notebook-tutorial/",
+      "text": "Introduction to Jupyter Notebooks"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/ESiQbrGFguZNhisxNwFtOcoBLBVVdQNAfWzatfKz-L7Q9A?e=ke7d3L",
+      "text": "Introduction to Python, NumPy and mostly SciPy (pdf)"
+    },
+    {
+      "href": "/_files/ugd/bb640f_01a00fcae3c845a6876f15194fccf468.pdf/",
+      "text": "Bayesian decisions"
+    },
+    {
+      "href": "/_files/ugd/bb640f_1d79d55dd0c94d9094f03ec53d5c3a02.doc/",
+      "text": "2010 Aleph"
+    },
+    {
+      "href": "/_files/ugd/bb640f_135a9e54f5874a21a9d4130fa5f30367.doc/",
+      "text": "2010 Bet"
+    },
+    {
+      "href": "/_files/ugd/bb640f_f44049b799fd459c845bc4fd31296878.docx/",
+      "text": "2015 Aleph (written)"
+    },
+    {
+      "href": "/_files/archives/bb640f_51c690472a9a4727a5810f09714caa81.rar/",
+      "text": "2015 Aleph (in-computo)"
+    },
+    {
+      "href": "http://www.cs.haifa.ac.il/~rita/uml_course/lectures/KPCA.pdf",
+      "text": "Kernel PCA lecture"
+    },
+    {
+      "href": "https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DspUNpyF58BY&data=02%7C01%7Cizhar.bar-gad%40biu.ac.il%7C65e9dfb4d530468d97c508d808822205%7C61234e145b874b67ac198feaa8ba8f12%7C1%7C0%7C637268702287300095&sdata=DOPzQS%2FQJGYmcW%2FDWsO2houMuX1A04OjupLBrC6e%2BLY%3D&reserved=0",
+      "text": "Fourier transform (YouTube movie)"
+    },
+    {
+      "href": "http://www.falstad.com/fourier/",
+      "text": "Fourier series of periodic signals (Applet)"
+    },
+    {
+      "href": "http://fourier.eng.hmc.edu/e101/lectures/Image_Processing/Image_Processing.html",
+      "text": "Fourier transform of spatial (image) signals"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

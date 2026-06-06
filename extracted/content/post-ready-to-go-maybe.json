@@ -1,0 +1,77 @@
+{
+  "sourceUrl": "https://www.ibglab.org/post/ready-to-go-maybe",
+  "targetPath": "/post/ready-to-go-maybe/",
+  "title": "Ready to go?",
+  "description": "",
+  "language": "en",
+  "priority": 0.4,
+  "migrationStatus": "extracted",
+  "section": "Road trip blog",
+  "isBlog": true,
+  "lastmod": "2021-07-16",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "list",
+      "level": null,
+      "text": "All Posts"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Ready to go?"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Jul 16, 2021"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "1 min read"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "We are less than 36 hours from our flight and awaiting anxiously for the results of the COVID-19 PCR test. In our brave new world, it seems that even a road trip cannot begin until the pandemic gives it a green light. The chances for a positive result are slim but it still seems to add unnecessary stress and reduce the sense of freedom which is supposed to accompany such a trip. Alas, all that we can do is wait."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Recent Posts"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Comments"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "All Posts"
+    },
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "See All"
+    },
+    {
+      "href": "https://www.ibglab.org/post/nostalgia",
+      "text": "Nostalgia"
+    },
+    {
+      "href": "https://www.ibglab.org/post/a-different-las-vegas",
+      "text": "A different Las Vegas"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-decay-of-west-coast-big-city-downtowns",
+      "text": "The decay of west-coast big-city downtowns"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [
+    "https://static.wixstatic.com/media/bb640f_f4184f3c8ad84eaca1c54708ce315628~mv2.png"
+  ],
+  "extractionErrors": []
+}

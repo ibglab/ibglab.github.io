@@ -1,0 +1,327 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2022-lectures",
+  "targetPath": "/sda-2022-lectures/",
+  "title": "SDA 2022 lectures",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2022"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lectures"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2/3/2022 Signals and data in neuroscience"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "8/3/2022 Stochastic processes"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "9/3/2022 Poisson processes"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "15/3/2022 Single spike trains"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "22-23/3/2022 Multiple spike trains"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "29-30/3/2022 Neural encoding"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "5/4/2022 Neural discrimination"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "6/4/2022 Quiz 1"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Holiday - Passover"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "26/4/2022 Neural decoding"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "27/4/2022 Optimization"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "3/5/2022 Manuscripts (Bayes) (Loss)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Holiday - Independence day"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "17-18/5/2022 Information theory"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "24/5/2022 Dimensionality reduction"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "31/5/2022 Independent component analysis (ICA)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "1/6/2022 Clustering"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2/6/2022 Frequency domain"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "20/6/2022 Systems"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "21/6/2022 Filters"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "16/6/2022 Spectral analysis"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "21/6/2022 Wavelets"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "22/6/2022 Manuscripts (Info) (CPU)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EZnOIZbEP3pEuWkH4scEBwQBXlZ6a7I69UYNiEybMtbYAw?e=Ko7KiW",
+      "text": "Signals and data in neuroscience"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/Ed509xyfLmJBqbHzVN1O74gBTyW3eL1nz5xum4uaiCn6_Q?e=orAHa0",
+      "text": "Stochastic processes"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EYwR_1_scN1LlvZeRrdL8XkBV5L4cgwd2J6Jc5EDCtGbQw?e=QxlYg3",
+      "text": "Poisson processes"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EbqEhzF6SFJGo5b-iPHDGk0BKxxsNoS8Na52_eOQpKQppg?e=KXcYe6",
+      "text": "Single spike trains"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/Efp-wQ50F4lOucT7zXVvU90BDqH1OwxxWMYSVvL5vAGiaw?e=rtrh6m",
+      "text": "Multiple spike trains"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EcBEu9d5moNItSWHuYbyRn4BDaU02FMdDHzQNQlOZS_iPA?e=BzxSqz",
+      "text": "Neural encoding"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EW6WFCqVFChJk3r8a1jKOhUBhaYCpV9p6jRMzbREUj6fgA?e=sijddr",
+      "text": "Neural discrimination"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EXO9AMh_VK5HrG6GDe5q410BcL1v9IgR8kgCnn9r3-Go7Q?e=UfXVPt",
+      "text": "Neural decoding"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EcbgvIhq6vtFl4zP3ravySgBLWeednDOgyEz8q6mycAmFg?e=XT1IYX",
+      "text": "Optimization"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/Edyw1IuF_h5Ntuf_Ub_evGIB7yZHoydZsHzhUO3lsh-HJA?e=57h0UW",
+      "text": "Bayes"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EbprGR45mq5NvMcg0i3vDp0BzDS1Pk8y5FkIb9sjdBrMDw?e=yhVLaT",
+      "text": "Loss"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EdXIUMeejclHsJHWzRNOZ8cBaFP93D0wuz84orkVoXOPZg?e=5zBJ93",
+      "text": "Information theory"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EVo5keE1VEtItW7sdfuMleoBmhHT6q4RVG886ySFxjuWKA?e=ZMFEOT",
+      "text": "Dimensionality reduction"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/ETtgLZvJK1JPgI15QD9YNiQBCbEJyHPkmAyYlX9S8towmQ?e=pVfMlG",
+      "text": "Independent component analysis (ICA)"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/Eadu3stJqdVJkvRmw3QnuwsBx6pu1NDk0iLMWoDxvY5SCg?e=4oz5Ku",
+      "text": "Clustering"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EYLZkioNKNVFseKSX3HMH1oBxXRyqjPJsDl7yqu_JZzryQ?e=eUNqkX",
+      "text": "Frequency domain"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EepNTe9q2nlCoGkx6VYN65ABNkGupbaATr7ZlRgTHSyJ1g?e=P3Lb4q",
+      "text": "Systems"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EROGpL_8aohKvLWMgMpGYX4B4YT7ESyl9jwFCB_MqNlcSw?e=vRgtA5",
+      "text": "Filters"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EZ5r0VGxc0hGsFkupKZoNncBqTHy0CKo5lMGboNzPPaV1g?e=r5soTi",
+      "text": "Spectral analysis"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/ETFF8y4VDcxOtcvJrNlK0IsBFHYBCEYXAcIPoKpfsbI0ow?e=TMbPPN",
+      "text": "Wavelets"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/EcdoPzHxekJOseBr4PUia2oB67KzL4H_R_3pCE2a-FvH6A?e=pEefDH",
+      "text": "Info"
+    },
+    {
+      "href": "https://biu365-my.sharepoint.com/:b:/g/personal/bargadi_biu_ac_il/Ea-P3gDevWREgG-qW_GLtpsBG7FGnoQtQf4zQoQMNvqIgg?e=yGLYZP",
+      "text": "CPU"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

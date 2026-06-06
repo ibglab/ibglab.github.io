@@ -1,0 +1,371 @@
+{
+  "sourceUrl": "https://www.ibglab.org/tirgul2018",
+  "targetPath": "/tirgul2018/",
+  "title": "MATLAB 2018 Tirgul",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "IBG Lab",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Scientific Programming using MATLAB (27-300) - Tirgul"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Date"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "22/10/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Introduction to programming"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "29/10/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Variables"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "05/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Flow Control"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "12/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "SFN - No tirgul"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "19/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "No tirgul"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "26/11/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Functions"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "03/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "10/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Strings & Data Types"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "17/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Basic graphics & Graphic handles"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "24/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "31/12/2017"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Advanced functions"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "07/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Files and I/O"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "14/01/2018"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "GUI"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 1"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 2"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 3"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 4"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Presentation"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Practice"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Example files"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 5"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 6"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 8"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 7"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Practice 9"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_08132f674da1408790f215026b02c999.pdf",
+      "text": "Introduction to programming"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_9b27bf76f2bc466e8d8569dab29b6966.pdf",
+      "text": "Variables"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_80899f4998fb43a1ad46918028967465.pdf",
+      "text": "Flow Control"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_0ed31da6d5774d979b48e3a1b6b912c6.pdf",
+      "text": "Functions"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_29a4363f83014fb7ae34fa5a45d565a4.pdf",
+      "text": "Strings & Data Types"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_7489d10496bf48f8a455bfedfe2c55fb.pdf",
+      "text": "Basic graphics & Graphic handles"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_0f11357d01c84345a7514f850a09559f.pdf",
+      "text": "Advanced functions"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_12d2e6963f9f412d9a75338294f1af07.pdf",
+      "text": "Files and I/O"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_b1f7eadb10ba4dfea811986d8816bff5.pdf",
+      "text": "GUI"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_8df182c70f364c29aab39cad7b622b49.pdf",
+      "text": "Practice 1"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_9b421ec8e60040d39b15bd4acda04bf8.pdf",
+      "text": "Practice 2"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_1bc0f90f2bb24efea5c563976cbbccfd.pdf",
+      "text": "Practice 3"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_302c1c64dbf0417080c4b356d2170cd0.pdf",
+      "text": "Practice 4"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_383bce9844db4654ac17457766f8a721.pdf",
+      "text": "Practice 5"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_0b7c9b9604c344d681a7e1aa2920228a.pdf",
+      "text": "Practice 6"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_18eff564130d41e8bdd44a312f9d672f.pdf",
+      "text": "Practice 8"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_25500d965c044426bb68e8d3eb9157f4.pdf",
+      "text": "Practice 7"
+    },
+    {
+      "href": "https://www.ibglab.org/_files/ugd/bb640f_5a7736708f2d432b894dfdc77b9a67d2.pdf",
+      "text": "Practice 9"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

@@ -1,0 +1,200 @@
+{
+  "sourceUrl": "https://www.ibglab.org/roadtrip2021-blog",
+  "targetPath": "/roadtrip2021-blog/",
+  "title": "RoadTrip-2021-Blog",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Gallery",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "list",
+      "level": null,
+      "text": "All Posts"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Nostalgia"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "A different Las Vegas"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "The decay of west-coast big-city downtowns"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "The great parks of Utah - part 3"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "The great parks of Utah - part 2"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Orienteering and Geocaching"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "The great parks of Utah – Part 1"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "An unexpected day Idaho"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Yellowstone national park"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Olympic national park"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Short hikes near mount St. Helens"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Mixed impressions of Portland"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "A day in southern Oregon"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Camping for non-campers"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "American oddities"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "A tale of two trails"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "San Francisco here we come"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Ready to go?"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Once we were younger"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "All Posts"
+    },
+    {
+      "href": "https://www.ibglab.org/post/nostalgia",
+      "text": "Nostalgia"
+    },
+    {
+      "href": "https://www.ibglab.org/post/a-different-las-vegas",
+      "text": "A different Las Vegas"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-decay-of-west-coast-big-city-downtowns",
+      "text": "The decay of west-coast big-city downtowns"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-great-parks-of-utah-part-3",
+      "text": "The great parks of Utah - part 3"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-great-parks-of-utah-part-2",
+      "text": "The great parks of Utah - part 2"
+    },
+    {
+      "href": "https://www.ibglab.org/post/orienteering-and-geocaching",
+      "text": "Orienteering and Geocaching"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-great-parks-of-utah-part-1",
+      "text": "The great parks of Utah – Part 1"
+    },
+    {
+      "href": "https://www.ibglab.org/post/an-unexpected-day-idaho",
+      "text": "An unexpected day Idaho"
+    },
+    {
+      "href": "https://www.ibglab.org/post/yellowstone-national-park",
+      "text": "Yellowstone national park"
+    },
+    {
+      "href": "https://www.ibglab.org/post/olympic-national-park",
+      "text": "Olympic national park"
+    },
+    {
+      "href": "https://www.ibglab.org/post/short-hikes-near-mount-st-helens",
+      "text": "Short hikes near mount St. Helens"
+    },
+    {
+      "href": "https://www.ibglab.org/post/mixed-impressions-of-portland",
+      "text": "Mixed impressions of Portland"
+    },
+    {
+      "href": "https://www.ibglab.org/post/a-day-in-southern-oregon",
+      "text": "A day in southern Oregon"
+    },
+    {
+      "href": "https://www.ibglab.org/post/camping-for-non-campers",
+      "text": "Camping for non-campers"
+    },
+    {
+      "href": "https://www.ibglab.org/post/american-oddities",
+      "text": "American oddities"
+    },
+    {
+      "href": "https://www.ibglab.org/post/a-tale-of-two-trails",
+      "text": "A tale of two trails"
+    },
+    {
+      "href": "https://www.ibglab.org/post/san-francisco-here-we-come",
+      "text": "San Francisco here we come"
+    },
+    {
+      "href": "https://www.ibglab.org/post/ready-to-go-maybe",
+      "text": "Ready to go?"
+    },
+    {
+      "href": "https://www.ibglab.org/post/once-we-were-younger",
+      "text": "Once we were younger"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

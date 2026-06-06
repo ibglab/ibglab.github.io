@@ -1,0 +1,225 @@
+{
+  "sourceUrl": "https://www.ibglab.org",
+  "targetPath": "/",
+  "title": "Neural Interfaces lab",
+  "description": "The neural interfaces lab targets the research of bidirectional interaction between computerized systems and the central nervous system",
+  "language": "en",
+  "priority": 1,
+  "migrationStatus": "extracted",
+  "section": "IBG Lab",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "The neural interfaces lab headed by Prof. Izhar Bar-Gad targets the research of bidirectional interaction between computerized systems and the central nervous system. The long-term goal of the lab is to use this interaction to provide a deeper understanding of the pathophysiology of neural disorders and to create the electrophysiological basis for the treatment of their symptoms. The research utilizes a comprehensive approach which combines broad usage of animal models for the different diseases, electrophysiological recordings from human subjects undergoing neurosurgery and computational models."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "The current focus of the lab is shedding light on the neurophysiology of motor and behavioral disorders associated with basal ganglia malfunction such as Parkinson's disease, Obsessive Compulsive Disorder (OCD), Tourette Syndrome and the amendment of their symptoms using electrical or magnetic modulation. This goal combines basic and clinical research, which on one hand unravels the information processing pathways of the cortico-basal ganglia loop and on the other hand attempts a direct intervention for improving the severe motor and behavioral disabilities associated with the aforementioned disorders."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "'Scientist-Celebrity'"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Jerusalem Post"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "In the Media"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "see more ..."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "for more information ..."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Latest Publications"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Latest News"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Aug. 2023"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Yocheved Loewenstern gave a lecture on her work at the International Parkinson and Movement Disorder Society conference. Yocheved's presentation went into explaining her research on \"Automatic assessment of tic expression using selfie-video\"."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Jun. 2023"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Orel Tahary presented his work at the poster session of the IBAGS annual meeting in Stockholm, Sweden. Orel presented his findings on 'The Impact of Striatal Disinhibition on Naturalistic Behaviors and its Neural Correlates'."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Roy Segal , Yuval al-Hanani, Kate Zinkovskaia and Izhar Bar-Gad participated in a Kaggle Competition 'Parkinson's Freezing of Gait Prediction' finishing in top 9% with over a 1000 teams partaking in the leaderboard."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Vinner E, Belelovsky K, Bar-Gad I"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "see more..."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=EM40x1Ml4tc&t=2677s",
+      "text": "Gonda Center 'Scientist-Celebrity' project aiming to popularize science and share knowledge. 'Scientist-Celebrity'"
+    },
+    {
+      "href": "https://www.jpost.com/health-science/bar-ilan-named-co-winners-of-parkinsons-disease-research-challenge-632645",
+      "text": "Bar-Ilan named co-winners of Parkinson's disease research challenge Jerusalem Post"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "see more ..."
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "for more information ..."
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "see more..."
+    },
+    {
+      "href": "http://www1.biu.ac.il/",
+      "text": "http://www1.biu.ac.il/"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "https://www.ibglab.org/contact"
+    },
+    {
+      "href": "http://www.gondabrain.biu.ac.il/",
+      "text": "http://www.gondabrain.biu.ac.il/"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

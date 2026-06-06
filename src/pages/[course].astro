@@ -1,0 +1,141 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { bscs2025Overview } from "../lib/bscs2025.js";
+import { getCourses } from "../lib/courseIndex.js";
+import { dsns2025Overview } from "../lib/dsns2025.js";
+import { sda2025Overview } from "../lib/sda2025.js";
+
+export function getStaticPaths() {
+  return getCourses().map((course) => ({
+    params: { course: course.slug },
+    props: { course },
+  }));
+}
+
+const { course } = Astro.props;
+const isSda2025 = course.slug === "sda-2025";
+const isDsns2025 = course.slug === "ds-ns-2025";
+const isBscs2025 = course.slug === "bs-cs-2025";
+---
+
+<BaseLayout title={course.name} description={`${course.name} course pages from IBG Lab.`}>
+  <article class="content-page course-index course-detail">
+    <header class="page-head">
+      <h1>{course.name}</h1>
+      {isSda2025 ? (
+        <p class="lede">{sda2025Overview.title}</p>
+      ) : isDsns2025 ? (
+        <p class="lede">{dsns2025Overview.title}</p>
+      ) : isBscs2025 ? (
+        <p class="lede">{bscs2025Overview.title}</p>
+      ) : course.protected ? (
+        <p class="lede">This course page is password-protected on the original Wix site. Share the password and I can migrate the protected content.</p>
+      ) : (
+        <p class="lede">Course materials migrated from the original Wix site.</p>
+      )}
+    </header>
+
+    {isSda2025 && (
+      <section class="course-overview" aria-label="SDA 2025 course information">
+        <p><strong>{sda2025Overview.term}</strong></p>
+        <p>{sda2025Overview.description}</p>
+        <p>Location: {sda2025Overview.location}</p>
+        <p><a href={sda2025Overview.formHref}>Form - Fill !!!</a></p>
+
+        <h2>Lectures</h2>
+        <p>{sda2025Overview.lectures.time}</p>
+        <p>Contact: {sda2025Overview.lectures.contact}</p>
+        <p>Phone: {sda2025Overview.lectures.phone} <span aria-hidden="true"> </span> Email: <a href={`mailto:${sda2025Overview.lectures.email}`}>{sda2025Overview.lectures.email}</a></p>
+
+        <h2>Recitation</h2>
+        <p>{sda2025Overview.recitation.time}</p>
+        <p>Contact: {sda2025Overview.recitation.contact}</p>
+        <p>Email: <a href={`mailto:${sda2025Overview.recitation.email}`}>{sda2025Overview.recitation.email}</a></p>
+
+        <h2>Course Material</h2>
+        <ul class="plain-link-list">
+          {sda2025Overview.links.map((link) => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {isDsns2025 && (
+      <section class="course-overview" aria-label="DS-NS 2025 course information">
+        <p><strong>{dsns2025Overview.term}</strong></p>
+        <p>{dsns2025Overview.description}</p>
+        <p>Location: {dsns2025Overview.location}.</p>
+
+        <h2>Lessons</h2>
+        <p>{dsns2025Overview.schedule}</p>
+        <p>Contact: {dsns2025Overview.contact.name}</p>
+        <p>
+          Phone: {dsns2025Overview.contact.phone}
+          <span aria-hidden="true"> </span>
+          Email: <a href={`mailto:${dsns2025Overview.contact.email}`}>{dsns2025Overview.contact.email}</a>
+        </p>
+
+        <ul class="plain-link-list lesson-link-list">
+          {dsns2025Overview.lessons.map((lesson) => (
+            <li>
+              {lesson.date}{" "}
+              <a href={lesson.slidesHref}>{lesson.title}</a>
+              {" "}({lesson.lecturer})
+              {lesson.videoHref && (
+                <> - <a href={lesson.videoHref}>Video</a></>
+              )}
+            </li>
+          ))}
+        </ul>
+
+        <h2>Course Material</h2>
+        <ul class="plain-link-list">
+          {dsns2025Overview.resources.map((resource) => (
+            <li><a href={resource.href}>{resource.label}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {isBscs2025 && (
+      <section class="course-overview" aria-label="BS-CS 2025 course information">
+        <p><strong>{bscs2025Overview.term}</strong></p>
+        <p>{bscs2025Overview.description}</p>
+        <p>Location: {bscs2025Overview.location}</p>
+        <p>{bscs2025Overview.schedule}</p>
+        <p>Contact: {bscs2025Overview.contact.name}</p>
+        <p>Email: <a href={`mailto:${bscs2025Overview.contact.email}`}>{bscs2025Overview.contact.email}</a></p>
+        <p><a href={bscs2025Overview.formHref}>Form - Fill !!!</a></p>
+
+        <h2>Lectures</h2>
+        <ul class="plain-link-list lesson-link-list">
+          {bscs2025Overview.lectures.map((lecture) => (
+            <li>{lecture.date} <a href={lecture.href}>{lecture.title}</a></li>
+          ))}
+        </ul>
+
+        <h2>Videos</h2>
+        <ul class="plain-link-list">
+          {bscs2025Overview.videos.map((video) => (
+            <li>{video.date} - <a href={video.href}>{video.label}</a></li>
+          ))}
+        </ul>
+
+        <h2>Course Material</h2>
+        <ul class="plain-link-list">
+          <li>Manuscripts</li>
+          <li><a href={bscs2025Overview.presentationsHref}>Presentations 2024</a></li>
+        </ul>
+      </section>
+    )}
+
+    {!isSda2025 && !isDsns2025 && !isBscs2025 && course.pages.length > 0 && (
+      <ul class="plain-link-list">
+        {course.pages.map((page) => (
+          <li><a href={page.href}>{page.type}</a></li>
+        ))}
+      </ul>
+    )}
+  </article>
+</BaseLayout>

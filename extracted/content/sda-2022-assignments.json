@@ -1,0 +1,200 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2022-assignments",
+  "targetPath": "/sda-2022-assignments/",
+  "title": "SDA 2022 assignments",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505) - Assignments"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2022"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 1, due date: 15/03/22 08:00- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "​​"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 2, due date: 22/03/22 08:00- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 3, due date: 29/03/22 08:00- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 4, due date: 24/04/22, 08:00- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 5, due date: 03/05/22, 08:00- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 6, due date: 12/05/22, 12:00- link presentation example"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 7, due date: 14/06/22, 08:00- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Assignment 8, due date: 15/07/22, 08:00- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1AYe5UZgku8giK5PbWjyWUkKQrZEg9DGa/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1VDHX5_mcOLp73gkxQEjtYgJtQSJl7Kzo/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1lJB6lGBy1GLMWl5cbt9m5AS_vDdiWLP9/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/16YuryUlrEWiVaEG96e_BACULWKbZymJR/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1AJPiwjerd1e3PUcnimLRxMC-JbevpNhW/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1Mx8NwmAquZOXzTgklHtReOz2Kuk39DcZ/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1Xbo6uF4bHBP5EBA_HYVOylcfWRX_IiR7/view?usp=sharing",
+      "text": "presentation example"
+    },
+    {
+      "href": "https://drive.google.com/file/d/11bs8xw2szCRuH_wL3OT8m3sDji8tYiVm/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1wAO7a44e8hhQguc0cejq8mX3caww9fdT/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

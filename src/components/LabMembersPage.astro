@@ -1,0 +1,173 @@
+---
+import { alumni, labMembers } from "../lib/labMembers.js";
+---
+
+<article class="content-page people-page">
+  <header class="page-head people-head">
+    <h1>Lab Members</h1>
+    <a class="source-link" href="https://www.ibglab.org/lab-members">Original Wix page</a>
+    <a class="cv-link" href="/cv/">Curriculum Vitae</a>
+  </header>
+
+  <section class="member-grid" aria-label="Lab members">
+    {labMembers.map((member) => (
+      <article class="member-card">
+        <img src={member.image} alt={member.alt} loading="lazy" decoding="async" />
+        <div>
+          <h2>{member.name}</h2>
+          {member.email && <p>{member.email}</p>}
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <section class="alumni-section" aria-labelledby="alumni-title">
+    <h2 id="alumni-title">Alumni</h2>
+    <div class="alumni-list">
+      {alumni.map((person) => (
+        <article class="alumni-card">
+          <h3>{person.name}</h3>
+          <div class="alumni-entries">
+            {person.entries.map((entry) => (
+              <div class="alumni-entry">
+                <p class="alumni-meta">
+                  <span>{entry.period}</span>
+                  <span>{entry.degree}</span>
+                  {entry.note && <span>{entry.note}</span>}
+                </p>
+                <p>{entry.project}</p>
+              </div>
+            ))}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</article>
+
+<style>
+  .people-page {
+    width: min(var(--max), calc(100% - 2rem));
+  }
+
+  .people-head h1 {
+    max-width: 100%;
+  }
+
+  .cv-link {
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: var(--ink);
+    font-size: 0.9rem;
+  }
+
+  .member-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    gap: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .member-card {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: 1rem;
+    align-items: center;
+    min-height: 7.5rem;
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+
+  .member-card img {
+    width: 5.5rem;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .member-card h2 {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  .member-card p {
+    margin: 0.35rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+    overflow-wrap: anywhere;
+  }
+
+  .alumni-section {
+    margin-top: 3.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .alumni-section h2 {
+    margin-top: 0;
+  }
+
+  .alumni-list {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .alumni-card {
+    display: grid;
+    grid-template-columns: minmax(12rem, 0.42fr) minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+
+  .alumni-card h3 {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  .alumni-entries {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .alumni-entry p {
+    margin: 0.25rem 0 0;
+  }
+
+  .alumni-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.75rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  @media (max-width: 520px) {
+    .people-page {
+      width: min(100% - 1.25rem, var(--max));
+    }
+
+    .cv-link {
+      display: flex;
+      margin-left: 0;
+    }
+
+    .member-card {
+      grid-template-columns: 4.75rem 1fr;
+    }
+
+    .member-card img {
+      width: 4.75rem;
+    }
+
+    .alumni-card {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

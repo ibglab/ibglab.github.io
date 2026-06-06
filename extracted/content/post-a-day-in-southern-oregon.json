@@ -1,0 +1,90 @@
+{
+  "sourceUrl": "https://www.ibglab.org/post/a-day-in-southern-oregon",
+  "targetPath": "/post/a-day-in-southern-oregon/",
+  "title": "A day in southern Oregon",
+  "description": "",
+  "language": "en",
+  "priority": 0.4,
+  "migrationStatus": "extracted",
+  "section": "Road trip blog",
+  "isBlog": true,
+  "lastmod": "2021-08-03",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "list",
+      "level": null,
+      "text": "All Posts"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "A day in southern Oregon"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Aug 3, 2021"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2 min read"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "We sadly left California on our way north and entered Oregon driving through miles upon miles of trees, which translates to kilometers upon kilometers of metric trees. Mostly green trees but some areas were burnt and black, sad reminders of the recent fires. We headed to Crater Lake which has been an illusive target of our last road trip 19 years ago. Back in 2002, we drove all the way to the lake just to find out that it was covered in smoke from a large series of wildfires and standing on its rim we could not see the lake itself."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "We were eager to get to the lake but decided to divide the drive to two parts and stop near Prospect for a short hike. The trail led us on that hot day through a cool forest to two viewpoints of the neighboring Mill Creek falls and Barr Creek falls. The first one has a stronger flow and the second is higher, but both are impressive. The trails continued in the opposite direction taking us down the creek to the river itself and the large boulder field bordering it. We ended up in a desolate pool created by the river in which we happily jumped around in the (very) cold water."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "We continued our drive through many more trees and got to the rim (the lake itself is deep inside the volcano’s crater) were we had some basic lunch and continued to the short trail next to the Information Center which provided stunning views of the lake. The lake is extremely clear (you can count on the American’s to actually measure it and grade it as the clearest in the USA) with a deep blue color derived from the fact that it does not have rivers flowing in and bringing sediments into it, decorated with the Wizard Island and its greenish pools. Feeling brave and strong we took a hike up to the Watchman Overlook. The trail to the overlook was somewhat steep but short (1.5 km) ascent and provided a magnificent view of both the lake and the surrounding area. We continued with a clockwise drive around the rim with multiple stops at different viewpoints, we even observed some of the people coming back from Cleetwood Cove, where you can access the lake itself after a steep descent, and decided that it was way over our league. Suddenly we noticed the time and being in the middle of nowhere we had to drive our way back to our accommodation and dinner. We barely made it to Beckie’s Café, the only place with food in a radius of 30 kilometers, a quarter of an hour before it closed and managed to get some good hamburgers and an excellent cherry pie before crossing the road to the Union Creek Lodge which is an ancient authentic place with very basic conditions (no air-conditioning, wifi or cellular reception) but with a nice little stream flowing outside. We were so tired that we dove into our beds unaffected by the conditions (or the stream) thus concluding our first day in Oregon."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Recent Posts"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "All Posts"
+    },
+    {
+      "href": "https://www.alltrails.com/trail/us/oregon/barr-creek-falls-viewpoint-and-mill-creek-falls-trail",
+      "text": "trail"
+    },
+    {
+      "href": "https://www.alltrails.com/explore/trail/us/oregon/the-watchman-peak-trail",
+      "text": "hike"
+    },
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "See All"
+    },
+    {
+      "href": "https://www.ibglab.org/post/nostalgia",
+      "text": "Nostalgia"
+    },
+    {
+      "href": "https://www.ibglab.org/post/a-different-las-vegas",
+      "text": "A different Las Vegas"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-decay-of-west-coast-big-city-downtowns",
+      "text": "The decay of west-coast big-city downtowns"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [
+    "https://static.wixstatic.com/media/bb640f_b7d8bf114ee84dfab1b4525299836e52~mv2.jpg"
+  ],
+  "extractionErrors": []
+}

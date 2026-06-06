@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://www.ibglab.org/copy-of-lab-trip-jun-2021",
+  "targetPath": "/copy-of-lab-trip-jun-2021/",
+  "title": "lab trip Dec 2021",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Gallery",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T14:09:13.698Z",
+  "blocks": [],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

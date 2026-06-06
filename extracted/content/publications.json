@@ -1,0 +1,775 @@
+{
+  "sourceUrl": "https://www.ibglab.org/publications",
+  "targetPath": "/publications/",
+  "title": "Publications",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Publications",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Google Scholar"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "​​"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "​2025"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Loewenstern Y, Benaroya-Milshtein N, Belelovsky K, Bar-Gad I, Automatic identification of facial tics using selfie-video. IEEE Journal of Biomedical and Health Informatics 29(1):409-419, 2025."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2024"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Zinkovskaia E, Tahary O, Loewenstern Y,Benaroya‑Milshtein N, Bar‑Gad I., Temporally aligned segmentation and clustering (TASC) framework for behavior time series analysis. Scientific Reports 14:14952, 2024"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Ganos C, Lang AE, Bar-Gad I., A New Star in the Sky of Tic Pathophysiology: The Role of Astrocytes in Repetitive Motor Behaviors. Movement Disorders 39(6):934-935, 2024."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2023"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Sieberts SK, Borzymowski H, Guan Y, Huang Y, Matzner A, Page A, Bar-Gad I, Beaulieu-Jones B, El-Hanani Y, Goschenhofer J, Javidnia M, Keller MS, Lil Y, Saqib M, Smith G, Stanescu1 A, Venuto CS, Zielinski R, the BEAT-PD DREAM Challenge Consortium, JayaramanA, Evers LJW, Foschini L, Mariakakis A, Pandey G, Shawen N, Synder P, Omberg L., Developing better digital health measures of Parkinson’s disease using free living data and a crowdsourced data analysis challenge. PLOS Digital Health, 2(3): e0000208, 2023."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2021"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "​​​​"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Vinner E, Belelovsky K, Bar-Gad I, Generating Acute and Chronic Experimental Models of Motor Tic Expression in Rats. JoVE 10.3791/61743, 2021."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Vinner E., Matzner A., Belelovsky K., Bar-Gad I., Dissociation of tic generation from tic expression during the sleep-wake cycle. iScience 24, 2021"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2020"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "​​​"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Matzner A., Gorodetski L., Korngreen A., Bar-Gad I., Dynamic input-dependent encoding of individual basal ganglia neurons. Scientific Reports 10:1–13, 2020."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Israelashvili M., Yael D., Vinner E., Belelovsky K., Bar-Gad I., Common neuronal mechanisms underlying tics and hyperactivity. Cortex 127:231–247, 2020."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2019"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "​Yael, D., Tahary, O., Gurovich, B., Belelovsky, K., & Bar-Gad, I. (2019). Disinhibition of the nucleus accumbens leads to macro-scale hyperactivity consisting of micro-scale behavioral segments encoded by striatal activity. The Journal of Neuroscience , 3120–18."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2018"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "​Yael D., Vecht JJ., Bar-Gad I., Filter Based Phase Shifts Distort Neuronal Timing Information. eNeuro, 5(2): e0261-17,1–8, 2018."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "​Lavian H., Loewenstern Y., Madar R., Almog M., Bar-Gad I., Okun E., Korngreen A., Dopamine receptors in the rat entopeduncular nucleus. Brain Struct Function, 2018."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Rizzo F., Nespoli E., Abaei A., Bar-Gad I., Deelchand DK., Fegert J., Rasche V., Hengerer B., Boeckers TM., Aripiprazole Selectively Reduces Motor Tics in a Young Animal Model for Tourette’s Syndrome and Comorbid Attention Deficit and Hyperactivity Disorder. Frontiers Neurology, 9:1–11, 2018."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Oran Y., Bar-Gad I., Loss of balance between striatal feedforward inhibition and corticostriatal excitation leads to tremor. The Journal of Neuroscience, 38(7): 2821–17, 2018."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2017"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Amit R., Abeles D., Bar-Gad I., Yuval-Greenberg S., Temporal dynamics of saccades explained by a self-paced process. Scientific Reports 7, 2017."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lavian H., Almog M., Madar R., Loewenstern Y., Bar-Gad I., Okun E., Korngreen A., Dopaminergic modulation of synaptic integration and firing patterns in the rat entopeduncular nucleus. The Journal of Neuroscience, 37, 2017."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Yael D., Bar-Gad I., Filter based phase distortions in extracellular spikes. PLoS ONE, 12(3): e0174790, 2017."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Vinner, E., Israelashvili, M., Bar-Gad, I. Prolonged striatal disinhibition as a chronic animal model of tic disorders. Journal of Neuroscience Methods, 292, 20–29, 2017."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Israelashvili, M., Bar-Gad I. Tonic and phasic changes in anteromedial globus pallidus activity in Tourette syndrome. Movement Disorders, 32, 1091–1096, 2017."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2016"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Matzner A., Moran A., Erez Y., Tischler H., Bar-Gad I., Beta oscillations in the parkinsonian primate: Similar oscillations across different populations. Neurobiology of Disease, 93:28-34, 2016."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Yael D.*, Israelashvili M.* & Bar-Gad I., Animal models of tourette syndrome-from proliferation to standardization. Frontiers in Neuroscience, 10, 1–6, 2016."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2015"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Israelashvili M., Bar-Gad I., Corticostriatal Divergent Function in Determining the Temporal and Spatial Properties of Motor Tics. Journal of Neuroscience, 35(50):16340-51, 2015."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Yael D., Vinner E., Bar-Gad I., Pathophysiology of tic disorders. Movement Disorders, 30 (9):1171-8, 2015."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Israelashvili M.*, Loewenstern Y.*, Bar-Gad I., Abnormal neuronal activity in Tourette syndrome and its modulation using deep brain stimulation. Journal of Neurophysiology, 114(1):6-20, 2015."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Matzner A., Bar-Gad I., Quantifying spike train oscillations: biases, distortions and solutions. PLoS Computational Biology, 11(4):e1004252, 2015."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2014"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Moustafa AA., Bar-Gad I., Korngreen A., Bergman H., Basal ganglia: Physiological, behavioral, and computational studies. Frontiers in Systems Neuroscience, 8, 2014."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pashut T., Magidov D., Ben-Porat H., Wolfus S., Friedman A., Perel E., Lavidor M., Bar-Gad I., Yeshurun Y., Korngreen A., Patch-clamp recordings of rat neurons from acute brain slices of the somatosensory cortex during magnetic stimulation. Frontiers in Cellular Neuroscience, 8:145, 2014."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "2013"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Yael D., Zeef D. H., Sand D., Moran A., Katz D., Cohen D., Temel Y., Bar-Gad I., Haloperidol-induced changes in neuronal activity in the striatum of the freely moving rat. Frontiers in Systems Neuroscience, 7:110, 2013."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bronfeld M., Yael D., Belelovsky K., Bar-Gad I., Motor tics evoked by striatal disinhibition in the rat. Frontiers in Systems Neuroscience, 7:50, 2013."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bugaysen J., Bar-Gad I., Korngreen A., Continuous modulation of action potential firing by a unitary GABAergic connection in the globus pallidus in vitro. Journal of Neuroscience, 33(31):12805-9, 2013"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bronfeld M., Israelashvili M., and Bar-Gad I., Pharmacological animal models of Tourette syndrome, Neuroscience and Biobehavioral Reviews, 37: 1101-19, 2013."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Stein E., and Bar-Gad I., Beta oscillations in the cortico-basal ganglia loop during parkinsonism. Experimental Neurology, 245: 52-59, 2013."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bronfeld M., Bar-Gad I., Tic Disorders: What Happens in the Basal Ganglia?, Neuroscientist, 9(1):101-8, 2013."
+    },
+    {
+      "kind": "heading",
+      "level": 5,
+      "text": "2012"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Benhamou L., Bronfeld M., Bar-Gad I., and Cohen D., Globus Pallidus External Segment Neuron Classification in Freely Moving Rats: a Comparison to Primates. PLoS One, 7(9):e45421, 2012."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Tischler H., Moran A., Belelovsky K., Bronfeld M., Korngreen A., and Bar-Gad I., Changes in basal ganglia processing of cortical input following magnetic stimulation in Parkinsonism. Neurobiology of Disease, 48(3):464-73, 2012."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Moran A, Stein E, Tischler H, and Bar-Gad I. Decoupling neuronal oscillations during subthalamic nucleus stimulation in the parkinsonian primate, Neurobiology of Disease, 45: 583-590, 2012."
+    },
+    {
+      "kind": "heading",
+      "level": 5,
+      "text": "2011"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Berger U, Korngreen A, Bar-Gad I, Friedman A, Wolfus S, Yeshurun Y, and Lavidor M., Magnetic stimulation intensity modulates motor inhibition, Neuroscience Letters. 504(2):93-7, 2011."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bronfeld M. and Bar-Gad I., Loss of specificity in basal ganglia related movement disorders, Frontiers in Systems Neuroscience, 5:38, 2011."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bronfeld M, Belelovsky K, Bar-Gad I., Spatial and temporal properties of tic-related neuronal activity in the cortico-Basal Ganglia loop.Journal of Neuroscience, 31(24):8713-21, 2011."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Moran A.*, Stein E.*, Tischler H., Belelovsky K. and Bar-Gad I., Dynamic stereotypic responses of basal ganglia neurons to subthalamic nucleus high-frequency stimulation in the parkinsonian primate. Frontiers in Systems Neuroscience, 5:21, 2011."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bugaysen J., Bar-Gad I. and Korngreen A., The impact of stimulation induced short term synaptic plasticity on firing patterns in the globus pallidus of the rat. Frontiers in Systems Neuroscience, 5:16, 2011."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pashut T., Wolfus S., Friedman A., Lavidor M., Bar-Gad I., Yeshurun Y. and Korngreen A., Mechanisms of magnetic stimulation of central nervous system neurons. PLoS Computational Biology 7(3): e1002022, 2011."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Erez Y, Tischler H, Belelovsky K, and Bar-Gad I., Dispersed Activity during Passive Movement in the globus pallidus of the 1-Methyl-4-Phenyl-1,2,3,6-Tetrahydropyridine (MPTP)-Treated Primate, PLoS One, 8;6(1):e16293, 2011"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Tischler H, Wolfus S, Friedman A, Perel E, Pashut T, Lavidor M, Korngreen A, Yeshurun Y, and Bar-Gad I., Mini-coil for magnetic stimulation in the behaving primate, Journal of Neuroscience Methods, 15;194(2):242-51, 2011"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2010"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bronfeld M, Belelovsky K, Erez Y, Bugaysen J, Korngreen A, and Bar-Gad I., Bicuculline-induced chorea manifests in focal rather than globalized abnormalities in the activation of the external and internal globus pallidus. Journal of Neurophysiology, 104(6):3261-75, 2010"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bugaysen J., Bronfeld M., Tischler H., Bar-Gad I., and Korngreen A., Electrophysiological Characteristics of Globus Pallidus Neurons, PLoS ONE, 5(8):e12001, 2010"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Erez Y., Tischler H., Moran A. and Bar-Gad I., Generalized framework for stimulus artifact removal, Journal of Neuroscience Methods, 191:45-59, 2010"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Moran A. and Bar-Gad I., Revealing neuronal functional organization through the relation between multi-scale oscillatory extracellular signals, Journal of Neuroscience Methods, 186: 116–129, 2010"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2009"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "McCairn KW, Bronfeld M, Belelovsky K, Bar-Gad I., The neurophysiological correlates of motor tics following focal striatal disinhibition,Brain, 132: 2125-2138, 2009"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Erez Y, Czitron H, McCairn K, Belelovsky K, Bar-Gad I., Short-term depression of synaptic transmission during stimulation in the globus pallidus of 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine-treated primates, Journal of Neuroscience. 29(24):7797-7802, 2009"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2008"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Moran A., Bergman H., Israel Z. and Bar-Gad I., Subthalamic nucleus functional organization revealed by parkinsonian neuronal oscillations and synchrony, Brain, 131: 3380-3394, 2008"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2006"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Moran A., Bar-Gad I., Bergman H., Israel Z., Real time Bayesian subthalamic nucleus targeting refinement using the Root Mean Square measure. Movement Disorders, 21 (9) 1425-31, 2006"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Heimer G., Rivlin M., Bar-Gad I., Goldberg JA, and Bergman H. Dopamine Replacement Therapy Does Not Restore the Full Spectrum of Normal Pallidal Activity in the 1-Methyl-4- Phenyl-1,2,3,6-Tetra-Hydropyridine Primate Model of Parkinsonism, Journal of Neuroscience, 26: 8101-8114, 2006"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Rivlin-Etzion M., Ritov Y., Heimer G., Bergman H., Bar-Gad I., Local shuffling of spike trains boosts the accuracy of spike train spectral analysis. Journal of Neurophysiology. 95 (5) 3245-56, 2006"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2000-2004"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., Elias S., Vaadia E., and Bergman H., Complex locking rather than complete cessation of neuronal activity in the globus pallidus of an MPTP treated primate in response to pallidal microstimulation. Journal of Neuroscience, 24 (33) 9410-9419, 2004"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., Morris G., and Bergman H., Information processing, dimensionality reduction and reinforcement learning in the basal ganglia. Progress in Neurobiology, 71 (6) 439-473, 2003"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., Heimer G., Ritov Y., and Bergman H. Functional correlations between neighboring neurons in the primate globus pallidus are weak or nonexistent. Journal of Neuroscience, 23 (10) 4012-4016, 2003"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Heimer G., Bar-Gad I., Goldberg J. A., Bergman H. Dopamine Replacement Therapy Reverses Abnormal Synchronization of Pallidal Neurons in the MPTP Primate Model of Parkinsonism. Journal of Neuroscience, 22 (18) 7850-7855, 2002"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., Bergman H., Stepping out of the box: information processing in the neural networks of the basal ganglia. Current Opinions in Neurobiology, 11:689-695, 2001"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., Ritov Y., Vaadia E., and Bergman H. Failure in identification of multiple neuron activity causes artificial correlations. Journal of Neuroscience Methods, 107 1-13, 2001"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad, I., Ritov Y., and Bergman H. The neuronal refractory period causes a short-term peak in the autocorrelation function. Journal of Neuroscience Methods, 104 155-163, 2001"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., Havazelet Heimer G., Goldberg J. A., Ruppin E., and Bergman H. Reinforcement driven dimensionality reduction - a model for information processing in the basal ganglia. Journal of Basic & Clinical Physiology & Pharmacology, 11:4, 2000"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Book Chapters"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Erez Y. and Bar-Gad I. Neurophysiological changes in the basal ganglia following 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP) induced parkinsonism. Neurotoxicity Syndromes Research Focus, Editor L. R. Webster, chapter 10 197-219, 2007."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Turner R. S., McCairn K., Simmons D., and Bar-Gad I. Sequential motor behavior and the basal ganglia - Evidence from a serial reaction time task in monkeys. The Basal Ganglia VIII, Part 6 Chapter 13 563-574, 2006. Editors: J. P. Bolam, C. A. Ingham, P. J. Magill."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., and Hagai Bergman H. Reinforcement driven nonlinear dimensionality reduction in the multilayer network of the basal ganglia. Recent Breakthroughs in Basal Ganglia Research, Chapter 4 45-52, 2006. Editor E. Bezard."
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., Ritov Y., and Bergman H. The high frequency discharge of pallidal neurons disrupts the interpretation of pallidal correlation functions. The Basal Ganglia VII, Chapter 5 35:42, 2002"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Heimer G., Bar-Gad I., Goldberg J. A., Bergman H. Synchronization of pallidal activity in the MPTP primate model of Parkinsonism is not limited to oscillatory activity. The Basal Ganglia VII, Chapter 4 29-34, 2002"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Bar-Gad I., Kagan I., Shik M. L. Behavior of hindbrain neurons during the transition from rest to evoked locomotion in a newt. Progress in Brain Research, 123, Peripheral and Spinal Mechanisms in the Neural Control of Movement, 1999"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://scholar.google.com/citations?user=x4nJPJAAAAAJ&hl=en&oi=ao",
+      "text": "Google Scholar"
+    },
+    {
+      "href": "https://www.jove.com/t/61743/generating-acute-chronic-experimental-models-motor-tic-expression",
+      "text": "JoVE"
+    },
+    {
+      "href": "/_files/ugd/bb640f_9425b2a659d24af3be93a45533497d7d.pdf/",
+      "text": "iScience 24"
+    },
+    {
+      "href": "/_files/ugd/bb640f_30b15e126c764801beab704a1e1e4b39.pdf/",
+      "text": "Scientific Reports"
+    },
+    {
+      "href": "/_files/ugd/bb640f_166ba41fcffe4de4a23510ca58bba18d.pdf/",
+      "text": "Cortex"
+    },
+    {
+      "href": "/_files/ugd/bb640f_d627c3de4b134ced91157323f5712995.pdf/",
+      "text": "The Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_48c769ac5fb4472ca375582645a49973.pdf/",
+      "text": "eNeuro"
+    },
+    {
+      "href": "/_files/ugd/bb640f_80a0117357bb4f78bbeddb7c2b65b7ca.pdf/",
+      "text": "Brain Struct Function"
+    },
+    {
+      "href": "/_files/ugd/bb640f_02bcbdd2288c4f5bb7839487f637c9c9.pdf/",
+      "text": "Frontiers Neurology,"
+    },
+    {
+      "href": "/_files/ugd/bb640f_4407ec86b12946b58c028ab6bab84580.pdf/",
+      "text": "The Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_413c0c50dcd24dc38edf275fbf54599f.pdf/",
+      "text": "Scientific Reports"
+    },
+    {
+      "href": "/_files/ugd/bb640f_7644ff56bcff421a9e66af127baeda78.pdf/",
+      "text": "The Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_eac59bfedf8b426d9e91104271a539ea.pdf/",
+      "text": "PLoS ONE"
+    },
+    {
+      "href": "/_files/ugd/bb640f_8d90cab31dba4bedb73136f8ea992f8f.pdf/",
+      "text": "Journal of Neuroscience Methods,"
+    },
+    {
+      "href": "/_files/ugd/bb640f_aeada1f3c9904fbab74d4f063b9c7ce2.pdf/",
+      "text": "Movement Disorders,"
+    },
+    {
+      "href": "/_files/ugd/bb640f_7fe4fdbf54af441083b0897079a8e008.pdf/",
+      "text": "Neurobiology of Disease,"
+    },
+    {
+      "href": "/_files/ugd/bb640f_a5973c88a70445128e3220312cd7a9e2.pdf/",
+      "text": "Frontiers in Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_d5a8aa47d8d9451c96a1154a6998d08d.pdf/",
+      "text": "Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_12925faa78a34ab2914fd4b093ec944b.pdf/",
+      "text": "Movement Disorders"
+    },
+    {
+      "href": "/_files/ugd/bb640f_6a19e31d77bf4550bf904d9864d256e0.pdf/",
+      "text": "Journal of Neurophysiology"
+    },
+    {
+      "href": "/_files/ugd/bb640f_2f443904c0fe4b41806b8058e20c641d.pdf/",
+      "text": "PLoS Computational Biology,"
+    },
+    {
+      "href": "/_files/ugd/bb640f_bb0a18d111cb48f38a3d6817089e6a0b.pdf/",
+      "text": "Frontiers in Systems Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_9f6624dc13a145e782cf80dcef495e1f.pdf/",
+      "text": "Frontiers in Cellular Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_c2f13dd31c2e42c3b6139b333c61e379.pdf/",
+      "text": "Frontiers in Systems Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_c7fc43698aa640609e6e687f9c28b3dd.pdf/",
+      "text": "Frontiers in Systems Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_197560b1eea542cf8eba3212932d77d3.pdf/",
+      "text": "Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_c8d352892646420d996ea9a6be435459.pdf/",
+      "text": "Neuroscience and Biobehavioral Reviews"
+    },
+    {
+      "href": "/_files/ugd/bb640f_d1560274dbd44492b48861d76efb81ee.pdf/",
+      "text": "Experimental Neurology"
+    },
+    {
+      "href": "/_files/ugd/bb640f_e2250856b99f41ff853e99a8d1b30645.pdf/",
+      "text": "Neuroscientist"
+    },
+    {
+      "href": "/_files/ugd/bb640f_3c38c3653b87419cb433c969ed1a825e.pdf/",
+      "text": "PLoS One"
+    },
+    {
+      "href": "/_files/ugd/bb640f_f770a3d2e2744669b43243adddbd03d6.pdf/",
+      "text": "Neurobiology of Disease"
+    },
+    {
+      "href": "/_files/ugd/bb640f_eca5fd2cb9fe493c8e038503192971e7.pdf/",
+      "text": "Neurobiology of Disease"
+    },
+    {
+      "href": "/_files/ugd/bb640f_88931d410fcb4de0b1e7eff90c995e05.pdf/",
+      "text": "Neuroscience Letters"
+    },
+    {
+      "href": "/_files/ugd/bb640f_ec22263676a140dfa847f0ab198fe7f8.pdf/",
+      "text": "Frontiers in Systems Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_b31d438d498b4c5b94ceb242efc1a0c4.pdf/",
+      "text": "Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_875975cedd814f1db0b30de56cebd69a.pdf/",
+      "text": "Frontiers in Systems Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_e12df41a7bdd4cc1aa8ea42b9d8f1886.pdf/",
+      "text": "Frontiers in Systems Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_2905d80bd02f47558e3623a97389f796.pdf/",
+      "text": "PLoS Computational Biology"
+    },
+    {
+      "href": "/_files/ugd/bb640f_39dc0f3748ba433fa28b07fcafdc0cc5.pdf/",
+      "text": "PLoS One"
+    },
+    {
+      "href": "/_files/ugd/bb640f_7def47cdfef54391a8bfe392d71f5ec3.pdf/",
+      "text": "Journal of Neuroscience Methods"
+    },
+    {
+      "href": "/_files/ugd/bb640f_9efc61594a754830adfae390025e652e.pdf/",
+      "text": "Journal of Neurophysiology"
+    },
+    {
+      "href": "/_files/ugd/bb640f_1df8c55ead1a4bcc8df7441febf0cf34.pdf/",
+      "text": "PLoS ONE"
+    },
+    {
+      "href": "/_files/ugd/bb640f_0f55f4b688a04f75ae9d47f13211d067.pdf/",
+      "text": "Journal of Neuroscience Methods"
+    },
+    {
+      "href": "/_files/ugd/bb640f_2b906bd47ed5479085f185e09042c26d.pdf/",
+      "text": "ournal of Neuroscience Methods"
+    },
+    {
+      "href": "/_files/ugd/bb640f_b18ace93ed594831b85e4852892b328e.pdf/",
+      "text": "Brain"
+    },
+    {
+      "href": "/_files/ugd/bb640f_ced69bcfe55b46f2b9453b4b783e1099.pdf/",
+      "text": "Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_31dac5ec799e436aa3dbab6a328832a7.pdf/",
+      "text": "Brain"
+    },
+    {
+      "href": "/_files/ugd/bb640f_8c08137ead17497d93ea458bc9f63077.pdf/",
+      "text": "Movement Disorders"
+    },
+    {
+      "href": "/_files/ugd/bb640f_5340fd3dd7044b1d81ea14a944d0b79f.pdf/",
+      "text": "ournal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_fc1f2c1728504c02b9453422ae4f2238.pdf/",
+      "text": "Journal of Neurophysiology."
+    },
+    {
+      "href": "/_files/ugd/bb640f_055b6842899f406fbe896522b4b3d27a.pdf/",
+      "text": "Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_f7b3660f33d649989d07d5dbd3af269f.pdf/",
+      "text": "Progress in Neurobiology"
+    },
+    {
+      "href": "/_files/ugd/bb640f_d30e3de4800f44f3989e0c628a6ad480.pdf/",
+      "text": "Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_2e8127eb051d455eb46f55a0c1779ab2.pdf/",
+      "text": "Journal of Neuroscience"
+    },
+    {
+      "href": "/_files/ugd/bb640f_3b4919a54d1940518c370337b0dd15ce.pdf/",
+      "text": "Current Opinions in Neurobiology"
+    },
+    {
+      "href": "/_files/ugd/bb640f_aae21232135340e68e62b36e0b64916e.pdf/",
+      "text": "Journal of Neuroscience Methods"
+    },
+    {
+      "href": "/_files/ugd/bb640f_f7f66079028b4fff9afb43d6440a1e10.pdf/",
+      "text": "Journal of Neuroscience Methods"
+    },
+    {
+      "href": "/_files/ugd/bb640f_f918f1d398804fc28860239ab984659a.pdf/",
+      "text": "Journal of Basic & Clinical Physiology & Pharmacology"
+    },
+    {
+      "href": "/_files/ugd/bb640f_eabd4d1f947d41eb846ab9436bdfab8f.pdf/",
+      "text": "Neurotoxicity Syndromes Research Focus, Editor L. R. Webster"
+    },
+    {
+      "href": "/_files/ugd/bb640f_72e302ab1e284eb3ad6c002e4bea2f82.pdf/",
+      "text": "The Basal Ganglia VIII"
+    },
+    {
+      "href": "/_files/ugd/bb640f_faad2bb64abd43a3a6f9bb15c288a021.pdf/",
+      "text": "Recent Breakthroughs in Basal Ganglia Research"
+    },
+    {
+      "href": "/_files/ugd/bb640f_af892ebd52ff4b17acdc338908b4a945.pdf/",
+      "text": "The Basal Ganglia VII"
+    },
+    {
+      "href": "/_files/ugd/bb640f_8fa6a9d9c7484011beedc611de1703c3.pdf/",
+      "text": "The Basal Ganglia VII"
+    },
+    {
+      "href": "/_files/ugd/bb640f_ecaacc62312f4197a51ab18c2389811a.pdf/",
+      "text": "Peripheral and Spinal Mechanisms in the Neural Control of Movement"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

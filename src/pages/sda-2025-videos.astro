@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { sda2025Overview, sda2025Videos } from "../lib/sda2025.js";
+---
+
+<BaseLayout title="SDA 2025 videos" description="SDA 2025 course videos from IBG Lab.">
+  <article class="content-page course-index course-detail">
+    <header class="page-head">
+      <h1>Videos</h1>
+      <p class="lede">{sda2025Overview.title}</p>
+      <p>{sda2025Overview.term}</p>
+    </header>
+
+    <ul class="plain-link-list video-link-list">
+      {sda2025Videos.map((video) => (
+        <li>
+          {video.parts ? (
+            <span>
+              {video.lesson} - {video.date}
+              {" "}
+              {video.parts.map((part, index) => (
+                <>
+                  {index > 0 && " "}
+                  <a href={part.href}>{part.label}</a>
+                </>
+              ))}
+            </span>
+          ) : (
+            <a href={video.href}>{video.lesson} - {video.date}</a>
+          )}
+        </li>
+      ))}
+    </ul>
+  </article>
+</BaseLayout>
+
+<style>
+  .video-link-list {
+    max-width: 42rem;
+  }
+</style>

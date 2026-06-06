@@ -1,0 +1,25 @@
+# Camping for non-campers
+
+Source: https://www.ibglab.org/post/camping-for-non-campers
+
+Target: /post/camping-for-non-campers/
+
+All Posts
+
+## Camping for non-campers
+
+Jul 30, 2021
+
+4 min read
+
+We are not very picky when it comes to our lodging, however, camping is non exactly our cup of tea. We do camp from time to time but the intervals between such events is typically multiple years: we last camped around 5 years ago. Nevertheless, when we tried to plan our route, we saw that non-camping options are not viable in many of the places that we wanted to visit. Thus, we decided to brave it and reserved, from Israel, three nights for the first week following San Francisco.
+
+Of course, we arrived in the USA without any equipment except for a Victorinox pocket-knife which I got for my Bar Mitzva. Using a combination of Amazon and Target we quickly equipped ourselves with the extreme basics: self-inflating sleeping pads, sleeping bags, lights and a four-person tent, thereby filling our car completely.
+
+Our first couple of nights were in Hendy Woods State Park. A park of Redwoods that were saved from logging by the vision and actions of Hendy in the 19th century. The camping area is extremely organized compared to the Israeli version, each reservation entitles you to your parking, tent site, storage and a place for campfire. Upon entering the area we were quite intimidated by the HUGE RVs taking up many of the spaces (Americans love to have all their house along with them when they camp) but soon we noticed quite a few tents around, granted many of them were larger than our apartment back home but some were as modest as ours. Despite our limited experience and vague engineering skills we managed to set everything up in less than 15 minutes and were happy campers. We had a good, albeit cold, dinner and after trying unsuccessfully to read, write or do something useful we fell asleep. We woke up in the cool morning after a surprisingly good sleep to a feeling of “krechtzen” (the Yiddish word describing a feeling of your whole body aching when you try to move). We decided to fight of the feeling by a run in the trails amongst the giant trees. It was breathtaking, squirrels, rabbits, deer and even a fox were running around, and we felt like the opening scene in Bambi. We followed this by a hiking trail with a very enthusiastic guide through the woods, which we complemented with a fancy lunch in a winery followed by a somewhat strange cider-tasting in a cute apple orchard. At this stage we decided that we are ready for the next level, we bought firewood, charcoal, matches, a grill net and two XL steaks: a 2-pound T-Bone and 1.5 pound New York Strip. Of course, we were still missing tiny things like the grilling equipment for accessing the steaks, salt, peppers, but sadly we did not think of them at this stage. To cut a long story short, the BBQ was not simple but after a few tries we managed to get a nice fire and after a few burns managed to get fairly good steaks under the given conditions. We finished the evening with campfire songs and competitions led by our singing ranger. Being the only non-American we were initially overwhelmed by the competitive and enthusiastic nature of the surrounding campers but soon we all joined energetically led by Yoav who was singing “Oh, My Darling Clementine” by the end of the night.
+
+Of course, at this stage we thought that we were super experts in camping and a ready to become camp consultant for all the poor novices out there. Well, it turned out that (a camper’s) life is not that simple. Our next camp site was in Patrick’s Point State Park which was much closer to the ocean and thus enjoy daytime temperatures of 13 degrees accompanied by fog. Being expert campers, we were not intimidated by the weather, we set up our tent and organized all our equipment in 10 minutes and were quite smug with ourselves. We went out and bought some fancy looking sausages and jalapeno-cheddar-beef hamburgers. This time the damp weather, and the alcohol, took their toll and it took us much longer to get the fire going but we braved it and managed to finally eat some fairly reasonable dinner. By that time the weather was very cold and very damp, so we crawled quite frozen into our tent and fell asleep. We (Shibolet and me, Yoav slept like a log) woke up in the middle of the night to the sound of rain drops all around us which brought forward the dilemma of needing to go vs. leaving the sleeping bag. The rain went on and on until we decided to brave go out just to find out that the rain was a mere drizzle amplified by the fact that each raindrop fell from leaf to leaf in the Redwoods amplifying its effect. With a hurt pride and a tired feeling, we packed our wet tent and made our way to the coziness, and hot tea, of a diner.
+
+We definitely did not give up on camping and plan to do quite a bit of it during the rest of our trip. However, it is probably a good idea to put things in perspective, we are entry-level campers and will probably stay that way in the near future, so plan accordingly.
+
+## Recent Posts

@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageRenderer from "../components/PageRenderer.astro";
+import pages from "../content/pages.json";
+
+export function getStaticPaths() {
+  return pages
+    .filter((page) => !["/", "/us/", "/lab-members/"].includes(page.targetPath))
+    .map((page) => ({
+      params: { slug: page.targetPath.replace(/^\/|\/$/g, "") },
+      props: { page },
+    }));
+}
+
+const { page } = Astro.props;
+---
+
+<BaseLayout title={page.title} description={page.description}>
+  <PageRenderer page={page} />
+</BaseLayout>

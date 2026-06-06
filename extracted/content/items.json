@@ -1,0 +1,199 @@
+{
+  "sourceUrl": "https://www.ibglab.org/items",
+  "targetPath": "/items/",
+  "title": "Items (All)",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "News",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "In The Media"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Latest News"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Aug. 2023"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Yocheved Loewenstern gave a lecture on her work at the International Parkinson and Movement Disorder Society conference. Yocheved's presentation went into explaining her research on \"Automatic assessment of tic expression using selfie-video\"."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Jun. 2023"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Orel Tahary presented his work at the poster session of the IBAGS annual meeting in Stockholm, Sweden. Orel presented his findings on 'The Impact of Striatal Disinhibition on Naturalistic Behaviors and its Neural Correlates'."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Roy Segal , Yuval al-Hanani, Kate Zinkovskaia and Izhar Bar-Gad participated in a Kaggle Competition 'Parkinson's Freezing of Gait Prediction' finishing in top 9% with over a 1000 teams partaking in the leaderboard."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "May 2023"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Yocheved Loewenstern gave a virtual lecture on her work at the Tourette Association of America conference. Yocheved's presentation went into explaining her research on \"Automatic assessment of tic expression using selfie-video\"."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "March 2023"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Yocheved Loewenstern gave a lecture on her work at the annual Israel Society for biological Psychiatry. conference. Yocheved's presentation went into explaining her research on \"Automatic assessment of tic expression using selfie-video\"."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Latest Publications"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Matzner A., El-Hanany Y., Bar-Gad I, Identification of kinematic biomarkers for self-reported Parkinson's disease symptoms. Scientific Reports 10.21203/rs.3.rs-2321844/v1, 2022 (under review)"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Sieberts S.K. et al., Developing better digital health measures of Parkinson's disease using free living data and crowdsourced data analysis challenge. medRxiv 10.1101/2021.10.20.21265298, 2021 (under review)"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "Vinner E, Belelovsky K, Bar-Gad I, Generating Acute and Chronic Experimental Models of Motor Tic Expression in Rats. JoVE 10.3791/61743, 2021."
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "/_files/ugd/bb640f_34d7643b6fda4640a552db39b3817842.pdf/",
+      "text": "https://www.ibglab.org/_files/ugd/bb640f_34d7643b6fda4640a552db39b3817842.pdf"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=EM40x1Ml4tc&t=2897s",
+      "text": "https://www.youtube.com/watch?v=EM40x1Ml4tc&t=2897s"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=KVxKDV1lGkk",
+      "text": "https://www.youtube.com/watch?v=KVxKDV1lGkk"
+    },
+    {
+      "href": "https://www.hayadan.org.il/neuroscientists-from-bar-ilan-have-won-an-international-award-sponsored-by-the-michael-j-foxes-parkinsons-foundation-2406207",
+      "text": "https://www.hayadan.org.il/neuroscientists-from-bar-ilan-have-won-an-international-award-sponsored-by-the-michael-j-foxes-parkinsons-foundation-2406207"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=wpIX2x4Q5xo",
+      "text": "https://www.youtube.com/watch?v=wpIX2x4Q5xo"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_a2f035e640324d7e96c53211b652b047.pdf",
+      "text": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_a2f035e640324d7e96c53211b652b047.pdf"
+    },
+    {
+      "href": "https://www.isf.org.il/layperson-reports/%D7%9B%D7%99%D7%A6%D7%93-%D7%A0%D7%92%D7%A8%D7%9E%D7%99%D7%9D-%D7%98%D7%99%D7%A7%D7%99%D7%9D-%D7%9E%D7%95%D7%98%D7%95%D7%A8%D7%99%D7%99%D7%9D-20191104103645.html",
+      "text": "https://www.isf.org.il/layperson-reports/%D7%9B%D7%99%D7%A6%D7%93-%D7%A0%D7%92%D7%A8%D7%9E%D7%99%D7%9D-%D7%98%D7%99%D7%A7%D7%99%D7%9D-%D7%9E%D7%95%D7%98%D7%95%D7%A8%D7%99%D7%99%D7%9D-20191104103645.html"
+    },
+    {
+      "href": "https://www.michaeljfox.org/news/mjff-and-sage-bionetworks-announce-winners-beat-pd-dream-challenge",
+      "text": "https://www.michaeljfox.org/news/mjff-and-sage-bionetworks-announce-winners-beat-pd-dream-challenge"
+    },
+    {
+      "href": "https://www.jpost.com/health-science/bar-ilan-named-co-winners-of-parkinsons-disease-research-challenge-632645",
+      "text": "https://www.jpost.com/health-science/bar-ilan-named-co-winners-of-parkinsons-disease-research-challenge-632645"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_842153a40b9444bf8e2d9387bbddde3a.pdf",
+      "text": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_842153a40b9444bf8e2d9387bbddde3a.pdf"
+    },
+    {
+      "href": "http://www.ynet.co.il/home/0,7340,L-7804,00.html",
+      "text": "http://www.ynet.co.il/home/0,7340,L-7804,00.html"
+    },
+    {
+      "href": "https://www.mdsabstracts.org/abstract/automatic-assessment-of-tic-expression-using-selfie-video/",
+      "text": "View More..."
+    },
+    {
+      "href": "/_files/ugd/bb640f_34d7643b6fda4640a552db39b3817842.pdf/",
+      "text": "View More..."
+    },
+    {
+      "href": "/_files/ugd/bb640f_e11f1a862e4c4b58a49fe49ac1f09cd6.pdf/",
+      "text": "View More..."
+    },
+    {
+      "href": "https://www.jove.com/t/61743/generating-acute-chronic-experimental-models-motor-tic-expression",
+      "text": "View More..."
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

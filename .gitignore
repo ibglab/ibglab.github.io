@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+extracted/assets/
+extracted/raw/
+.DS_Store
+npm-debug.log*
+playwright-report/
+test-results/

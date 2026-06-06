@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { currentCourseLinks, pastCourseLines } from "../lib/courseIndex.js";
+---
+
+<BaseLayout title="Courses" description="Course pages and teaching material from IBG Lab.">
+  <article class="content-page simple-index">
+    <header class="page-head">
+      <h1>Courses</h1>
+      <p class="lede">Current courses and archived teaching materials.</p>
+    </header>
+
+    <ul class="plain-link-list">
+      {currentCourseLinks.map((course) => (
+        <li><a href={course.href}>{course.label}</a></li>
+      ))}
+    </ul>
+
+    <h2>Graduate courses - Past</h2>
+    <ul class="plain-text-list">
+      {pastCourseLines.map((course) => (
+        <li>{course}</li>
+      ))}
+    </ul>
+  </article>
+</BaseLayout>

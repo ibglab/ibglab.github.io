@@ -1,0 +1,27 @@
+# A different Las Vegas
+
+Source: https://www.ibglab.org/post/a-different-las-vegas
+
+Target: /post/a-different-las-vegas/
+
+All Posts
+
+## A different Las Vegas
+
+Sep 12, 2021
+
+4 min read
+
+After leaving Seattle we spent over two weeks hiking nature trails in parks all the way from northern Idaho (Glacier NP) to southern Utah (Zion NP). After all these hikes we were ready for a short break from nature and found the ultimate opposite of nature in Las Vegas, a man-made oasis in the desert of Nevada. The change in pace is staggering, we stayed in the Planet Hollywood resort which is huge (2,500 rooms) and requires a 15-minute walk just from the parking lot to the reception through dozens of shops within a closed mall with fake skies and a casino. Thousands of people, very different from those we encountered in the parks, are rushing around, very badly dressed and somewhat drunk. The change from our previous camping or small motels left us in a short shock state. Once we recovered, we set out for some adventures. For many, Las Vegas is the ultimate sin-city which emphasizes gambling, alcohol and prostitution, much like its ancient peer-cities Sodom and Gomorrah, however, being non-gamblers, we came for its other curiosities.
+
+Exploration of the city requires using Las Vegas timeframe: since the weather throughout most of the day is >40 Celsius with blazing sun, and the city does not wake up before noon most of the activity is restricted to evening and especially nighttime. Planet Hollywood is in the middle of the strip, so upon exiting the hotel and adjusting to the heat (even at 8PM it was still 37 degrees Celsius) we joined the swarms of people walking around, observing the shows such as the Musical Fountains or the Erupting Volcano. The overall atmosphere spans from somewhat sleazy (lots of mostly nude girls offering to join you in a Las Vegas-style photo and sketchy people handing cards of working girls) to bizarre (most people obviously do not look in the mirror before exiting their hotel rooms). Fortunately, we were joyful after some great burgers in Gordon Ramsey’s burger place, so we just walked happily passing through and within many of the major hotels.
+
+The next morning, we took the early approach and after taking the compulsory photo at the Vegas sign, and finding a geocache next to it, we hopped into the Pinball Hall of Fame situated next to it. This place is basically a HUGE hall full of pinball machines from the last 50 years and additional video arcade games. We spent a couple of hours there and even Shibolet found her place with 50-year-old plastic doll real-time making machine. At this stage we were quite hungry and decided to continue to follow the advice of FemaleFoodie (great site, they point you to excellent restaurants in the middle of nowhere) for a great lunch in BabyStacks Café. After collapsing in the hotel to digest the food, we went out to the Neon Museum which is a collection of old large neon signs from hotels, restaurant and basically anywhere with signs and their reconstruction to create a large outdoor eclectic collection. The first part is a tour between the signs which is spectacular to view and brings forward a lot of Vegas history. The second part is an amazing 3D projection on non-working signs of movies and music from the history of the city. Truly a unique experience and to top it off, it started raining in the middle of the show while it was still 37 Celsius, bizarre.
+
+Vegas has many shows of all types, sadly they are quite expensive, so we had to limit ourselves. The Blue Man Group show which we attended in the Luxor was fabulous, the show had changed dramatically from the one we saw 20 years ago but was still thrilling. The other exhibition which we attended to Yoav’s delight was the Avengers STATION which is a careful reconstruction of costumes and tools of the Avengers. In between we had another amazing lunch at the CRAFTKitchen (thanks to FemaleFoodie yet again). Thus, although Vegas is notorious for its bad food, we were able to eat very well, as the Beatles say: with a little help from our friends.
+
+A good way of avoiding the heat of the day is finding a bizarre activity in one of the hotels. The best one that we found is the dark Kiss (band) inspired mini golf in the Rio hotel which was a surreal glowing experience. The last night brought the Vegas experience to its peak, we went out to explore the area surrounding Fremont street, the old downtown of the city. We started with a ‘light’ dinner at the Heart Attack Grill, a destination chosen by Yoav. Upon coming in you are dressed in a hospital gown and taken to your table by a ‘sexy-nurse’ waitress. After ordering humongous hamburgers and other non-diet food and drinks, you must finish them to avoid being spanked publicly by the nurse/waitress. Of course, the Americans intentionally leave out the last bite just to enjoy the spanking but Yoav was munching his burger with a scared look even after the nurse/waitress assured him that kids are not spanked as hard as the adults. After surviving dinner, we went into the street which is a closed-canopy street with dazzling videos projected on its ceiling and live concerts held within it. There are many artists and artisans, shiny shops and of course Vegas girls waiting for a photo opportunity.
+
+Vegas is sleazy, fun, dazzling, sad, bizarre, weird, and I guess many other things, but in any case, it is unique and for us it was a 180 degree change from the rest of the trip.
+
+## Recent Posts

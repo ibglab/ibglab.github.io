@@ -1,0 +1,368 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2020-lectures",
+  "targetPath": "/sda-2020-lectures/",
+  "title": "SDA 2020 lectures",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lectures"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signals & data in neuroscience"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Stochastic processes I"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Stochastic processes II"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Poisson processes I"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Poisson processes II"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Single point process I"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Single point process II"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Multiple point processes"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Neural encoding"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Neural discrimination"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Neural decoding I"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Neural decoding II"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Article - Bayesian estimator (Yuval+Yarden)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Optimization"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Information theory I"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Information theory II"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Information theory III"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Dimensionality reduction"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Independent component analysis (ICA)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Clustering I"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Clustering II"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Article - Loss functions (Yonatan+Noam)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Article - Information theory 1 (Nadav+Shuki)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Article - Information theory 2 (Adi+Shir)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Frequency domain"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Systems I"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Systems II"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Filters"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Spectral analysis"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Wavelets"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Article - SDA of a CPU"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Add some more info about this item..."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "What's this item about? What makes it interesting? Write a catchy description to grab your audience's attention..."
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_c7ede502cfbc419d9fc334656fa4e59f.pdf",
+      "text": "Signals & data in neuroscience"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_4ae3cdc027b443f1842255862c398c8c.pdf",
+      "text": "Stochastic processes I"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_84140ce673604eb0a3eb2e260811b563.pdf",
+      "text": "Stochastic processes II"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_a3cec211866d4a3a926b9f05dcafbca8.pdf",
+      "text": "Poisson processes I"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_a3cec211866d4a3a926b9f05dcafbca8.pdf",
+      "text": "Poisson processes II"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_c6b13ed3265f45479d713304e04c1aa3.pdf",
+      "text": "Single point process I"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_c6b13ed3265f45479d713304e04c1aa3.pdf",
+      "text": "Single point process II"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_75596ae85e8e461b83752d23c7f6d619.pdf",
+      "text": "Multiple point processes"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_90b966f39804487c972c77264e2ce05c.pdf",
+      "text": "Neural encoding"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_73f0b6e292f640b39dcb2cea206de0a4.pdf",
+      "text": "Neural discrimination"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_4d53d1167ef54c6c8e5257fd9f02de30.pdf",
+      "text": "Neural decoding I"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_4d53d1167ef54c6c8e5257fd9f02de30.pdf",
+      "text": "Neural decoding II"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_48c91cb9649540c1a4f034574bea2456.pdf",
+      "text": "Article - Bayesian estimator (Yuval+Yarden)"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_39c598ac9f6c408b83d169b47ecc4015.pdf",
+      "text": "Optimization"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_e5ecc9dd0d5d456a9a7fdae5b51d5efa.pdf",
+      "text": "Information theory I"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_e5ecc9dd0d5d456a9a7fdae5b51d5efa.pdf",
+      "text": "Information theory II"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_e5ecc9dd0d5d456a9a7fdae5b51d5efa.pdf",
+      "text": "Information theory III"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_9df78ae197ea4c2abf94112ee3e0d55b.pdf",
+      "text": "Dimensionality reduction"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_c2128f0f43a74c64bc909da47808f856.pdf",
+      "text": "Independent component analysis (ICA)"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_0f7187cd6599478fa50ac043c99b2668.pdf",
+      "text": "Clustering I"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_0f7187cd6599478fa50ac043c99b2668.pdf",
+      "text": "Clustering II"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_a0576ae4af59407c83b6afa44d4f5fbc.pdf",
+      "text": "Article - Loss functions (Yonatan+Noam)"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_c84c51d79d71414fb70dc590eb1fff87.pdf",
+      "text": "Article - Information theory 1 (Nadav+Shuki)"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_95508f26468b4c31aa1d2fa59eefb9d1.pdf",
+      "text": "Article - Information theory 2 (Adi+Shir)"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_252399c5bf4e4002a4b64a3cab351034.pdf",
+      "text": "Frequency domain"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_29997ca39aae41f8bdcf9898808cfbab.pdf",
+      "text": "Systems I"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_29997ca39aae41f8bdcf9898808cfbab.pdf",
+      "text": "Systems II"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_6a7397e7b2d24277b448161deddefa02.pdf",
+      "text": "Filters"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_726af85f3cce4b89a17ec21d4792e86e.pdf",
+      "text": "Spectral analysis"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_d2e5556ceba740f98395139229577181.pdf",
+      "text": "Wavelets"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_35615165b43d4bab93805f40d72e5258.pdf",
+      "text": "Article - SDA of a CPU"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

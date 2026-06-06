@@ -1,0 +1,90 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const resources = [
+  {
+    text: 'The SARGE framework used in the article "Generalized framework for stimulus artifact removal" (Journal of Neuroscience Methods, 2010).',
+    href: "https://github.com/ibglab/SARGE",
+    linkText: "https://github.com/ibglab/SARGE",
+  },
+  {
+    text: "The code associated with the other articles of the IBG lab reside in GitHub:",
+    href: "https://github.com/ibglab/ARTICLES",
+    linkText: "https://github.com/ibglab/ARTICLES",
+  },
+  {
+    text: 'The code used in the article: "Real-time refinement of subthalamic nucleus targeting using Bayesian decision-making on the root mean square measure" (Movement Disorders, 2006).',
+    href: "https://github.com/ibglab/ARTICLES/tree/master/Moran_Bar-Gad_MD_2006",
+    linkText: "https://github.com/ibglab/ARTICLES/tree/master/Moran_Bar-Gad_MD_2006",
+  },
+  {
+    text: 'The code used in the article "Subthalamic nucleus functional organization revealed by parkinsonian neuronal oscillations and synchrony" (Brain, 2008), and "Bridging neurophysiology and functional organization using the relation between different extracellular signals" (Journal of Neuroscience Methods, 2010).',
+    href: "https://github.com/ibglab/ARTICLES/tree/master/Moran_Bar-Gad_Brain_2008",
+    linkText: "https://github.com/ibglab/ARTICLES/tree/master/Moran_Bar-Gad_Brain_2008",
+  },
+  {
+    text: 'The oscillation modulation index described in "Quantifying spike train oscillations: biases, distortions and solutions" (PLoS Computational Biology, 2015).',
+    href: "https://github.com/ibglab/ARTICLES/tree/master/Matzner_Bar-Gad_PLOS-CompBio_2015",
+    linkText: "https://github.com/ibglab/ARTICLES/tree/master/Matzner_Bar-Gad_PLOS-CompBio_2015",
+  },
+];
+---
+
+<BaseLayout title="Software" description="Software from IBG Lab.">
+  <article class="content-page software-page">
+    <header class="page-head">
+      <h1>Software</h1>
+    </header>
+
+    <div class="software-body">
+      {resources.map((item) => (
+        <section class="software-entry">
+          <p>{item.text}</p>
+          <p><a href={item.href}>{item.linkText}</a></p>
+        </section>
+      ))}
+
+      <p>
+        <a href="/software-phasedistortion/">
+          The software associated with the article: "Yael D. and Bar-Gad I., Filter based phase distortions in extracellular spikes (under review)".
+        </a>
+      </p>
+
+      <p>For more information, please contact Izhar Bar-Gad: Izhar.Bar-Gad at biu.ac.il</p>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .software-page {
+    width: min(985px, calc(100% - 2rem));
+  }
+
+  .software-body {
+    max-width: 985px;
+    font-size: 1.12rem;
+  }
+
+  .software-body p {
+    margin: 0;
+  }
+
+  .software-entry {
+    margin-bottom: 1.25rem;
+  }
+
+  .software-entry a,
+  .software-body > p a {
+    overflow-wrap: anywhere;
+  }
+
+  .software-body > p {
+    margin-top: 1.25rem;
+  }
+
+  @media (max-width: 780px) {
+    .software-page {
+      width: min(100% - 1.25rem, 985px);
+    }
+  }
+</style>

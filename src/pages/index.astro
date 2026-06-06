@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageRenderer from "../components/PageRenderer.astro";
+import pages from "../content/pages.json";
+
+const page = pages.find((entry) => entry.targetPath === "/") ?? {
+  title: "IBG Lab",
+  description: "Migrated local site content will appear here after running npm run extract.",
+  sourceUrl: "https://www.ibglab.org/",
+  section: "IBG Lab",
+  blocks: [
+    {
+      kind: "paragraph",
+      text: "Run npm run extract to crawl the Wix site and populate the local editable content.",
+    },
+  ],
+  images: [],
+  links: [],
+};
+---
+
+<BaseLayout title={page.title} description={page.description}>
+  <PageRenderer page={page} />
+</BaseLayout>

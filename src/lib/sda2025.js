@@ -1,0 +1,60 @@
+export const sda2025Overview = {
+  title: "Signal & Data Analysis in Neuroscience (27-505)",
+  term: "Second semester, 2025",
+  description: "Graduate course in the Gonda Brain Research Center / Bar-Ilan University",
+  location: "Gonda Brain Research building (901), 1st floor, room 101",
+  formHref: "https://docs.google.com/forms/d/e/1FAIpQLSc4Dh_UBeP4Z4UwDISsorDQWYD2ffJ2mcgzRfMC1yOpqubS6g/viewform?usp=header",
+  lectures: {
+    time: "Monday 8:15-9:45, Wednesday 8:15-9:45",
+    contact: "Izhar Bar-Gad",
+    phone: "03-5317141",
+    email: "izhar.bar-gad@biu.ac.il",
+  },
+  recitation: {
+    time: "Monday 12:00-13:30",
+    contact: "Hadass Tischler",
+    email: "biu.sigproc@gmail.com",
+  },
+  links: [
+    { label: "Lectures", href: "/sda-2025-lectures/" },
+    { label: "Recitation", href: "/sda-2025-recitation/" },
+    { label: "Assignments", href: "/sda-2025-projects/" },
+    { label: "Syllabus", href: "/sda-2025-syllabus/" },
+    { label: "Jupyter notebooks", href: "https://github.com/ibglab/BIU27505" },
+    { label: "Videos", href: "/sda-2025-videos/" },
+    { label: "Additional links", href: "/sda-2025-links/" },
+  ],
+};
+
+export const sda2025Videos = [
+  { lesson: "Lesson 1", date: "17/3/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EbOmYMFpW-JBp7Z3eshlvcMBxAX5IiouXMgmFzzulDsobg?e=cCVFPf" },
+  { lesson: "Lesson 2", date: "19/3/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EeFBNKiIKedJpawsBcopKp0Bd0v23s69w1O0aaQAMBsggg?e=YqGBD3" },
+  { lesson: "Lesson 3", date: "24/3/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/ERit3TfWVUtFmBNPTyM3NFQBTxFudBWWZDDdNGFzSrIVeA?e=fi8EUr" },
+  { lesson: "Lesson 4", date: "26/3/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EcvYyg8j42xGgdMP_O9PArMBYd8TwBHutD-3rIr-4isNSQ?e=JldAOd" },
+  { lesson: "Lesson 5", date: "31/3/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/ESV3Bel3gBxOuK-nq2ATyREBPkEu74oOMR0x4GLmgHUErg?e=PX4Vpl" },
+  { lesson: "Lesson 6", date: "2/4/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EaeHL-lvHhVOpKQmVrQVXgIBmAmkq8jhGuvuONac30Se1A?e=lVU2NQ" },
+  { lesson: "Lesson 7", date: "7/4/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EVl3nd-ZIdVHij9Cswsg3AUBRnUnQNuh6M3UoUzpR92xOg?e=2QomjY" },
+  { lesson: "Lesson 8", date: "21/4/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EaXcKL49EaFBq1Y-SyvljS0BmXETRKotucS-dw02HUxCSw?e=JShbck" },
+  { lesson: "Lesson 9", date: "23/4/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/ESk_VWdbUkNLv6aAQjoO_wwBNG6hJqcykIkwj3GTuu4RGg?e=BJbqyz" },
+  { lesson: "Lesson 10", date: "28/4/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EVp2fXPzkuVFpMqUm5DrgcgBUsNxvPiT-u_oOKBhwEebUQ?e=ZZFxRw" },
+  { lesson: "Lesson 11", date: "7/5/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EZGAC2mbtb5BhWD9UImKEMsB9dXDSOfaMKLDAGDhcl2tDA?e=E2tw3k" },
+  { lesson: "Lesson 12", date: "8/5/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EW2zKq_Z-WBOkb0gnjVMjs0Bk1tR764G4Eoofp0YmbZ6fA?e=jig2Jg" },
+  { lesson: "Lesson 13", date: "12/5/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EeSYvJfwFbFIoqxSCfkiddYB7KzJUANMGpIlnCdIpVgkFQ?e=mW0Y5V" },
+  { lesson: "Lesson 14", date: "19/5/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/Ebmk7Z5CSjROshyfjhI2znoBoqtEnnsSCmTHkOvta7lwHw?e=4P4i1f" },
+  { lesson: "Lesson 15", date: "21/5/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EboPlaBYbYZIuOUe2Tkx3AUBd6_rwzND2aq9gUmbDVTR3g?e=EnRTQb" },
+  { lesson: "Lesson 16", date: "22/5/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EYpE7IwsDV1KqXssu6HZtuUB74pM2x5GVjTZtpEmG9M37A?e=I68XWx" },
+  { lesson: "Lesson 17", date: "9/6/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EWjWQStX35FBkroDfPl3Eb0BHHhdzNNet9ckKnl0xEhU3g?e=tpxdfF" },
+  { lesson: "Lesson 18", date: "11/6/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/Ebt6BYDxsg1Gm3R7hhjj9rYBqocLcJBkC2N7S7V4JLyZng?e=RJctD2" },
+  { lesson: "Lesson 19", date: "16/6/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/ERJcPCfQ6FdCtTDuda6QUYIBvkTkwmJBnNcrMXNphXjuGQ?e=WBBBA7" },
+  { lesson: "Lesson 20", date: "18/6/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EX8SmgC6LshGnFgSYx1x-ZIB04iI1UENIPEkTMLONkXU7w?e=blxTCe" },
+  {
+    lesson: "Lesson 21",
+    date: "23/6/2025",
+    parts: [
+      { label: "Part 1", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EZ_yifSKgTNDg-_Mgqov4KAB9pjXn-BZLheR2VK5uKz7eA?e=BAOtFG" },
+      { label: "Part 2", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EfwtiGbtn91Nit8MrLDBqUAB8FexEYStidBa4kIf-d1hzg?e=rPcd6D" },
+    ],
+  },
+  { lesson: "Lesson 22", date: "25/6/2025", href: "https://biu365-my.sharepoint.com/:v:/g/personal/bargadi_biu_ac_il/EfAh5tEVPUROlx1bd1VGtz8BJxPFrFaKPGfgwYoL5FmGeQ?e=gNjQCv" },
+];
+

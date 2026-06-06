@@ -1,0 +1,403 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2025-recitation",
+  "targetPath": "/sda-2025-recitation/",
+  "title": "SDA 2025 recitation",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "SDA 2025",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505) - Recitation"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2025"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "​​"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Zoom room- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitations"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 1, 24.3: Statistics and probability rehearsal- Slides"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 2, 31.3: Signal sampling, firing rate, convolution and stochastic processes- Slides Lesson 3, 7.4: Tuning curves, stochastic processes, Poisson processes- Slides Lesson 4, 21.4: Single and Multiple point processes - Slides"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 5, 28.4: PSTH & JPSTH - Slides"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 6, 4.5: Neural Encoding - Slides"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 7, 12.5: Discrimination, Neural decoding & Parameters Estimation - Slides"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 8, 15.6: Information Theory - Slides"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 9, 19.5: PCA+ICA - Slides"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 10, 12.6: Clusters - Slides. Frequency Domain - Slides."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 11, 16.6: Systems, Filters - Slides"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 12, ​​​"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Previous years hebrew recordings:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "1. Signal sampling, firing rate, convolution, SNR and stochastic processes- recording (2023),recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2. Tuning curves, Stochastic processes, Point process- recording (2023),recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "3. Single and Multiple point processes- recording (2023),recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "4. PSTH, STA, linear kernels and GLM- recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "5. ROC and quiz preparation- recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "6. decoding, population vector and estimators - recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "7. optimization - recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "8. information theory- recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "9. dimensionality redution (PCA and ICA)- recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "10. clustering- recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "11. frequency domain I: Nyquist, fourier transform- recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "12. frequency domain II: Systems, filters- recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "13. frequency domain III: Spectral analysis- recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "14. frequency domain IV: Wavelets- recording (2020)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://us02web.zoom.us/j/83063622553?pwd=Asw8xt9ulaeLEwICSGh1Sb19bb9CJC.1",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1dS81566WHfA5Pc_K5ClJj_HtVXGBSgks/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1HtsWRYKn5YRA6lLRzlr6LfZz19zIgwWR/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1BzeLlHP36_YNI-7ljKtj4UueyhnkKLwi/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1-bEksdzescOw_69O74k7-BHpuHP6p2nJ/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1qv5B4LgXRlKAXKrLXsODOBzEgK8xC9cw/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1aHwMDQrOfvXeY2mnw0V2HeiRZs6Sc3X0/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1qV688Iz2BgVYL5eyxhSauLqxlGLBV9VU/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1es6eDNvwoysrqRbhoczpFzuCd43oxjGK/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1qgePPP86FWFpkX7jYtY1po36D38H5r_K/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1XbTq1sjMIBgEQOdiUeYS-8YPeBMleirf/view?usp=sharing",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1G2aa8qIi5aoAU16YDgFaZkVK5VxyD5L4/view?usp=sharing",
+      "text": "Slides"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1zQgaAS2sRx_Uh8l5OLfw8CkSLoWztQcb/view?usp=drive_link",
+      "text": "Slides"
+    },
+    {
+      "href": "https://youtu.be/labUAdyDm2Y",
+      "text": "recording (2023),"
+    },
+    {
+      "href": "https://youtu.be/RInFgjQ03BM",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/ggkEVw_X82o",
+      "text": "recording (2023),"
+    },
+    {
+      "href": "https://youtu.be/ew2216ktuiI",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/3AGA_4PFANU",
+      "text": "recording (2023),"
+    },
+    {
+      "href": "https://youtu.be/WLw2AqhzYxQ",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/hLzbXZ5OZOQ",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/z_4mziJm13M",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/NdKyhyMIACo",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/LGnDf8J9qNQ",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/OP9rpibQyTE",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/iOfNNhD55ls",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/B30CtNw4RTg",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/aq45sGTeiX8",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/Yb0iShwXorg",
+      "text": "recording (2023),"
+    },
+    {
+      "href": "https://youtu.be/95DFvXli-K8",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/tHvIYBjEyWc",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/0QJF31UcYgs",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/gVydGF9M8YU",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/xLMccSC6kIc",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/0U6e7G7Zi4g",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/9Z-rivlMI8s",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/7s09B6G1J7w?t=3449",
+      "text": "recording (2020)"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

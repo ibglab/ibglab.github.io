@@ -1,0 +1,184 @@
+{
+  "sourceUrl": "https://www.ibglab.org/matlab-2018-syllabus",
+  "targetPath": "/matlab-2018-syllabus/",
+  "title": "MATLAB 2018 syllabus",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "IBG Lab",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Izhar Bar-Gad's Lab at Bar-Ilan University"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "IBG Lab"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "About Us"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Lab Members"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Courses"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Pictures"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Software"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Contact"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Scientific Programming using MATLAB (27-300)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "First semester, 2017-18"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Syllabus"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Introduction to programming"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Variables"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Flow control I - conditional execution"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Flow control II - repetitive execution"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Strings"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Functions"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Basic 2D graphics"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Basic 3D graphics + Handles"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Data types"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Files & I/O"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Graphical User Interface (GUI)"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Toolboxes"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "© 2016 Izhar Bar-Gad's lab at Bar-Ilan University. Ramat-Gan 52900, Israel Tel: +972-3-5317141 contact us by Email"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "https://www.ibglab.org/",
+      "text": "About Us"
+    },
+    {
+      "href": "https://www.ibglab.org/lab-members",
+      "text": "Lab Members"
+    },
+    {
+      "href": "https://www.ibglab.org/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.ibglab.org/items",
+      "text": "News"
+    },
+    {
+      "href": "https://www.ibglab.org/courses",
+      "text": "Courses"
+    },
+    {
+      "href": "https://www.ibglab.org/pictures",
+      "text": "Pictures"
+    },
+    {
+      "href": "https://www.ibglab.org/software",
+      "text": "Software"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.ibglab.org/contact",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

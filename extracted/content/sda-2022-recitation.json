@@ -1,0 +1,298 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2022-recitation",
+  "targetPath": "/sda-2022-recitation/",
+  "title": "SDA 2022 recitation",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505) - Recitation"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2022"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Zoom room- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Passcode: 664720"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Notice Board:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Towards recitations and assignments- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Updated weekly plan from may- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation classes:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 1: Probability and Statistics, signal sampling and firing rate, 3.3.22- notes,video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 2: Convolution, SNR and stochastic processes, 10.3.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 3: Tuning Curves, Poisson Point Process (CV, FF, neuron simulation), 15.3.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 4: Single and Multiple point processes (TIH, hazard, survival, autocorrelation, cross correlation), 24.3.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 5: PSTH, STA, Linear filters, 31.3.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 6: ROC, Population coding, MAP, MLE, 7.4.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 7: optimization, 28.4.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 8: Presentation Assignment, 12.5.22-folder of presentations, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 9: Information Theory, 24.5.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 10: PCA and ICA, 26.5.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 11: clustering, 2.6.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 12: Frequency domain I (Fourier transform, Aliasing, Systems), 9.6.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 13: Frequency domain II (Filters), 16.6.22- notes, video"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation 14: Frequency domain III (Spectral analysis), 30.6.22- notes, video"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://us02web.zoom.us/j/84461779920?pwd=SStxYnpWSU9KSmdNZGdEcjVBQXJnZz09",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1Yh21IhmWYxuPx6oGGtlfzFhm5OVCh1_S/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1BqAkD4rPkuUP9LmkbbCtiZiPAX07X8dg/view?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1PSlGhFDTKFewvIm4VOVscvNqkBtKHEZS/view?usp=sharing",
+      "text": "notes,"
+    },
+    {
+      "href": "https://youtu.be/RInFgjQ03BM",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1eubLOnDfj7MSTc4sHQMfyVM_h539PaMd/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/ew2216ktuiI",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1jxmLzZy9Spqu9VCbWPxMaMUP37qnBLLh/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/WLw2AqhzYxQ",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1JK_1ibfmB4e156c9fLkK1n7B57D2RHPd/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/z_4mziJm13M",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1_KWCRMnOF6azKvdPcbJqSg81dzK9i_Mt/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/LGnDf8J9qNQ",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1pQgB2Lp0q1IVU6eBW8qaVfgOOaWZ_jiJ/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/iOfNNhD55ls",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1nAMZ8v_P0HxON5Hy181MittEH5Uwn0w0/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/aq45sGTeiX8",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/drive/folders/1o131A-gE4_skzFunSPcYeV1llUMmg42j?usp=sharing",
+      "text": "folder of presentations"
+    },
+    {
+      "href": "https://youtu.be/95DFvXli-K8",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1X-KmJY7Psas_ndjVYD6mfDLh6TydLfeh/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/ZuYUqOZIcL4",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1wjlomn16muXXOyvYKAWF4rk3m9TkZF01/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/0QJF31UcYgs",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1C7PPyzZkTw0OEutjzACQt8NIgbRglU-3/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/gVydGF9M8YU",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1329xwtXpRvAZlRBQQSb8rIvUUTb4IBfd/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/xLMccSC6kIc",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1nUrF3J2g7HE2yO9kDCp190o34qTvcmEZ/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/0U6e7G7Zi4g",
+      "text": "video"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1xm4HqhiKxEypFNanhCC9KqJT19lNYGe_/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://youtu.be/9Z-rivlMI8s",
+      "text": "video"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

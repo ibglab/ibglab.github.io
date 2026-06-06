@@ -1,0 +1,288 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sda-2020-recitation",
+  "targetPath": "/sda-2020-recitation/",
+  "title": "SDA 2020 recitation",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505) - Recitation"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Presentations"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "11/03/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Probability & Statistics"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "18/03/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Stochastic processes & FR"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "25/03/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Poisson"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "01/04/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Single & multiple spike trains"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "22/04/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Event related activity"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Neural encoding"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "29/04/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Discrimination"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "06/05/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Decoding & Estimation"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "16/05/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Optimization"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "20/05/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Information Theory"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "03/06/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Dimensionality reduction"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Clustering"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "17/06/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Frequency domain"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "24/06/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Filters"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "01/07/2020"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Spectral Analysis"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Wavelets"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_0e05b815946141b4bc7ead60c233255a.pdf",
+      "text": "Probability & Statistics"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_298d2dea5dbe41d7a0f3e561afed9e25.pdf",
+      "text": "Stochastic processes & FR"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_c6d6f2cd60204de8ac1a8d388634134a.pdf",
+      "text": "Poisson"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_89f7c612dca34a9dad6f00a0d7b2f3f8.pdf",
+      "text": "Single & multiple spike trains"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_ff471b61c57845019e17e135b422c0d6.pdf",
+      "text": "Event related activity"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_d8b81ae38d14461eba8b1dd8b66129ff.pdf",
+      "text": "Neural encoding"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_adfdb08d52bc46c9b4633ff9fbe46fb6.pdf",
+      "text": "Discrimination"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_a55aea1ef1a34c0eab64308aca4a6e29.pdf",
+      "text": "Decoding & Estimation"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_ad4ef870c119403899c8d73b0cd5d157.pdf",
+      "text": "Optimization"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_b8005d3b44ae447d8e16e56b7841dc0f.pdf",
+      "text": "Information Theory"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_8be0b3f50e9346c5b54f6c348e38da39.pdf",
+      "text": "Dimensionality reduction"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_549bd38a0c864ad3ade1bde374038e86.pdf",
+      "text": "Clustering"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_d4ba27d77f6b48f0a22cd1441ca9430c.pdf",
+      "text": "Frequency domain"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_8ceff36991f1459bb5f1efdb6fab40dd.pdf",
+      "text": "Filters"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_a2b1fd6a06f74edaa6a4b4572c336c63.pdf",
+      "text": "Spectral Analysis"
+    },
+    {
+      "href": "https://f4683542-dfd8-4d65-9b82-a429f27e7109.filesusr.com/ugd/bb640f_480022e2341340d08ab39c397726cd75.pdf",
+      "text": "Wavelets"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

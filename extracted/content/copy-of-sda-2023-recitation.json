@@ -1,0 +1,408 @@
+{
+  "sourceUrl": "https://www.ibglab.org/copy-of-sda-2023-recitation",
+  "targetPath": "/copy-of-sda-2023-recitation/",
+  "title": "SDA 2024 recitation",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "Courses",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Signal & Data Analysis in Neuroscience (27-505) - Recitation"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Second semester, 2024"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Zoom room- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Important links:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitation instructions and gradings- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Projects and Recitation Quizzes grades - link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "​​"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Youtube channel- link"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Recitations"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Self learning: Statistics and probability rehearsal- notes, quiz"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 1, 8.5: Signal sampling, firing rate, convolution, SNR and stochastic processes- notes, quiz Lesson 2, 15.5: Tuning curves, stochastic processes, Poisson processes- notes, quiz Lesson 3, 22.5: Single and Multiple point processes- notes, quiz"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 4, 29.5: PSTH, STA, linear kernels and GLM, ROC- notes, quiz"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 5, 5.6: Rehearsal and decoding: population vector and estimators- notes"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 6, 19.6: decoding: population vector and estimators, Information theory- notes, quiz"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 7, 3.7: frequency domain I: Nyquist, Fourier transform, Systems- notes, quiz"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 8, 7.7,10.7: frequency domain II: Systems, filters- notes, quiz"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Lesson 9, 17.7: frequency domain III: Spectral analysis- notes, quiz"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Previous years hebrew recordings:"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "1. Signal sampling, firing rate, convolution, SNR and stochastic processes- recording (2023),recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "2. Tuning curves, Stochastic processes, Point process- recording (2023),recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "3. Single and Multiple point processes- recording (2023),recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "4. PSTH, STA, linear kernels and GLM- recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "5. ROC and quiz preparation- recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "6. decoding, population vector and estimators - recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "7. optimization - recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "8. information theory- recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "9. dimensionality redution (PCA and ICA)- recording (2023), recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "10. clustering- recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "11. frequency domain I: Nyquist, fourier transform- recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "12. frequency domain II: Systems, filters- recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "13. frequency domain III: Spectral analysis- recording (2022)"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "14. frequency domain IV: Wavelets- recording (2020)"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://biu-ac-il.zoom.us/j/86254410222?pwd=VVRJdnpreWtnRUhtSnFGdVZlTFFXdz09",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/17UGnQzhfabUJE5yr3nxsv51WBmXNa8UX/view?usp=drive_link",
+      "text": "link"
+    },
+    {
+      "href": "https://docs.google.com/spreadsheets/d/1ROgtGkbFt8x7R-anG3pMma1rXU8T79h_ghrDHeU6IM4/edit?usp=sharing",
+      "text": "link"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCI4ppfaGNnSKCwvSLOW5kxQ",
+      "text": "link"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1jBJyMUQL6--p7qJs96ZTbN3sZNy2cq7X/view?usp=drive_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/Zytoh8xuroRmnfP1A",
+      "text": "quiz"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1GMpClC7TC5vRgykCN2Ih_5rKwXH027-i/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/Ta21ZwtoPAJSaisj7",
+      "text": "quiz"
+    },
+    {
+      "href": "https://drive.google.com/file/d/18rQlfke7xaa5Ms30vHEuuT7ImdwatKWR/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/dZXipV6pksArd4qu6",
+      "text": "quiz"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1Q_0-Hvl0VjVlvkineM4yc0ZxVkZ2u62W/view?usp=drive_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/uZiTWKfPiM4eXB8M9",
+      "text": "quiz"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1SZodFCsbiH0D9sVcp6I4dFwE_5rIC9Fo/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/h5MWqeGNy2C6rsXY6",
+      "text": "quiz"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1Zl1hCiltYCMgaYV6RjBkA_-V7aZ8JEdF/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1_aamU8zpX0JK_lxRjLX2yZ80q9Oh4wU4/view?usp=drive_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/Lf8PeUG4L1aprHsq8",
+      "text": "quiz"
+    },
+    {
+      "href": "https://drive.google.com/file/d/13efC9Hs9xga_Mg9azuKQI0M8cMjjs9R2/view?usp=drive_link",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/995nyFAHvDBiVwDv9",
+      "text": "quiz"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1an1u8frmTxsFXTOT5NUwjDF-3hlykA-T/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/a7rBbTUY6dx3YeP78",
+      "text": "quiz"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1Fg9yayUe39ovYnV396mCYMoMamzQmXXy/view?usp=sharing",
+      "text": "notes"
+    },
+    {
+      "href": "https://forms.gle/rYJfTyVZ1STkD1zG7",
+      "text": "quiz"
+    },
+    {
+      "href": "https://youtu.be/labUAdyDm2Y",
+      "text": "recording (2023),"
+    },
+    {
+      "href": "https://youtu.be/RInFgjQ03BM",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/ggkEVw_X82o",
+      "text": "recording (2023),"
+    },
+    {
+      "href": "https://youtu.be/ew2216ktuiI",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/3AGA_4PFANU",
+      "text": "recording (2023),"
+    },
+    {
+      "href": "https://youtu.be/WLw2AqhzYxQ",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/hLzbXZ5OZOQ",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/z_4mziJm13M",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/NdKyhyMIACo",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/LGnDf8J9qNQ",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/OP9rpibQyTE",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/iOfNNhD55ls",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/B30CtNw4RTg",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/aq45sGTeiX8",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/Yb0iShwXorg",
+      "text": "recording (2023),"
+    },
+    {
+      "href": "https://youtu.be/95DFvXli-K8",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/tHvIYBjEyWc",
+      "text": "recording (2023)"
+    },
+    {
+      "href": "https://youtu.be/0QJF31UcYgs",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/gVydGF9M8YU",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/xLMccSC6kIc",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/0U6e7G7Zi4g",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/9Z-rivlMI8s",
+      "text": "recording (2022)"
+    },
+    {
+      "href": "https://youtu.be/7s09B6G1J7w?t=3449",
+      "text": "recording (2020)"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

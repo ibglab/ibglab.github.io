@@ -1,0 +1,88 @@
+{
+  "sourceUrl": "https://www.ibglab.org/sarge",
+  "targetPath": "/sarge/",
+  "title": "SARGE",
+  "description": "",
+  "language": "en",
+  "priority": 0.7,
+  "migrationStatus": "extracted",
+  "section": "IBG Lab",
+  "isBlog": false,
+  "lastmod": "2025-10-23",
+  "extractedAt": "2026-06-05T13:29:20.364Z",
+  "blocks": [
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "SARGE"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "The software associated with the article: \"Erez Y., Tischler H., Moran A. and Bar-Gad I., Generalized framework for stimulus artifact removal, Journal of Neuroscience Methods, 191:45-59, 2010.\"."
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "The latest version of the software now resides on GitHub:"
+    },
+    {
+      "kind": "heading",
+      "level": 6,
+      "text": "https://github.com/ibglab/SARGE"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": "https://www.ibglab.org/"
+    },
+    {
+      "href": "https://www.wix.com/stands-with-ukraine/",
+      "text": "https://www.wix.com/stands-with-ukraine/"
+    },
+    {
+      "href": "/",
+      "text": "About Us"
+    },
+    {
+      "href": "/lab-members/",
+      "text": "Lab Members"
+    },
+    {
+      "href": "/publications/",
+      "text": "Publications"
+    },
+    {
+      "href": "/items/",
+      "text": "News"
+    },
+    {
+      "href": "/courses/",
+      "text": "Courses"
+    },
+    {
+      "href": "/pictures/",
+      "text": "Pictures"
+    },
+    {
+      "href": "/software/",
+      "text": "Software"
+    },
+    {
+      "href": "/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://github.com/ibglab/SARGE",
+      "text": "https://github.com/ibglab/SARGE"
+    },
+    {
+      "href": "/contact/",
+      "text": "Email"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [],
+  "extractionErrors": []
+}

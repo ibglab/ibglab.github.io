@@ -1,0 +1,23 @@
+# Nostalgia
+
+Source: https://www.ibglab.org/post/nostalgia
+
+Target: /post/nostalgia/
+
+All Posts
+
+## Nostalgia
+
+Sep 19, 2021
+
+3 min read
+
+Driving into northern California we were hit by a wave of nostalgia to the two periods that we spent in the area. Much like the wild salmon, we lived most of our lives in Israel but our two elder daughters were born in the USA: Mika 20 years ago in Mountain View and Lia almost 17 years ago in San Francisco. Unlike the salmon we still feel half at home when we return to these places.
+
+Our trip through this area started with Santa Cruz which used to be one of our favorite weekend excursion spots. It used to be a small beach city with a shabby but charming board walk and some beautiful beaches surrounded by poor neighborhoods and less than mediocre eateries. This time, after seeing the COVID damage to Los Angeles and the other big coastal cities we were worried driving into Santa Cruz. Pretty soon our worries were gone, we started with some great coffee and bagels in a stylish café and while walking towards the beach we found ourselves in the middle of a local Iron Man competition which brought into perspective our 5 km run the day before in Huntington beach. We found that the city has kept its charm while generally upgrading itself. The pier is nice and has cute sea-lions underneath it with amazing views of the beaches without the ultra-touristic feeling of San Francisco or Santa Monica. The board walk, an open amusement park, is still charming and more fun than ever. So many of its rides remained the same and we even got a taste of the funnel cake, our old time favorite. Last but not least, the homeless situation seems to be reasonably under control with community initiatives to help them, we viewed lodging and feeding efforts which were so different from the avoidance we saw in the big cities.
+
+Driving from Santa Cruz along route 35 over the mountains was like driving through time as we headed towards Mountain View. The smallish city survived the COVID surprisingly well and it feels vibrant and active. Granted, there are a few closed restaurants and some of the offices are far from full (it has the huge offices of Google), but the main street is now walkable and closed to traffic, as the restaurants have moved their sittings, at least partially, outdoors. Immediately upon our return we headed to Sushi Tomi, our old neighborhood sushi place and we were delighted to see that it still has great sushi and other Japanese food and the same polite but distanced service. The next day we jogged down Steven’s Creek trail which heads from Mountain View to the marshes bordering the bay. It was an interesting experience with a true Silicon Valley feeling: the trail was impeccably clean and unlike the ones in the big cities had many joggers and bikers, however, unlike the towns of Idaho or Utah, nobody greeted us with a smiling “good morning” and everybody was focused on their things while avoiding eye contact at all cost. After visiting our old house we went for a great new patisserie (Maison Alyzee) close by, nicely competing with the best Paris has to offer, had it been around 20 years ago it would have been our favorite hanging place. Being somewhat food driven, after a short walk raising memories on the main street and a shorter geocaching expedition, we headed for lunch in Darda seafood restaurant. Behind this strange name hides a Chinese-Muslim restaurant in Milipitas with walls covered with posters of Mecca and a menu and service which are extremely non-friendly for anyone who is not fluent in Chinese. The food, however, compensates for everything in a major way, we were crying of joy throughout the meal. For a final closure we headed to the area where we lived during our second stay in the bay area, right off Lake Merced in the southern part of San Francisco. We took a long and sandy hike from the lake, along the sand dunes to the ocean beach. Upon climbing the dunes, we came across a platoon running and singing their military marching songs, not exactly the way we remember our army service. Things became more familiar as we reached the beach and were surrounded by kids and especially dogs, bringing back fond memories of a joyous three-year-old Mika chasing dogs, as we walked along the beach trying (and failing) to spot dolphins.
+
+This was a lovely nostalgic closure to our trip. All that is left now are two days in San Francisco, COVID tests, flights, more flights, more tests and finally … home.
+
+## Recent Posts

@@ -1,0 +1,87 @@
+{
+  "sourceUrl": "https://www.ibglab.org/post/short-hikes-near-mount-st-helens",
+  "targetPath": "/post/short-hikes-near-mount-st-helens/",
+  "title": "Short hikes near mount St. Helens",
+  "description": "",
+  "language": "en",
+  "priority": 0.4,
+  "migrationStatus": "extracted",
+  "section": "Road trip blog",
+  "isBlog": true,
+  "lastmod": "2021-08-10",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "list",
+      "level": null,
+      "text": "All Posts"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Short hikes near mount St. Helens"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Aug 10, 2021"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "2 min read"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Towards the end of our stay in Portland we felt the urge to go out of the city and enjoy nature. We drove north, crossing the border to Washington and broke off from the highway to enter St. Helens national park. We decided to hike a mix of multiple short trails enjoying the various terrains of the area instead of one long hike."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "We first stretched our limbs cruising through the Silver Lake Wetland Haven which is a short boardwalk trail above the wetland where you can view the flowers and animals while enjoying the sight of the overlooking mountains. Next, we took the long winding drive up to the Johnston Ridge Observatory which is close to the volcano. St. Helens erupted in 1980 and left devastating damage to all its surrounding area, its western side, facing the observatory, collapsed and over the next four years a new, smaller, dome grew within the cavity as a result of multiple eruptions. The short walk over the ridge provided us with excellent views of the volcano, the lava trail and the lakes which were formed following the eruption."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "We drove down from the ridge to the newly formed Coldwater lake for two complementary trails. The first, longer, Hummocks trail winded through the mounds created by the eruption. The trail alternated between segments within lush green forests which were cool and shady adorned by small lakes and open segments with great views of the mountain but with the blazing sun above. It was a very good trail but by the time we finished it we were tired but still decided (wisely in retrospect) to head to the lake itself (h was born in 1980) for the short boardwalk Birth of a Lake trail which offered great views of the lake and the surrounding mountains. At the beginning of the trail we met the only other families in a large radius who turned out to be Israelis on a short road trip (spoiler, we will meet them again in future posts). At the end of the trail, we headed for the lakeside and went into the freezing water and enjoying cooling down."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "We decided to spend the night in a “light” version of camping. Instead of camping n the park itself we camped in a KOA near its entry. KOA (Kampgrounds Of America) offer a place to set up your tent with lights, wifi, electricity and good toilets and hot showers. After the “hardcore” camping in the California parks, this was a piece of cake and we felt like advanced campers, setting up the tent quickly, building a model campfire and having an excellent BBQ which summed up a long and eventful day."
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Recent Posts"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "All Posts"
+    },
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "See All"
+    },
+    {
+      "href": "https://www.ibglab.org/post/nostalgia",
+      "text": "Nostalgia"
+    },
+    {
+      "href": "https://www.ibglab.org/post/a-different-las-vegas",
+      "text": "A different Las Vegas"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-decay-of-west-coast-big-city-downtowns",
+      "text": "The decay of west-coast big-city downtowns"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [
+    "https://static.wixstatic.com/media/bb640f_0fbbdfe2e0c74a12bb866c440cc53ff9~mv2.jpg"
+  ],
+  "extractionErrors": []
+}

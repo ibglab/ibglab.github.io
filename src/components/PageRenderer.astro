@@ -1,0 +1,325 @@
+---
+import { publicationInlineLinks } from "../lib/publicationInlineLinks.js";
+
+const { page } = Astro.props;
+const displayTitle = page.targetPath === "/news/"
+  ? "News"
+  : page.targetPath === "/roadtrip2021-blog/"
+    ? "Road trip blog"
+    : page.targetPath === "/roadtrip2021-map/"
+      ? "Road trip map"
+      : page.title;
+
+const chromeImagePaths = new Set([
+  "/media/214ec6_74218a69302f9f7d168d39fff667af74.png",
+  "/media/214ec6_b8228fd415c191fdcf26930f44ba661d.png",
+]);
+const contentImages = (page.images ?? []).filter((image) => (
+  !chromeImagePaths.has(image.localPath)
+));
+const heroImage = page.isBlog ? contentImages[0] : undefined;
+const galleryImages = contentImages.slice(page.isBlog && heroImage ? 1 : 0);
+const isPublicationsPage = page.targetPath === "/publications/";
+const isCourseContentPage = page.section === "SDA 2025"
+  || page.section === "Courses"
+  || /^(SDA|MATLAB)\s/i.test(page.title ?? "");
+const isNewsContentPage = page.section === "News"
+  || page.targetPath?.startsWith("/news/")
+  || page.targetPath === "/items/";
+const isBlogContentPage = page.isBlog || page.targetPath?.startsWith("/post/");
+const googleScholarLink = isPublicationsPage
+  ? page.links?.find((link) => link.text === "Google Scholar")?.href
+  : undefined;
+
+function isPageChromeLink(link) {
+  return !link.text
+    || !link.href
+    || link.href === "/"
+    || link.text === "https://www.ibglab.org/"
+    || link.href.includes("wix.com/stands-with-ukraine");
+}
+
+const inlineLinkCandidates = (page.links ?? [])
+  .map((link, id) => ({ ...link, id, text: link.text?.trim() ?? "" }))
+  .filter((link) => !isPageChromeLink(link));
+const usedInlineLinkIds = new Set();
+
+function linkLabelsFor(link) {
+  const label = link.label ?? link.text;
+  const candidates = [label];
+  if (label.startsWith("ournal")) candidates.push(`J${label}`);
+  return candidates.filter(Boolean);
+}
+
+function linkedTextParts(text, links) {
+  if (!links.length) return [{ text }];
+
+  const matches = [];
+  const occupied = [];
+
+  for (const link of links) {
+    const labels = linkLabelsFor(link);
+    const match = labels
+      .map((label) => ({ label, index: text.indexOf(label) }))
+      .filter((candidate) => candidate.index >= 0)
+      .find((candidate) => !occupied.some((range) => (
+        candidate.index < range.end && candidate.index + candidate.label.length > range.start
+      )));
+
+    if (!match) continue;
+
+    const range = { start: match.index, end: match.index + match.label.length };
+    occupied.push(range);
+    matches.push({ ...range, href: link.href });
+    usedInlineLinkIds.add(link.id);
+  }
+
+  if (!matches.length) return [{ text }];
+
+  matches.sort((a, b) => a.start - b.start);
+  const parts = [];
+  let cursor = 0;
+  for (const match of matches) {
+    if (match.start > cursor) parts.push({ text: text.slice(cursor, match.start) });
+    parts.push({ text: text.slice(match.start, match.end), href: match.href });
+    cursor = match.end;
+  }
+  if (cursor < text.length) parts.push({ text: text.slice(cursor) });
+  return parts.filter((part) => part.text);
+}
+
+function blockLinks(block, index) {
+  if (isPublicationsPage && publicationInlineLinks[index]) {
+    return [{ id: `publication-${index}`, ...publicationInlineLinks[index] }];
+  }
+
+  return inlineLinkCandidates.filter((link) => (
+    !usedInlineLinkIds.has(link.id)
+    && linkLabelsFor(link).some((label) => block.text?.includes(label))
+  )).map((link) => link);
+}
+
+function newsMediaLinks(block) {
+  const text = block.text?.trim();
+  if (!isNewsContentPage || !text || text.length < 3 || text.length > 40) return [];
+
+  return inlineLinkCandidates
+    .filter((link) => (
+      !usedInlineLinkIds.has(link.id)
+      && linkLabelsFor(link).some((label) => label.includes(text))
+    ))
+    .map((link) => ({ ...link, label: text }));
+}
+
+const renderedBlocks = (page.blocks ?? []).flatMap((block, index) => {
+  if (
+    isBlogContentPage
+    && block.kind === "heading"
+    && (block.text === page.title || block.text === "Recent Posts")
+  ) {
+    return [];
+  }
+
+  if (!block.text) return { block, parts: [] };
+  const links = block.kind === "heading" && block.text === "Google Scholar"
+    ? []
+    : [...blockLinks(block, index), ...newsMediaLinks(block)];
+  return [{ block, parts: linkedTextParts(block.text, links) }];
+});
+
+const usefulLinks = isPublicationsPage
+  || isCourseContentPage
+  || isNewsContentPage
+  || isBlogContentPage
+  ? []
+  : inlineLinkCandidates
+      .filter((link) => !usedInlineLinkIds.has(link.id))
+      .slice(0, 18);
+---
+
+<article class:list={[
+  "content-page",
+  {
+    "content-page--blog": page.isBlog,
+    "content-page--blog-index": page.targetPath === "/roadtrip2021-blog/",
+    "content-page--blog-map": page.targetPath === "/roadtrip2021-map/",
+  },
+]}>
+  <header class="page-head">
+    <h1>{displayTitle}</h1>
+    {page.description && <p class="lede">{page.description}</p>}
+    {page.targetPath === "/roadtrip2021-blog/" && (
+      <a class="blog-map-link" href="/roadtrip2021-map/">Road trip map</a>
+    )}
+    <a class="source-link" href={page.sourceUrl}>Original Wix page</a>
+  </header>
+
+  {heroImage && (
+    <figure class="hero-media">
+      <img src={heroImage.localPath} alt={heroImage.alt || page.title} loading="eager" decoding="async" />
+      {heroImage.caption && <figcaption>{heroImage.caption}</figcaption>}
+    </figure>
+  )}
+
+  {page.targetPath === "/roadtrip2021-map/" && (
+    <figure class="roadtrip-map">
+      <img
+        src="/media/roadtrip-2021-map.png"
+        alt="Map of the 2021 road trip with twelve marked destinations across the western United States"
+        loading="eager"
+        decoding="async"
+      />
+    </figure>
+  )}
+
+  <div class="page-body">
+    {renderedBlocks.map(({ block, parts }) => {
+      if (block.kind === "heading") {
+        const Tag = `h${Math.min(Math.max(block.level ?? 2, 2), 3)}`;
+        if (block.text === "Google Scholar" && googleScholarLink) {
+          return <Tag><a href={googleScholarLink}>{block.text}</a></Tag>;
+        }
+        return (
+          <Tag>
+            {parts.map((part) => (
+              part.href ? <a class="inline-manuscript-link" href={part.href}>{part.text}</a> : part.text
+            ))}
+          </Tag>
+        );
+      }
+
+      if (block.kind === "list") {
+        return (
+          <p class="list-line">
+            {parts.map((part) => (
+              part.href ? <a class="inline-manuscript-link" href={part.href}>{part.text}</a> : part.text
+            ))}
+          </p>
+        );
+      }
+
+      return (
+        <p>
+          {parts.map((part) => (
+            part.href ? <a class="inline-manuscript-link" href={part.href}>{part.text}</a> : part.text
+          ))}
+        </p>
+      );
+    })}
+  </div>
+
+  {isBlogContentPage && (
+    <p class="blog-return"><a href="/roadtrip2021-blog/">All blog posts</a></p>
+  )}
+
+  {galleryImages.length > 0 && (
+    <section class="media-grid" aria-label="Page images">
+      {galleryImages.map((image) => (
+        <figure>
+          <img src={image.localPath} alt={image.alt || image.caption || page.title} loading="lazy" decoding="async" />
+          {(image.caption || image.alt) && <figcaption>{image.caption || image.alt}</figcaption>}
+        </figure>
+      ))}
+    </section>
+  )}
+
+  {usefulLinks.length > 0 && (
+    <section class="related-links" aria-label="Extracted links">
+      <h2>Links</h2>
+      <ul>
+        {usefulLinks.map((link) => (
+          <li><a href={link.href}>{link.text}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</article>
+
+<style>
+  .inline-manuscript-link {
+    font-weight: inherit;
+  }
+
+  .content-page--blog-index .page-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.75rem;
+    max-width: none;
+  }
+
+  .blog-map-link {
+    display: inline-flex;
+    margin: 1rem 1rem 0 0;
+    font-weight: 700;
+  }
+
+  .content-page--blog-index .page-body :global(h2) {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+
+  .content-page--blog-index .page-body :global(h2 a) {
+    display: block;
+    min-height: 100%;
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .content-page--blog-index .page-body :global(h2 a:hover) {
+    border-color: var(--green);
+    color: var(--green);
+  }
+
+  .content-page--blog .hero-media :global(img) {
+    max-height: none;
+    object-fit: contain;
+  }
+
+  .content-page--blog .media-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+
+  .content-page--blog .media-grid :global(img) {
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+
+  .content-page--blog-map .media-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .content-page--blog-map .media-grid :global(img) {
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+
+  .roadtrip-map {
+    margin: 2rem 0;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    overflow: hidden;
+  }
+
+  .roadtrip-map img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-return {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+  }
+
+  @media (max-width: 640px) {
+    .content-page--blog .media-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

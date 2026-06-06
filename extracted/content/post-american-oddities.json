@@ -1,0 +1,82 @@
+{
+  "sourceUrl": "https://www.ibglab.org/post/american-oddities",
+  "targetPath": "/post/american-oddities/",
+  "title": "American oddities",
+  "description": "",
+  "language": "en",
+  "priority": 0.4,
+  "migrationStatus": "extracted",
+  "section": "Road trip blog",
+  "isBlog": true,
+  "lastmod": "2021-07-30",
+  "extractedAt": "2026-06-04T14:12:01.275Z",
+  "blocks": [
+    {
+      "kind": "list",
+      "level": null,
+      "text": "All Posts"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "American oddities"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "Jul 30, 2021"
+    },
+    {
+      "kind": "list",
+      "level": null,
+      "text": "1 min read"
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "During our first week of the trip, we developed a fondness to roadside attractions which typically portray the oddities that America has to offer. There’s plenty of them around, a few examples include: the “cyclisk”, an obelisk made of 340 bicycles in Santa Rosa, the gigantic Paul Bunyan and his Blue Ox in Klamath and the “caveman”, a huge statue celebrating the quirky caveman society of Grants Pass."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "Typically, these curiosities are just that: strange standouts in an otherwise unaltered town. However, occasionally you encounter a case in which an oddity changed the nature of the community. We encountered one such example in Sebastopol, a quiet tiny town on the edge of California’s wine region. In this town, Patrick Amiot created and placed an amazing number of his garbage sculptures. These sculptures which vary in style and size appear throughout the town. The largest concentration of them appears in his neighborhood and specifically in his street where they blend into the gardens of his neighbors and appear as a natural extension of their lives. This town is projecting a unique character which is endorsed by the whole community driven by the relentless work of this sculptor."
+    },
+    {
+      "kind": "paragraph",
+      "level": null,
+      "text": "(Dedicated to Moshe Bar-Gad who is trying single-handedly to make a change in the lives of the whole community through his, somewhat odd, dedication to the Children’s Grove)"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Recent Posts"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "All Posts"
+    },
+    {
+      "href": "https://www.ibglab.org/roadtrip2021-blog",
+      "text": "See All"
+    },
+    {
+      "href": "https://www.ibglab.org/post/nostalgia",
+      "text": "Nostalgia"
+    },
+    {
+      "href": "https://www.ibglab.org/post/a-different-las-vegas",
+      "text": "A different Las Vegas"
+    },
+    {
+      "href": "https://www.ibglab.org/post/the-decay-of-west-coast-big-city-downtowns",
+      "text": "The decay of west-coast big-city downtowns"
+    }
+  ],
+  "images": [],
+  "sitemapImages": [
+    "https://static.wixstatic.com/media/bb640f_044e02682c78484a92ebaf9da1381268~mv2.jpg"
+  ],
+  "extractionErrors": []
+}
