@@ -12,12 +12,6 @@ export const labMembers = [
     alt: "Katya Belelovsky",
   },
   {
-    name: "Orel Tahari",
-    email: "orel.tahary at gmail.com",
-    image: "/media/bb640f_458205e35d4e48399dd9711ba2f5c6bc-mv2.jpeg",
-    alt: "Orel Tahari",
-  },
-  {
     name: "Yuval El-Hanany",
     email: "",
     image: "/media/bb640f_33ad412006f84a438f22c5aef87d674a-mv2.jpg",
@@ -211,6 +205,16 @@ export const alumni = [
         period: "2016-18",
         degree: "M.Sc.",
         project: "The role of the direct and indirect cortico-basal ganglia pathways in normal and abnormal behavior",
+      },
+    ],
+  },
+  {
+    name: "Orel Tahari",
+    entries: [
+      {
+        period: "2021",
+        degree: "M.Sc.",
+        project: "The basal ganglia's role in the encoding of motion sequences as a series of discrete movements and transitions in normal and abnormal states",
       },
     ],
   },

@@ -1,13 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import PageRenderer from "../components/PageRenderer.astro";
 import pages from "../content/pages.json";
 
 const page = pages.find((entry) => entry.targetPath === "/") ?? {
   title: "IBG Lab",
   description: "Migrated local site content will appear here after running npm run extract.",
-  sourceUrl: "https://www.ibglab.org/",
-  section: "IBG Lab",
   blocks: [
     {
       kind: "paragraph",
@@ -17,8 +14,30 @@ const page = pages.find((entry) => entry.targetPath === "/") ?? {
   images: [],
   links: [],
 };
+const descriptionParagraphs = page.blocks
+  .filter((block) => block.kind === "paragraph")
+  .slice(0, 2);
 ---
 
 <BaseLayout title={page.title} description={page.description}>
-  <PageRenderer page={page} />
+  <article class="content-page home-page">
+    <div class="page-body">
+      {descriptionParagraphs.map((block) => <p>{block.text}</p>)}
+    </div>
+    <p class="news-link"><a href="/news/">News</a></p>
+  </article>
 </BaseLayout>
+
+<style>
+  .home-page {
+    padding-top: 3.5rem;
+  }
+
+  .news-link {
+    margin: 2rem 0 0;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    max-width: 760px;
+    font-weight: 700;
+  }
+</style>

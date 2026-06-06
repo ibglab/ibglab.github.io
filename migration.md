@@ -22,7 +22,7 @@ required.
 
 Requirements:
 - Put the final Git repository directly in /Users/ibg/WWW/.
-- Create or use the public GitHub repository ibglab/ibglab-website.
+- Create or use the public GitHub repository ibglab/ibglab.github.io.
 - Preserve the existing Wix URLs wherever practical.
 - Use the original Wix text, images, downloads, blog galleries, people, alumni,
   publications, courses, software, news, contact details, and road-trip map.
@@ -59,7 +59,7 @@ credential/confirmation that you explicitly request.
 | Wix site | `https://www.ibglab.org/` |
 | Custom domain | `www.ibglab.org` |
 | GitHub owner | `ibglab` |
-| GitHub repository | `ibglab-website` |
+| GitHub repository | `ibglab.github.io` |
 | Local repository | `/Users/ibg/WWW/` |
 | DNS manager | Wix |
 | Framework | Astro static output |
@@ -373,14 +373,14 @@ required to build the site.
 Preferred public repository:
 
 ```text
-https://github.com/ibglab/ibglab-website
+https://github.com/ibglab/ibglab.github.io
 ```
 
 If GitHub CLI is installed and authenticated:
 
 ```bash
 cd /Users/ibg/WWW
-gh repo create ibglab/ibglab-website \
+gh repo create ibglab/ibglab.github.io \
   --public \
   --source=. \
   --remote=origin \
@@ -391,7 +391,7 @@ If using the existing SSH alias configured on this Mac:
 
 ```bash
 cd /Users/ibg/WWW
-git remote add origin git@github-lab:ibglab/ibglab-website.git
+git remote add origin git@github-lab:ibglab/ibglab.github.io.git
 git push -u origin main
 ```
 
@@ -466,7 +466,7 @@ Complete:
 
 Pending:
 
-- Create `ibglab/ibglab-website` on GitHub
+- Create `ibglab/ibglab.github.io` on GitHub
 - Add `origin`
 - Push `main`
 - Confirm GitHub Actions deployment
@@ -480,7 +480,7 @@ Pending:
 - [ ] `npm ci`, tests, build, and link validation pass.
 - [ ] All approved pages, files, and galleries render locally.
 - [ ] Protected sections behave correctly.
-- [ ] GitHub repository `ibglab/ibglab-website` exists and contains `main`.
+- [ ] GitHub repository `ibglab/ibglab.github.io` exists and contains `main`.
 - [ ] GitHub Pages workflow is green.
 - [ ] Temporary Pages URL works before DNS changes.
 - [ ] User explicitly approves domain cutover.
