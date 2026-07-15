@@ -12,6 +12,7 @@ test("Pictures reproduces the Wix gallery index in its original order", () => {
   assert.deepEqual(
     pictureGalleries.map(({ title, href }) => ({ title, href })),
     [
+      { title: "June 2026", href: "/pictures/june-2026/" },
       { title: "Lab trip, April 2022", href: "/lab-trip-april-2022/" },
       { title: "Kfar Blum 2022", href: "/kfar-blum-2022/" },
       { title: "Lab trip, Dec. 2021", href: "/lab-trip-dec-2021/" },
@@ -31,7 +32,9 @@ test("Pictures links to migrated galleries and appears in the main menu", () => 
   const migratedPaths = new Set(pages.map((page) => page.targetPath));
 
   for (const gallery of pictureGalleries) {
-    if (gallery.href === "/pictures/us/") continue;
+    if (["/pictures/us/", "/pictures/june-2026/"].includes(gallery.href)) {
+      continue;
+    }
     assert.ok(migratedPaths.has(gallery.href), `Missing migrated gallery ${gallery.href}`);
   }
 
@@ -50,4 +53,23 @@ test("all public gallery images stay at or below 400 KiB", () => {
     .filter(({ size }) => size > 400 * 1024);
 
   assert.deepEqual(oversized, []);
+});
+
+test("June 2026 gallery includes every supplied image", () => {
+  const pagePath = "src/pages/pictures/june-2026.astro";
+  assert.ok(fs.existsSync(pagePath), "Missing June 2026 gallery page");
+
+  const page = fs.readFileSync(pagePath, "utf8");
+  const imageSources = [...page.matchAll(/localPath:\s*["']([^"']+)["']/g)]
+    .map((match) => match[1]);
+
+  assert.equal(imageSources.length, 4);
+  for (const source of imageSources) {
+    assert.match(source, /^\/media\/june-2026-/);
+    assert.ok(fs.existsSync(`public${source}`), `Missing gallery image: ${source}`);
+    assert.ok(
+      fs.statSync(`public${source}`).size <= 400 * 1024,
+      `Gallery image exceeds 400 KiB: ${source}`,
+    );
+  }
 });

@@ -1,5 +1,10 @@
 export const pictureGalleries = [
   {
+    title: "June 2026",
+    href: "/pictures/june-2026/",
+    cover: "/media/june-2026-lab-group.jpeg",
+  },
+  {
     title: "Lab trip, April 2022",
     href: "/lab-trip-april-2022/",
     cover: "/media/bb640f_036ee6c918014150b752963dc3a513bb-mv2.jpeg",
