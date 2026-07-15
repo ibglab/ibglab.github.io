@@ -1,6 +1,6 @@
-# IBG Lab Website Migration
+# IBG Lab Website
 
-This repository is the local GitHub Pages replacement for the Wix site at `https://www.ibglab.org/`.
+This repository contains the static Astro site published at `https://www.ibglab.org/`.
 
 ## Commands
 
@@ -17,14 +17,6 @@ Most normal page content lives in `src/content/pages.json`, generated from Wix. 
 
 Gallery and page images are copied to `public/media/`. To add images locally, place files there and add them to the relevant page entry in `src/content/pages.json`.
 
-## Publication Guardrail
+## Deployment
 
-The migration plan calls for local review before publication. Do not create the GitHub repository, enable GitHub Pages, or change DNS until the local site has been reviewed and explicitly approved.
-
-## DNS Notes
-
-- Intended custom domain: `www.ibglab.org`
-- DNS manager from the migration plan: Wix
-- Email provider: unknown
-
-Before DNS cutover, confirm that MX/email records are not touched and that Wix remains active for any domain/DNS/email services still needed.
+Pushing to `main` runs the GitHub Pages workflow, which tests and builds the site, validates its links, and deploys the generated `dist/` output.
