@@ -24,6 +24,57 @@ const descriptionParagraphs = page.blocks
     <div class="page-body">
       {descriptionParagraphs.map((block) => <p>{block.text}</p>)}
     </div>
+    <section class="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Current projects</h2>
+      <div class="project-list">
+        <article class="project-card" aria-labelledby="nabupd-title">
+          <p class="eyebrow">Ongoing project</p>
+          <h3 id="nabupd-title">NabuPD</h3>
+          <p class="project-subtitle">AI-Augmented Treatment of Parkinson's Disease Patients</p>
+          <p>
+            NabuPD is an active clinical pilot being developed with Hadassah Medical
+            Center to address gaps created by infrequent clinic visits and retrospective
+            reporting. It uses a familiar messaging interface and a multi-agent backend
+            to collect and interpret symptom and medication information shared in
+            conversation.
+          </p>
+          <p>
+            The system is designed to turn routine messages into longitudinal clinical
+            context, route concerns to specialized agents, schedule follow-ups, and give
+            clinicians concise summaries and red alerts. Its design emphasizes identity
+            anonymization before clinical processing, protocol-constrained reasoning,
+            clinician oversight, and guardrails that validate responses and escalate
+            urgent cases. Current research directions include latent-state analysis,
+            longitudinal memory, and multimodal interaction data.
+          </p>
+          <a href="/research/nabupd-poster.pdf">Read the full NabuPD poster (PDF)</a>
+        </article>
+        <article class="project-card" aria-labelledby="locopd-title">
+          <p class="eyebrow">Ongoing project</p>
+          <h3 id="locopd-title">LoCoPD</h3>
+          <p class="project-subtitle">
+            A Framework for Longitudinal Conversational Modeling in Parkinson's Disease
+          </p>
+          <p>
+            LoCoPD is a Parkinson's disease-grounded framework for developing and
+            evaluating conversational agents that follow a patient across multiple
+            sessions. It represents a stable baseline profile and persona alongside a
+            dynamic patient state that can change over days, weeks, and months, allowing
+            generated conversations to reflect reported symptoms as well as partially
+            observed changes.
+          </p>
+          <p>
+            The project targets three reusable research components: a dynamic
+            longitudinal conversation generator, a curated frozen evaluation dataset,
+            and state-and-memory benchmarks. Together, these are intended to test
+            whether companion agents can track, recall, and reason over evolving patient
+            context, while the frozen dataset lets different systems be evaluated on
+            identical transcripts.
+          </p>
+          <a href="/research/locopd-poster.pdf">Read the full LoCoPD poster (PDF)</a>
+        </article>
+      </div>
+    </section>
     <p class="news-link"><a href="/news/">News</a></p>
   </article>
 </BaseLayout>
@@ -31,6 +82,50 @@ const descriptionParagraphs = page.blocks
 <style>
   .home-page {
     padding-top: 3.5rem;
+  }
+
+  .projects {
+    max-width: 760px;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .projects h2 {
+    margin-top: 0;
+  }
+
+  .project-list {
+    display: grid;
+    margin-top: 1.25rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .project-card {
+    padding: 1.75rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .project-card h3 {
+    margin: 0.2rem 0 0.35rem;
+    font-size: 1.45rem;
+  }
+
+  .project-card > p:not(.eyebrow) {
+    margin: 0.8rem 0;
+    font-size: 1.02rem;
+  }
+
+  .project-card a {
+    display: inline-block;
+    margin-top: 0.35rem;
+    font-weight: 700;
+  }
+
+  .project-card > .project-subtitle {
+    margin-top: 0;
+    color: var(--muted);
+    font-weight: 700;
   }
 
   .news-link {
