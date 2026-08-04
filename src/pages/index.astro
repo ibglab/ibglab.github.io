@@ -21,6 +21,9 @@ const descriptionParagraphs = page.blocks
 
 <BaseLayout title={page.title} description={page.description}>
   <article class="content-page home-page">
+    <header class="page-head">
+      <h1>{page.title}</h1>
+    </header>
     <div class="page-body">
       {descriptionParagraphs.map((block) => <p>{block.text}</p>)}
     </div>
