@@ -1,0 +1,120 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Projects | IBG Lab"
+  description="Current research projects from the IBG Lab."
+>
+  <article class="content-page projects-page">
+    <header class="page-head">
+      <h1>Projects</h1>
+      <p class="lede">Current research projects from the IBG Lab.</p>
+    </header>
+    <div class="project-list">
+      <article class="project-card" aria-labelledby="nabupd-title">
+        <p class="eyebrow">Ongoing project</p>
+        <h2 id="nabupd-title">NabuPD</h2>
+        <p class="project-subtitle">AI-Augmented Treatment of Parkinson's Disease Patients</p>
+        <p class="project-description">
+          NabuPD is an active clinical pilot being developed with Hadassah Medical
+          Center to address gaps created by infrequent clinic visits and retrospective
+          reporting. It uses a familiar messaging interface and a multi-agent backend
+          to collect and interpret symptom and medication information shared in
+          conversation.
+        </p>
+        <p class="project-description">
+          The system is designed to turn routine messages into longitudinal clinical
+          context, route concerns to specialized agents, schedule follow-ups, and give
+          clinicians concise summaries and red alerts. Its design emphasizes identity
+          anonymization before clinical processing, protocol-constrained reasoning,
+          clinician oversight, and guardrails that validate responses and escalate
+          urgent cases. Current research directions include latent-state analysis,
+          longitudinal memory, and multimodal interaction data.
+        </p>
+        <a href="/research/nabupd-poster.pdf">Read the full NabuPD poster (PDF)</a>
+      </article>
+      <article class="project-card" aria-labelledby="locopd-title">
+        <p class="eyebrow">Ongoing project</p>
+        <h2 id="locopd-title">LoCoPD</h2>
+        <p class="project-subtitle">
+          A Framework for Longitudinal Conversational Modeling in Parkinson's Disease
+        </p>
+        <p class="project-description">
+          LoCoPD is a Parkinson's disease-grounded framework for developing and
+          evaluating conversational agents that follow a patient across multiple
+          sessions. It represents a stable baseline profile and persona alongside a
+          dynamic patient state that can change over days, weeks, and months, allowing
+          generated conversations to reflect reported symptoms as well as partially
+          observed changes.
+        </p>
+        <p class="project-description">
+          The project targets three reusable research components: a dynamic
+          longitudinal conversation generator, a curated frozen evaluation dataset,
+          and state-and-memory benchmarks. Together, these are intended to test
+          whether companion agents can track, recall, and reason over evolving patient
+          context, while the frozen dataset lets different systems be evaluated on
+          identical transcripts.
+        </p>
+        <a href="/research/locopd-poster.pdf">Read the full LoCoPD poster (PDF)</a>
+      </article>
+      <article class="project-card" aria-labelledby="tic-dynamics-title">
+        <p class="eyebrow">Ongoing project</p>
+        <h2 id="tic-dynamics-title">Tourette Tics</h2>
+        <p class="project-subtitle">
+          Deciphering the Dynamics of Tics in a Rat Model of Tourette Syndrome
+        </p>
+        <p class="project-description">
+          We endeavour to decipher the dynamics of Tourette tics across the cortex and
+          the basal ganglia. By chronically implanting multi-site probes (NeuroPixel) in
+          a rat model of Tourette syndrome, we simultaneously record multiple brain
+          regions—in particular cortex, striatum, and globus pallidus (GP)—in awake,
+          freely moving animals. After inducing tics, we analyse local field potentials
+          (LFP), action potentials (AP), and individual sorted units to infer the circuit
+          dynamics underlying tic events.
+        </p>
+      </article>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .project-list {
+    display: grid;
+    max-width: 760px;
+    border-top: 1px solid var(--line);
+  }
+
+  .project-card {
+    padding: 1.75rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .project-card h2 {
+    margin: 0.2rem 0 0.35rem;
+    font-size: 1.45rem;
+  }
+
+  .project-card > p:not(.eyebrow) {
+    margin: 0.8rem 0;
+    font-size: 1.02rem;
+  }
+
+  .project-description {
+    text-align: justify;
+    text-align-last: justify;
+    text-justify: inter-word;
+  }
+
+  .project-card > .project-subtitle {
+    margin-top: 0;
+    color: var(--muted);
+    font-weight: 700;
+  }
+
+  .project-card a {
+    display: inline-block;
+    margin-top: 0.35rem;
+    font-weight: 700;
+  }
+</style>
