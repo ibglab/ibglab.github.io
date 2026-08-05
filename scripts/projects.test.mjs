@@ -30,6 +30,11 @@ test("projects have a dedicated page and navigation tab", () => {
   );
   assert.match(projectsPage, /href="\/research\/nabupd-poster\.pdf"/);
   assert.match(projectsPage, /href="\/research\/locopd-poster\.pdf"/);
+  assert.match(projectsPage, /href="\/research\/tic-dynamics-poster\.pdf"/);
+  assert.ok(
+    fs.existsSync("public/research/tic-dynamics-poster.pdf"),
+    "Missing Tourette Tics poster PDF",
+  );
 });
 
 test("project profiles are not displayed on the homepage", () => {
