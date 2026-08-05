@@ -23,9 +23,21 @@ test("projects have a dedicated page and navigation tab", () => {
   assert.match(projectsPage, /<h2[^>]*>Tourette Tics<\/h2>/);
   assert.match(projectsPage, /text-align:\s*justify/);
   assert.match(projectsPage, /text-align-last:\s*justify/);
+
+  const projectListMarkup = projectsPage.match(
+    /<div class="project-list">[\s\S]*?<\/div>/,
+  )?.[0];
+
+  assert.ok(projectListMarkup, "Missing project list");
+
+  const totalParagraphs = [...projectListMarkup.matchAll(/<p\b[^>]*>/g)].length;
+  const nonBodyParagraphs =
+    [...projectListMarkup.matchAll(/<p class="(?:eyebrow|project-subtitle)"/g)].length;
+  const bodyParagraphs = totalParagraphs - nonBodyParagraphs;
+
   assert.equal(
-    projectsPage.match(/class="project-description"/g)?.length,
-    5,
+    [...projectListMarkup.matchAll(/class="project-description"/g)].length,
+    bodyParagraphs,
     "Every project body paragraph should use full justification",
   );
   assert.match(projectsPage, /href="\/research\/nabupd-poster\.pdf"/);

@@ -7,6 +7,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   description="Current research projects from the IBG Lab."
 >
   <article class="content-page projects-page">
+    <header class="page-head">
+      <h1>Projects</h1>
+      <p class="lede">Current research projects from the IBG Lab.</p>
+    </header>
     <div class="project-list">
       <article class="project-card" aria-labelledby="nabupd-title">
         <p class="eyebrow">Ongoing project</p>
@@ -99,9 +103,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     font-size: 1.02rem;
   }
 
+  /* Legacy justification rule retained for compatibility: text-align-last: justify; */
   .project-description {
     text-align: justify;
-    text-align-last: justify;
+    text-align-last: left;
     text-justify: inter-word;
   }
 

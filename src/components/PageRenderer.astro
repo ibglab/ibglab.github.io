@@ -5,7 +5,7 @@ import { pictureGalleryForPath } from "../lib/pictureGalleries.js";
 const { page } = Astro.props;
 const pictureGallery = pictureGalleryForPath(page.targetPath);
 const displayTitle = pictureGallery?.title ?? (page.targetPath === "/news/"
-  ? "News"
+  ? "In the media"
   : page.targetPath === "/roadtrip2021-blog/"
     ? "Road trip blog"
     : page.targetPath === "/roadtrip2021-map/"
@@ -115,7 +115,60 @@ function newsMediaLinks(block) {
     .map((link) => ({ ...link, label: text }));
 }
 
-const renderedBlocks = (page.blocks ?? []).flatMap((block, index) => {
+const newsImageLinkFallbacks = new Map([
+  ["theJerPost_logo.JPG", "Bar-Ilan named co-winners of Parkinson's disease research challenge"],
+  ["הידען.JPG", "חוקרי מוח מבר אילן זכו בפרס בינלאומי בחסות קרן מייקל ג'יי פוקס לחקר פרקינסון"],
+  ["michaelJfox.JPG", "MJFF and Sage Bionetworks Announce Winners of the BEAT-PD DREAM Challenge"],
+  ["הקרן הלאומית למדע_לוגו.JPG", "כיצד נגרמים טיקים מוטוריים?"],
+  ["ynet.jpg", "שאלת מחקר Ynet"],
+  ["cortex_2020.JPG", "Cortex"],
+  ["ayale_scientificReprtos.JPG", "Scientific Reports"],
+  ["Vinner2021.png", "iScience"],
+]);
+
+function newsImageLink(image) {
+  const imageLabel = image.alt?.trim();
+  const fallbackLabel = imageLabel;
+  const expectedLabel = newsImageLinkFallbacks.get(fallbackLabel);
+
+  return inlineLinkCandidates.find((link) => (
+    expectedLabel === link.text
+    || (imageLabel && linkLabelsFor(link).some((label) => (
+      label === imageLabel || label.includes(imageLabel) || imageLabel.includes(label)
+    )))
+  ));
+}
+
+const latestPublicationsIndex = (page.blocks ?? []).findIndex((block) => block.text === "Latest Publications");
+const visibleBlocks = isNewsContentPage ? [] : page.blocks ?? [];
+const newsPublicationLinkIds = new Set(
+  isNewsContentPage && latestPublicationsIndex >= 0
+    ? inlineLinkCandidates
+        .filter((link) => (page.blocks ?? []).slice(latestPublicationsIndex + 1).some((block) => (
+          linkLabelsFor(link).some((label) => block.text?.includes(label))
+        )))
+        .map((link) => link.id)
+    : []
+);
+
+const newsImageCards = isNewsContentPage
+  ? galleryImages
+      .map((image) => ({
+        image,
+        link: newsImageLink(image),
+        label: image.alt || image.caption || "News media",
+      }))
+      .filter((card) => card.link && !newsPublicationLinkIds.has(card.link.id))
+      .filter((card, index, cards) => (
+        cards.findIndex((candidate) => candidate.link.id === card.link.id) === index
+      ))
+  : [];
+
+for (const card of newsImageCards) {
+  usedInlineLinkIds.add(card.link.id);
+}
+
+const renderedBlocks = visibleBlocks.flatMap((block, index) => {
   if (
     isBlogContentPage
     && block.kind === "heading"
@@ -146,11 +199,13 @@ const usefulLinks = isPublicationsPage
   "content-page",
   {
     "content-page--blog": page.isBlog,
+    "content-page--publications": isPublicationsPage,
     "content-page--picture-gallery": isPictureGallery,
     "content-page--blog-index": page.targetPath === "/roadtrip2021-blog/",
     "content-page--blog-map": page.targetPath === "/roadtrip2021-map/",
   },
 ]}>
+
   <header class="page-head">
     <h1>{displayTitle}</h1>
     {page.description && <p class="lede">{page.description}</p>}
@@ -175,6 +230,19 @@ const usefulLinks = isPublicationsPage
         decoding="async"
       />
     </figure>
+  )}
+
+  {newsImageCards.length > 0 && (
+    <section class="news-media-grid" aria-label="Linked news media">
+      {newsImageCards.map((card) => (
+        <figure class="news-media-card">
+          <a href={card.link.href} aria-label={card.link.text}>
+            <img src={card.image.localPath} alt={card.label} loading="lazy" decoding="async" />
+          </a>
+          <figcaption>{card.link.text}</figcaption>
+        </figure>
+      ))}
+    </section>
   )}
 
   <div class="page-body">
@@ -220,7 +288,7 @@ const usefulLinks = isPublicationsPage
     <p class="blog-return"><a href="/pictures/">All picture galleries</a></p>
   )}
 
-  {galleryImages.length > 0 && (
+  {galleryImages.length > 0 && !isNewsContentPage && (
     <section class="media-grid" aria-label="Page images">
       {galleryImages.map((image, index) => {
         const imageAlt = isPictureGallery
@@ -326,6 +394,13 @@ const usefulLinks = isPublicationsPage
     font-weight: inherit;
   }
 
+  .content-page--blog .page-body p,
+  .content-page--publications .page-body p {
+    text-align: justify;
+    text-align-last: left;
+    text-justify: inter-word;
+  }
+
   .content-page--blog-index .page-body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -364,6 +439,53 @@ const usefulLinks = isPublicationsPage
   .content-page--blog .hero-media :global(img) {
     max-height: none;
     object-fit: contain;
+  }
+
+  .news-media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.75rem;
+    margin: 2rem 0;
+  }
+
+  .news-media-card {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+
+  .news-media-card > a {
+    display: grid;
+  }
+
+  .news-media-card :global(img) {
+    width: 100%;
+    height: 100%;
+    min-height: 9rem;
+    aspect-ratio: 16 / 10;
+    object-fit: contain;
+    padding: 0.5rem;
+  }
+
+  .news-media-card :global(figcaption) {
+    min-height: 3.25rem;
+    padding: 0.6rem 0.75rem;
+    border-top: 1px solid var(--line);
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+
+  .news-media-card :global(a) {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .news-media-card :global(a:hover) {
+    color: var(--green);
   }
 
   .content-page--blog .media-grid,
@@ -479,6 +601,15 @@ const usefulLinks = isPublicationsPage
   }
 
   @media (max-width: 640px) {
+    .news-media-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.5rem;
+    }
+
+    .news-media-card :global(figcaption) {
+      min-height: 4.5rem;
+    }
+
     .content-page--blog .media-grid,
     .content-page--picture-gallery .media-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
