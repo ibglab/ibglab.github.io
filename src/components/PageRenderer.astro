@@ -146,11 +146,13 @@ const usefulLinks = isPublicationsPage
   "content-page",
   {
     "content-page--blog": page.isBlog,
+    "content-page--publications": isPublicationsPage,
     "content-page--picture-gallery": isPictureGallery,
     "content-page--blog-index": page.targetPath === "/roadtrip2021-blog/",
     "content-page--blog-map": page.targetPath === "/roadtrip2021-map/",
   },
 ]}>
+
   <header class="page-head">
     <h1>{displayTitle}</h1>
     {page.description && <p class="lede">{page.description}</p>}
@@ -324,6 +326,13 @@ const usefulLinks = isPublicationsPage
 <style>
   .inline-manuscript-link {
     font-weight: inherit;
+  }
+
+  .content-page--blog .page-body p,
+  .content-page--publications .page-body p {
+    text-align: justify;
+    text-align-last: left;
+    text-justify: inter-word;
   }
 
   .content-page--blog-index .page-body {
