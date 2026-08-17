@@ -2,8 +2,8 @@
   {
     "sourceUrl": "https://www.ibglab.org",
     "targetPath": "/",
-    "title": "Neural Interfaces lab",
-    "description": "The neural interfaces lab targets the research of bidirectional interaction between computerized systems and the central nervous system",
+    "title": "Integrative Basal Ganglia Lab",
+    "description": "The Integrative Basal Ganglia lab studies the neural and computational mechanisms underlying motor and behavioral disorders.",
     "language": "en",
     "priority": 1,
     "migrationStatus": "extracted",
@@ -15,12 +15,22 @@
       {
         "kind": "paragraph",
         "level": null,
-        "text": "The neural interfaces lab headed by Prof. Izhar Bar-Gad targets the research of bidirectional interaction between computerized systems and the central nervous system. The long-term goal of the lab is to use this interaction to provide a deeper understanding of the pathophysiology of neural disorders and to create the electrophysiological basis for the treatment of their symptoms. The research utilizes a comprehensive approach which combines broad usage of animal models for the different diseases, electrophysiological recordings from human subjects undergoing neurosurgery and computational models."
+        "text": "The Integrative Basal Ganglia lab, headed by Prof. Izhar Bar-Gad, studies the neural and computational mechanisms underlying motor and behavioral disorders, with a particular focus on the basal ganglia. Our long-term goal is to understand how neurological and neuropsychiatric disorders alter neural activity and behavior, and to translate this understanding into improved approaches for monitoring, characterizing, and treating their symptoms."
       },
       {
         "kind": "paragraph",
         "level": null,
-        "text": "The current focus of the lab is shedding light on the neurophysiology of motor and behavioral disorders associated with basal ganglia malfunction such as Parkinson's disease, Obsessive Compulsive Disorder (OCD), Tourette Syndrome and the amendment of their symptoms using electrical or magnetic modulation. This goal combines basic and clinical research, which on one hand unravels the information processing pathways of the cortico-basal ganglia loop and on the other hand attempts a direct intervention for improving the severe motor and behavioral disabilities associated with the aforementioned disorders."
+        "text": "Our research combines system neurophysiology, computational modeling, and machine learning across multiple levels of investigation. We use electrophysiological recordings from animal models and human subjects, together with behavioral, movement, speech, and clinical data collected both in controlled experiments and in naturalistic settings. Computational and machine-learning approaches are used to extract meaningful representations from these complex datasets, characterize disease states and symptom dynamics, and develop tools for continuous assessment outside the laboratory."
+      },
+      {
+        "kind": "paragraph",
+        "level": null,
+        "text": "A major focus of the lab is the study of disorders associated with basal ganglia dysfunction, including Parkinson's disease, Tourette syndrome, obsessive-compulsive disorder (OCD), and related motor and behavioral disorders. Our work ranges from investigating information processing within cortico-basal ganglia circuits to developing data-driven models that track symptoms, disease states, and behavioral changes over time."
+      },
+      {
+        "kind": "paragraph",
+        "level": null,
+        "text": "By integrating basic neuroscience, clinical research, and modern computational methods, we aim to bridge the gap between neural mechanisms and real-world behavior. This includes the development of neural and behavioral biomarkers, computational models of disease state, and intervention strategies for neural modulation."
       },
       {
         "kind": "paragraph",

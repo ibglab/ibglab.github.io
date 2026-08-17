@@ -16,7 +16,7 @@ const page = pages.find((entry) => entry.targetPath === "/") ?? {
 };
 const descriptionParagraphs = page.blocks
   .filter((block) => block.kind === "paragraph")
-  .slice(0, 2);
+  .slice(0, 4);
 ---
 
 <BaseLayout title={page.title} description={page.description}>
