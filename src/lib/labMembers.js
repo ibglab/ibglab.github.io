@@ -18,6 +18,12 @@ export const labMembers = [
     image: "/media/bb640f_33ad412006f84a438f22c5aef87d674a-mv2.jpg",
     alt: "Yuval El-Hanany",
   },
+  {
+    name: "Lior Tzahar",
+    email: "liortz100 at gmail.com",
+    image: "/media/LiorTzahar.jpeg",
+    alt: "Lior Tzahar",
+  },
 ];
 
 export const alumni = [
