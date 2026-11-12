@@ -24,6 +24,12 @@ export const labMembers = [
     image: "/media/LiorTzahar.jpeg",
     alt: "Lior Tzahar",
   },
+  {
+    name: "Noam Maimon",
+    email: "noam1222 at gmail.com",
+    image: "/media/NoamMaimon.jpeg",
+    alt: "Noam Maimon",
+  },
 ];
 
 export const alumni = [
